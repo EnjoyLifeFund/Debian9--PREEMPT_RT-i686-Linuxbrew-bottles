@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/14795608/asm-errno-h-no-such-file-or-directory
+ln -s /usr/include/asm-generic /usr/include/asm
+ln -s /lib/i386-linux-gnu /lib/x86_64-linux-gnu
+

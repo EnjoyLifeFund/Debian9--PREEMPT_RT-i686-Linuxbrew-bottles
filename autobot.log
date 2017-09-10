@@ -1,0 +1,31 @@
+==> Downloading https://www.openssl.org/source/openssl-1.0.2l.tar.gz
+Already downloaded: /home/dojo/.cache/Homebrew/openssl-1.0.2l.tar.gz
+==> Downloading https://github.com/openssl/openssl/pull/1524.patch
+Already downloaded: /home/dojo/.cache/Homebrew/openssl--patch-bc954e98673a78983e58da2fe6decfcf94b38eeec78d8b456ca716a539f78b06.patch
+==> Patching
+==> Applying 1524.patch
+patching file Configure
+Hunk #1 succeeded at 1723 (offset 2 lines).
+==> perl ./Configure --prefix=/home/dojo/.linuxbrew/Cellar/openssl/1.0.2l --openssldir=/home/dojo/.linuxbrew/etc/openssl no-ssl2 zlib-dynamic shared enable-cms -Wa,--noexecstack linux-x86_64
+==> make depend
+==> make
+==> make test
+Last 15 lines from /home/dojo/.cache/Homebrew/Logs/openssl/04.make:
+testing...
+make[1]: Entering directory '/tmp/openssl-20170910-7080-fy7r6e/openssl-1.0.2l/test'
+make[2]: Entering directory '/tmp/openssl-20170910-7080-fy7r6e/openssl-1.0.2l'
+making all in apps...
+make[3]: Entering directory '/tmp/openssl-20170910-7080-fy7r6e/openssl-1.0.2l/apps'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/openssl-20170910-7080-fy7r6e/openssl-1.0.2l/apps'
+make[2]: Leaving directory '/tmp/openssl-20170910-7080-fy7r6e/openssl-1.0.2l'
+../util/shlib_wrap.sh ./destest
+../util/shlib_wrap.sh: 103: exec: ./destest: Exec format error
+Makefile:171: recipe for target 'test_des' failed
+make[1]: *** [test_des] Error 2
+make[1]: Leaving directory '/tmp/openssl-20170910-7080-fy7r6e/openssl-1.0.2l/test'
+Makefile:472: recipe for target 'tests' failed
+make: *** [tests] Error 2
+==> Postinstalling openssl
+==> Downloading https://curl.haxx.se/ca/cacert-2017-01-18.pem
+Already downloaded: /home/dojo/.cache/Homebrew/openssl--cacert-2017-01-18.pem
