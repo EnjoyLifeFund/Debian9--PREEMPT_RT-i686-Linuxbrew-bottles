@@ -1,19 +1,7 @@
-==> Downloading https://bash-completion.alioth.debian.org/files/bash-completion-1.3.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c1d87451da3b5b147bed95b2dc783a1b02520ac5/bash-completion/bug-740971.patch
-==> Patching
-==> Applying bug-740971.patch
-patching file bash_completion
-patching file completions/man
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/bash-completion/1.3_3
+==> Downloading http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/libyaml-0.1.7.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/libyaml/0.1.7
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bash-completion`
-==> Caveats
-Add the following line to your ~/.bash_profile:
-  [ -f /home/kali/.linuxbrew/etc/bash_completion ] && . /home/kali/.linuxbrew/etc/bash_completion
-
-Bash completion has been installed to:
-  /home/kali/.linuxbrew/etc/bash_completion.d
-
-==> Summary
-🍺  /home/kali/.linuxbrew/Cellar/bash-completion/1.3_3: 189 files, 625.8KB, built in 10 seconds
+You can run it manually using `brew postinstall libyaml`
+🍺  /home/kali/.linuxbrew/Cellar/libyaml/0.1.7: 10 files, 842.9KB, built in 20 seconds
