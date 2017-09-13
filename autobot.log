@@ -1,6 +1,25 @@
-==> Downloading https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/bison/3.0.4
+==> Downloading https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/pkg-config-0.29.2.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/pkg-config/0.29.2_1 --disable-host-tool --with-internal-glib --with-pc-path=/home/kali/.linuxbrew/lib/pkgconfig:/home/kali/.linuxbrew/share/pkgconfig:/home/kali/.linuxbrew/Library/Homebrew/os/linux/pkgconfig
+==> make
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bison`
-🍺  /home/kali/.linuxbrew/Cellar/bison/3.0.4: 118 files, 4MB, built in 2 minutes 10 seconds
+You can run it manually using `brew postinstall pkg-config`
+🍺  /home/kali/.linuxbrew/Cellar/pkg-config/0.29.2_1: 11 files, 1.5MB, built in 1 minute 38 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+pdfsandwich
+==> Updated Formulae
+app-engine-java
+basex
+bitrise
+glib-networking
+jhipster
+libsoup
+openrtsp
+paket
+pam_yubico
+you-get
+
