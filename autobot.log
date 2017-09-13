@@ -1,0 +1,7 @@
+==> Downloading http://isl.gforge.inria.fr/isl-0.15.tar.bz2
+==> ./configure --disable-silent-rules --prefix=/home/kali/.linuxbrew/Cellar/isl/0.15 --with-gmp=system --with-gmp-prefix=/home/kali/.linuxbrew/opt/gmp
+==> make check
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall isl`
+🍺  /home/kali/.linuxbrew/Cellar/isl/0.15: 72 files, 5.3MB, built in 1 minute 45 seconds
