@@ -1,9 +1,6 @@
-==> Downloading https://github.com/ivmai/libatomic_ops/releases/download/v7.4.6/libatomic_ops-7.4.6.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2103225/b3e7df2c-3bc0-11e7-9750-c40f64a0a966?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170913T193444Z&X-Amz-Expires=300&X-Amz-Signature=52723b59bb371abb5fbf771b9984c6339cc04b28ba0408f69813d5c32454c27c&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibatomic_ops-7.4.6.tar.gz&response-content-type=application%2Foctet-stream
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/libatomic_ops/7.4.6
-==> make
-==> make check
+==> Downloading https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gperf/3.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libatomic_ops`
-🍺  /home/kali/.linuxbrew/Cellar/libatomic_ops/7.4.6: 80 files, 739.5KB, built in 27 seconds
+You can run it manually using `brew postinstall gperf`
+🍺  /home/kali/.linuxbrew/Cellar/gperf/3.1: 11 files, 737.8KB, built in 20 seconds
