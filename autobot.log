@@ -1,11 +1,18 @@
-==> Downloading https://ftp.gnu.org/gnu/nettle/nettle-3.3.tar.gz
-Trying a mirror...
-==> Downloading https://ftpmirror.gnu.org/nettle/nettle-3.3.tar.gz
-==> Downloading from http://gnu.askapache.com/nettle/nettle-3.3.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/nettle/3.3 --enable-shared
+==> Downloading https://ftp.gnu.org/gnu/libunistring/libunistring-0.9.7.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/kali/.linuxbrew/Cellar/libunistring/0.9.7
 ==> make
-==> make install
 ==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall nettle`
-🍺  /home/kali/.linuxbrew/Cellar/nettle/3.3: 80 files, 18.3MB, built in 1 minute 41 seconds
+You can run it manually using `brew postinstall libunistring`
+🍺  /home/kali/.linuxbrew/Cellar/libunistring/0.9.7: 54 files, 9.3MB, built in 5 minutes 6 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+app-engine-python
+cgal
+hugo
+pgrouting
+py2cairo
+sfcgal
+
