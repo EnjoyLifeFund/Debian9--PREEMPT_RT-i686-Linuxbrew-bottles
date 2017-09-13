@@ -1,0 +1,298 @@
+00:00.0 Host bridge: Intel Corporation 5000X Chipset Memory Controller Hub (rev 30)
+	Subsystem: Intel Corporation 5000X Chipset Memory Controller Hub
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: <access denied>
+
+00:02.0 PCI bridge: Intel Corporation 5000 Series Chipset PCI Express x8 Port 2-3 (rev 30) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 24
+	Bus: primary=00, secondary=01, subordinate=06, sec-latency=0
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: f2400000-f2dfffff
+	Prefetchable memory behind bridge: 0000000080000000-00000000801fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:03.0 Non-VGA unclassified device: Intel Corporation 5000 Series Chipset PCI Express x4 Port 3 (rev 30)
+	!!! Invalid class 0000 for header type 01
+	Flags: fast devsel
+	Bus: primary=00, secondary=07, subordinate=07, sec-latency=0
+	Capabilities: <access denied>
+
+00:04.0 PCI bridge: Intel Corporation 5000X Chipset PCI Express x16 Port 4-7 (rev 30) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 25
+	Bus: primary=00, secondary=08, subordinate=08, sec-latency=0
+	I/O behind bridge: 00001000-00001fff
+	Memory behind bridge: f0000000-f20fffff
+	Prefetchable memory behind bridge: 00000000e0000000-00000000efffffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:05.0 Non-VGA unclassified device: Intel Corporation 5000 Series Chipset PCI Express x4 Port 5 (rev 30)
+	!!! Invalid class 0000 for header type 01
+	Flags: fast devsel
+	Bus: primary=00, secondary=09, subordinate=09, sec-latency=0
+	Capabilities: <access denied>
+
+00:06.0 Non-VGA unclassified device: Intel Corporation 5000 Series Chipset PCI Express x4 Port 6 (rev 30)
+	!!! Invalid class 0000 for header type 01
+	Flags: fast devsel
+	Bus: primary=00, secondary=0a, subordinate=0a, sec-latency=0
+	Capabilities: <access denied>
+
+00:07.0 Non-VGA unclassified device: Intel Corporation 5000 Series Chipset PCI Express x4 Port 7 (rev 30)
+	!!! Invalid class 0000 for header type 01
+	Flags: fast devsel
+	Bus: primary=00, secondary=0b, subordinate=0b, sec-latency=0
+	Capabilities: <access denied>
+
+00:08.0 System peripheral: Intel Corporation 5000 Series Chipset DMA Engine (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset DMA Engine
+	Flags: fast devsel
+	Memory at 81200000 (64-bit, non-prefetchable) [disabled] [size=1K]
+	Capabilities: <access denied>
+
+00:10.0 Host bridge: Intel Corporation 5000 Series Chipset FSB Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset FSB Registers
+	Flags: fast devsel
+	Kernel driver in use: i5000_edac
+	Kernel modules: i5k_amb, i5000_edac
+
+00:10.1 Host bridge: Intel Corporation 5000 Series Chipset FSB Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset FSB Registers
+	Flags: fast devsel
+	Kernel modules: i5k_amb, i5000_edac
+
+00:10.2 Host bridge: Intel Corporation 5000 Series Chipset FSB Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset FSB Registers
+	Flags: fast devsel
+	Kernel modules: i5k_amb, i5000_edac
+
+00:11.0 Host bridge: Intel Corporation 5000 Series Chipset Reserved Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset Reserved Registers
+	Flags: fast devsel
+
+00:13.0 Host bridge: Intel Corporation 5000 Series Chipset Reserved Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset Reserved Registers
+	Flags: fast devsel
+
+00:15.0 Host bridge: Intel Corporation 5000 Series Chipset FBD Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset FBD Registers
+	Flags: fast devsel
+
+00:16.0 Host bridge: Intel Corporation 5000 Series Chipset FBD Registers (rev 30)
+	Subsystem: Intel Corporation 5000 Series Chipset FBD Registers
+	Flags: fast devsel
+
+00:1b.0 Audio device: Intel Corporation 631xESB/632xESB High Definition Audio Controller (rev 09)
+	Flags: bus master, fast devsel, latency 0, IRQ 33
+	Memory at f2f00000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1c.0 PCI bridge: Intel Corporation 631xESB/632xESB/3100 Chipset PCI Express Root Port 1 (rev 09) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 26
+	Bus: primary=00, secondary=0c, subordinate=0c, sec-latency=0
+	I/O behind bridge: 00004000-00004fff
+	Memory behind bridge: 80200000-803fffff
+	Prefetchable memory behind bridge: 0000000080400000-00000000805fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.1 PCI bridge: Intel Corporation 631xESB/632xESB/3100 Chipset PCI Express Root Port 2 (rev 09) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 27
+	Bus: primary=00, secondary=0d, subordinate=0d, sec-latency=0
+	I/O behind bridge: 00005000-00005fff
+	Memory behind bridge: 80600000-807fffff
+	Prefetchable memory behind bridge: 0000000080800000-00000000809fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.2 PCI bridge: Intel Corporation 631xESB/632xESB/3100 Chipset PCI Express Root Port 3 (rev 09) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 28
+	Bus: primary=00, secondary=0e, subordinate=0e, sec-latency=0
+	I/O behind bridge: 00006000-00006fff
+	Memory behind bridge: 80a00000-80bfffff
+	Prefetchable memory behind bridge: 0000000080c00000-0000000080dfffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.3 PCI bridge: Intel Corporation 631xESB/632xESB/3100 Chipset PCI Express Root Port 4 (rev 09) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 29
+	Bus: primary=00, secondary=0f, subordinate=0f, sec-latency=0
+	I/O behind bridge: 00007000-00007fff
+	Memory behind bridge: 80e00000-80ffffff
+	Prefetchable memory behind bridge: 0000000081000000-00000000811fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1d.0 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #1 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 19
+	I/O ports at 30a0 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci_hcd
+
+00:1d.1 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #2 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 20
+	I/O ports at 3080 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci_hcd
+
+00:1d.2 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #3 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 21
+	I/O ports at 3060 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci_hcd
+
+00:1d.3 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #4 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 22
+	I/O ports at 3040 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci_hcd
+
+00:1d.7 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset EHCI USB2 Controller (rev 09) (prog-if 20 [EHCI])
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset EHCI USB2 Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 19
+	Memory at f2f04800 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev d9) (prog-if 01 [Subtractive decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=10, subordinate=10, sec-latency=32
+	Memory behind bridge: f2e00000-f2efffff
+	Capabilities: <access denied>
+
+00:1f.0 ISA bridge: Intel Corporation 631xESB/632xESB/3100 Chipset LPC Interface Controller (rev 09)
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset LPC Interface Controller
+	Flags: bus master, medium devsel, latency 0
+	Kernel driver in use: lpc_ich
+	Kernel modules: intel_rng, lpc_ich
+
+00:1f.1 IDE interface: Intel Corporation 631xESB/632xESB IDE Controller (rev 09) (prog-if 8f [Master SecP SecO PriP PriO])
+	Subsystem: Intel Corporation 631xESB/632xESB IDE Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 20
+	I/O ports at 30e8 [size=8]
+	I/O ports at 30fc [size=4]
+	I/O ports at 30e0 [size=8]
+	I/O ports at 30f8 [size=4]
+	I/O ports at 30c0 [size=16]
+	Kernel driver in use: ata_piix
+	Kernel modules: ata_piix, ata_generic
+
+00:1f.2 SATA controller: Intel Corporation 631xESB/632xESB SATA AHCI Controller (rev 09) (prog-if 01 [AHCI 1.0])
+	Subsystem: Intel Corporation 631xESB/632xESB SATA AHCI Controller
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 21
+	I/O ports at 30d8 [size=8]
+	I/O ports at 30f4 [size=4]
+	I/O ports at 30d0 [size=8]
+	I/O ports at 30f0 [size=4]
+	I/O ports at 3020 [size=32]
+	Memory at f2f04400 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+
+00:1f.3 SMBus: Intel Corporation 631xESB/632xESB/3100 Chipset SMBus Controller (rev 09)
+	Subsystem: Intel Corporation 631xESB/632xESB/3100 Chipset SMBus Controller
+	Flags: medium devsel, IRQ 21
+	I/O ports at 3000 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+01:00.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Upstream Port (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=01, secondary=02, subordinate=05, sec-latency=0
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: f2400000-f2cfffff
+	Prefetchable memory behind bridge: 0000000080000000-00000000801fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+01:00.1 PIC: Intel Corporation 6311ESB/6321ESB I/OxAPIC Interrupt Controller (rev 01) (prog-if 20 [IO(X)-APIC])
+	Flags: fast devsel
+	Memory at f2d00000 (32-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: <access denied>
+
+01:00.3 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express to PCI-X Bridge (rev 01) (prog-if 00 [Normal decode])
+	Flags: fast devsel
+	Bus: primary=01, secondary=06, subordinate=06, sec-latency=64
+	Capabilities: <access denied>
+	Kernel modules: shpchp
+
+02:00.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Downstream Port E1 (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 30
+	Bus: primary=02, secondary=03, subordinate=03, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+02:01.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Downstream Port E2 (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 31
+	Bus: primary=02, secondary=04, subordinate=04, sec-latency=0
+	Prefetchable memory behind bridge: 0000000080000000-00000000801fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+02:02.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Downstream Port E3 (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 32
+	Bus: primary=02, secondary=05, subordinate=05, sec-latency=0
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: f2400000-f2cfffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+05:00.0 Ethernet controller: Intel Corporation 80003ES2LAN Gigabit Ethernet Controller (Copper) (rev 01)
+	Subsystem: Intel Corporation 80003ES2LAN Gigabit Ethernet Controller (Copper)
+	Flags: bus master, fast devsel, latency 0, IRQ 34
+	Memory at f2c20000 (32-bit, non-prefetchable) [size=128K]
+	Memory at f2800000 (32-bit, non-prefetchable) [size=4M]
+	I/O ports at 2020 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+05:00.1 Ethernet controller: Intel Corporation 80003ES2LAN Gigabit Ethernet Controller (Copper) (rev 01)
+	Subsystem: Intel Corporation 80003ES2LAN Gigabit Ethernet Controller (Copper)
+	Flags: bus master, fast devsel, latency 0, IRQ 35
+	Memory at f2c00000 (32-bit, non-prefetchable) [size=128K]
+	Memory at f2400000 (32-bit, non-prefetchable) [size=4M]
+	I/O ports at 2000 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+08:00.0 VGA compatible controller: NVIDIA Corporation G73 [GeForce 7300 GT] (rev a1) (prog-if 00 [VGA controller])
+	Physical Slot: 1
+	Flags: bus master, fast devsel, latency 0, IRQ 36
+	Memory at f1000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at e0000000 (64-bit, prefetchable) [size=256M]
+	Memory at f0000000 (64-bit, non-prefetchable) [size=16M]
+	I/O ports at 1000 [size=128]
+	Expansion ROM at f2000000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: nouveau
+	Kernel modules: nouveau
+
+10:0b.0 FireWire (IEEE 1394): Texas Instruments TSB82AA2 IEEE-1394b Link Layer Controller (rev 01) (prog-if 10 [OHCI])
+	Flags: bus master, medium devsel, latency 248, IRQ 16
+	Memory at f2e04000 (32-bit, non-prefetchable) [size=2K]
+	Memory at f2e00000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: firewire_ohci
+	Kernel modules: firewire_ohci
+
