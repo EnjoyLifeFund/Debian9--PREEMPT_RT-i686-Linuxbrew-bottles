@@ -1,6 +1,13 @@
-==> Downloading https://github.com/lz4/lz4/archive/v1.8.0.tar.gz
-==> Downloading from https://codeload.github.com/lz4/lz4/tar.gz/v1.8.0
-==> make install PREFIX=/home/kali/.linuxbrew/Cellar/lz4/1.8.0
+==> Installing dependencies for automake: autoconf
+==> Installing automake dependency: autoconf
+==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/autoconf/2.69 --with-lispdir=/home/kali/.linuxbrew/Cellar/autoconf/2.69/share/emacs/site-lisp/autoconf
+==> make install
+🍺  /home/kali/.linuxbrew/Cellar/autoconf/2.69: 67 files, 3MB, built in 16 seconds
+==> Installing automake
+==> Downloading https://ftp.gnu.org/gnu/automake/automake-1.15.1.tar.xz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/automake/1.15.1
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lz4`
-🍺  /home/kali/.linuxbrew/Cellar/lz4/1.8.0: 22 files, 680.4KB, built in 12 seconds
+You can run it manually using `brew postinstall automake`
+🍺  /home/kali/.linuxbrew/Cellar/automake/1.15.1: 131 files, 3MB, built in 15 seconds
