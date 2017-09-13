@@ -1,3 +1,11 @@
-==> Downloading https://www.apache.org/dyn/closer.lua?path=spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz
-==> Best Mirror http://apache.osuosl.org/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz
-🍺  /home/kali/.linuxbrew/Cellar/apache-spark/2.2.0: 1,318 files, 221.9MB, built in 4 minutes 38 seconds
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/maven-3.5.0.tar.gz
+==> Verifying maven-3.5.0.tar.gz checksum
+tar xzf /home/kali/.cache/Homebrew/maven-3.5.0.tar.gz
+==> Cleaning
+==> Finishing up
+ln -s ../Cellar/maven/3.5.0/bin/mvn mvn
+ln -s ../Cellar/maven/3.5.0/bin/mvnDebug mvnDebug
+ln -s ../Cellar/maven/3.5.0/bin/mvnyjp mvnyjp
+==> Summary
+🍺  /home/kali/.linuxbrew/Cellar/maven/3.5.0: 102 files, 9.8MB, built in 7 seconds
