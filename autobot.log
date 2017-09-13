@@ -1,6 +1,7 @@
-==> Downloading https://c-ares.haxx.se/download/c-ares-1.13.0.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/c-ares/1.13.0
+==> Downloading https://libssh2.org/download/libssh2-1.8.0.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/libssh2-1.8.0.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/libssh2/1.8.0 --disable-silent-rules --disable-examples-build --with-openssl --with-libz --with-libssl-prefix=/home/kali/.linuxbrew/opt/openssl
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall c-ares`
-🍺  /home/kali/.linuxbrew/Cellar/c-ares/1.13.0: 71 files, 559.5KB, built in 1 minute 49 seconds
+You can run it manually using `brew postinstall libssh2`
+🍺  /home/kali/.linuxbrew/Cellar/libssh2/1.8.0: 183 files, 2MB, built in 30 seconds
