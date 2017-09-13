@@ -1,7 +1,6 @@
-==> Downloading https://sqlite.org/2017/sqlite-autoconf-3200100.tar.gz
-Already downloaded: /home/kali/.cache/Homebrew/sqlite-3.20.1.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/sqlite/3.20.1 --enable-dynamic-extensions --enable-readline --disable-editline
-==> make install
+==> Downloading https://github.com/lz4/lz4/archive/v1.8.0.tar.gz
+==> Downloading from https://codeload.github.com/lz4/lz4/tar.gz/v1.8.0
+==> make install PREFIX=/home/kali/.linuxbrew/Cellar/lz4/1.8.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall sqlite`
-🍺  /home/kali/.linuxbrew/Cellar/sqlite/3.20.1: 12 files, 11.9MB, built in 3 minutes 18 seconds
+You can run it manually using `brew postinstall lz4`
+🍺  /home/kali/.linuxbrew/Cellar/lz4/1.8.0: 22 files, 680.4KB, built in 12 seconds
