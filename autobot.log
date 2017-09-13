@@ -1,11 +1,26 @@
-==> Downloading http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
-==> Downloading from http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz?AuthParam=1505326236_aae9ca04104f8b9ffebce399251e20ce
+==> Downloading https://nmap.org/dist/nmap-7.60.tar.bz2
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/nmap/7.60 --with-libpcre=included --with-liblua=included --with-openssl=/home/kali/.linuxbrew/opt/openssl --without-nmap-update --disable-universal --without-zenmap
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jdk`
+You can run it manually using `brew postinstall nmap`
 ==> Caveats
-By installing and using JDK you agree to the
-Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX
-http://www.oracle.com/technetwork/java/javase/terms/license/index.html
 
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /home/kali/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/home/kali/.linuxbrew/lib/python2.7/site-packages")' >> /home/kali/.local/lib/python2.7/site-packages/homebrew.pth
 ==> Summary
-🍺  /home/kali/.linuxbrew/Cellar/jdk/1.8.0-144: 1,628 files, 359.6MB, built in 3 minutes 51 seconds
+🍺  /home/kali/.linuxbrew/Cellar/nmap/7.60: 795 files, 26.9MB, built in 9 minutes 35 seconds
+==> Determining nmap bottle rebuild...
+==> Bottling nmap-7.60.i686_linux.bottle.1.tar.gz...
+==> Detecting if nmap-7.60.i686_linux.bottle.1.tar.gz is relocatable...
+./nmap-7.60.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/kali/.linuxbrew"
+    cellar "/home/kali/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "a3195ebd320ce1a0a6dabcb5f6f1fb067cdc8cab28015bd5bd51ee5d3565eaa5" => :i686_linux
+  end
