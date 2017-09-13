@@ -1,7 +1,6 @@
-==> Downloading http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz
-Already downloaded: /home/kali/.cache/Homebrew/libyaml-0.1.7.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/libyaml/0.1.7
+==> Downloading https://curl.haxx.se/download/curl-7.55.1.tar.bz2
+==> ./configure --disable-silent-rules --prefix=/home/kali/.linuxbrew/Cellar/curl/7.55.1 --with-ssl=/home/kali/.linuxbrew/opt/openssl --with-ca-bundle=/home/kali/.linuxbrew/etc/openssl/cert.pem --with-ca-path=/home/kali/.linuxbrew/etc/openssl/certs --without-libssh2 --without-libmetalink --without-gssapi --without-librtmp --disable-ares --disable-ldap
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libyaml`
-🍺  /home/kali/.linuxbrew/Cellar/libyaml/0.1.7: 10 files, 842.9KB, built in 20 seconds
+You can run it manually using `brew postinstall curl`
+🍺  /home/kali/.linuxbrew/Cellar/curl/7.55.1: 400 files, 3MB, built in 1 minute 55 seconds
