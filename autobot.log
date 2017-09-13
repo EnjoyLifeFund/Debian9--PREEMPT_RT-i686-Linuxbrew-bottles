@@ -1,6 +1,6 @@
-==> Downloading https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gperf/3.1
+==> Downloading http://thrysoee.dk/editline/libedit-20170329-3.1.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/kali/.linuxbrew/Cellar/libedit/20170329-3.1
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gperf`
-🍺  /home/kali/.linuxbrew/Cellar/gperf/3.1: 11 files, 737.8KB, built in 20 seconds
+You can run it manually using `brew postinstall libedit`
+🍺  /home/kali/.linuxbrew/Cellar/libedit/20170329-3.1: 55 files, 1.5MB, built in 34 seconds
