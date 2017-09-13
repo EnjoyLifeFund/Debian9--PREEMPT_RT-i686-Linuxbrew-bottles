@@ -1,13 +1,9 @@
-==> Downloading https://github.com/p11-glue/p11-kit/releases/download/0.23.8/p11-kit-0.23.8.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/12060420/012c8934-81c8-11e7-8a67-9096c6335830?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170913T193149Z&X-Amz-Expires=300&X-Amz-Signature=463fc15e06b39647b9af7c5363ca0f452cda5772de891217f9f788eb7569ac74&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dp11-kit-0.23.8.tar.gz&response-content-type=application%2Foctet-stream
-==> Downloading https://github.com/p11-glue/p11-kit/commit/61acf20.patch?full_index=1
-==> Patching
-==> Applying 61acf20.patch
-patching file common/compat.c
-==> ./configure --disable-silent-rules --disable-trust-module --prefix=/home/kali/.linuxbrew/Cellar/p11-kit/0.23.8 --sysconfdir=/home/kali/.linuxbrew/etc --with-module-config=/home/kali/.linuxbrew/etc/pkcs11/modules --without-libtasn1
+==> Downloading https://github.com/ivmai/libatomic_ops/releases/download/v7.4.6/libatomic_ops-7.4.6.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2103225/b3e7df2c-3bc0-11e7-9750-c40f64a0a966?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170913T193444Z&X-Amz-Expires=300&X-Amz-Signature=52723b59bb371abb5fbf771b9984c6339cc04b28ba0408f69813d5c32454c27c&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibatomic_ops-7.4.6.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/libatomic_ops/7.4.6
 ==> make
 ==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall p11-kit`
-🍺  /home/kali/.linuxbrew/Cellar/p11-kit/0.23.8: 63 files, 9.2MB, built in 2 minutes 31 seconds
+You can run it manually using `brew postinstall libatomic_ops`
+🍺  /home/kali/.linuxbrew/Cellar/libatomic_ops/7.4.6: 80 files, 739.5KB, built in 27 seconds
