@@ -1,19 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0.tar.gz
-==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0-patches/readline70-001
-==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0-patches/readline70-002
-==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0-patches/readline70-003
-==> Patching
-==> Applying readline70-001
-patching file history.c
-patching file patchlevel
-==> Applying readline70-002
-patching file history.c
-patching file patchlevel
-==> Applying readline70-003
-patching file input.c
-patching file patchlevel
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/readline/7.0.3_1 --with-curses
-==> make install SHLIB_LIBS=-lcurses
+==> Downloading https://ftp.gnu.org/gnu/gawk/gawk-4.1.4.tar.xz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gawk/4.1.4_1 --without-libsigsegv-prefix
+==> make
+==> make check
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall readline`
-🍺  /home/kali/.linuxbrew/Cellar/readline/7.0.3_1: 46 files, 3.0MB, built in 38 seconds
+You can run it manually using `brew postinstall gawk`
+🍺  /home/kali/.linuxbrew/Cellar/gawk/4.1.4_1: 80 files, 5.6MB, built in 1 minute 31 seconds
