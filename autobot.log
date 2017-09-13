@@ -1,22 +1,3 @@
-==> Downloading https://cmake.org/files/v3.9/cmake-3.9.2.tar.gz
-==> ./bootstrap --prefix=/home/kali/.linuxbrew/Cellar/cmake/3.9.2 --no-system-libs --parallel=8 --datadir=/share/cmake --docdir=/share/doc/cmake --mandir=/share/man --system-zlib --system-bzip2 --system-curl --sphinx-man --sphinx-build=/home/kali/.linuxbrew/opt/sphinx-doc/bin/sphinx-build
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cmake`
-==> Caveats
-
-Emacs Lisp files have been installed to:
-  /home/kali/.linuxbrew/share/emacs/site-lisp/cmake
-==> Summary
-🍺  /home/kali/.linuxbrew/Cellar/cmake/3.9.2: 2,266 files, 64.7MB, built in 9 minutes 8 seconds
-==> Determining cmake bottle rebuild...
-==> Bottling cmake-3.9.2.i686_linux.bottle.1.tar.gz...
-==> Detecting if cmake-3.9.2.i686_linux.bottle.1.tar.gz is relocatable...
-./cmake-3.9.2.i686_linux.bottle.1.tar.gz
-  bottle do
-    prefix "/home/kali/.linuxbrew"
-    cellar "/home/kali/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "c2658418f4db7045470388134153628243c8b9d31003faff0bc6aec334629b48" => :i686_linux
-  end
+==> Downloading https://services.gradle.org/distributions/gradle-4.1-all.zip
+==> Downloading from https://downloads.gradle.org/distributions/gradle-4.1-all.zip
+🍺  /home/kali/.linuxbrew/Cellar/gradle/4.1: 169 files, 71.7MB, built in 1 minute 29 seconds
