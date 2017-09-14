@@ -1,0 +1,11 @@
+==> Downloading https://ftp.gnu.org/gnu/tar/tar-1.29.tar.gz
+==> Downloading https://sources.debian.net/data/main/t/tar/1.29b-1.1/debian/patches/When-extracting-skip-.-members.patch
+==> Patching
+==> Applying When-extracting-skip-.-members.patch
+patching file src/extract.c
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1 --mandir=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gnu-tar`
+🍺  /home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1: 55 files, 5.1MB, built in 2 minutes 26 seconds
+==> Installing patchelf...
