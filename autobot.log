@@ -1,15 +1,15 @@
-==> Downloading https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gpatch/2.7.5
+==> Downloading https://ftp.gnu.org/gnu/gdbm/gdbm-1.13.tar.gz
+==> ./configure --disable-silent-rules --without-readline --prefix=/home/kali/.linuxbrew/Cellar/gdbm/1.13_1 --enable-libgdbm-compat
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gpatch`
-🍺  /home/kali/.linuxbrew/Cellar/gpatch/2.7.5: 10 files, 711.8KB, built in 1 minute 36 seconds
-==> Determining gpatch bottle rebuild...
-==> Bottling gpatch-2.7.5.i686_linux.bottle.1.tar.gz...
-./gpatch-2.7.5.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gdbm`
+🍺  /home/kali/.linuxbrew/Cellar/gdbm/1.13_1: 37 files, 1.7MB, built in 34 seconds
+==> Determining gdbm bottle rebuild...
+==> Bottling gdbm-1.13_1.i686_linux.bottle.1.tar.gz...
+./gdbm-1.13_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "2d33fd269b9120375400ebe3a648e09a83b27aebecd2544509e0aa1942b28407" => :i686_linux
+    sha256 "d681881a12126f2e977a00db7c3ec429b20410ab9ab4b18ec75edf580cf0281b" => :i686_linux
   end
