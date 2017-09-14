@@ -1,9 +1,14 @@
-==> Determining python bottle rebuild...
-==> Bottling python-2.7.13_1.i686_linux.bottle.1.tar.gz...
-./python-2.7.13_1.i686_linux.bottle.1.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/l/lcrack/lcrack_20040914.orig.tar.gz
+==> ./configure
+==> make
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall lcrack`
+🍺  /home/kali/.linuxbrew/Cellar/lcrack/20040914: 10 files, 144.2KB, built in 2 seconds
+==> Determining lcrack bottle rebuild...
+==> Bottling lcrack-20040914.i686_linux.bottle.tar.gz...
+./lcrack-20040914.i686_linux.bottle.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "2315520c35de2594e0c333548084c97c3d3f799050aa457653998a1268b988e1" => :i686_linux
+    sha256 "43bc55b8bb19c24293a608c7dc08bde24893189b836ea5302e47153f24c17ac1" => :i686_linux
   end
