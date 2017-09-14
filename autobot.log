@@ -1,14 +1,22 @@
-==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/l/lcrack/lcrack_20040914.orig.tar.gz
-==> ./configure
-==> make
+==> Installing dependencies for kafka: zookeeper
+==> Installing kafka dependency: zookeeper
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
+==> Best Mirror http://ftp.wayne.edu/apache/zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/zookeeper/3.4.10 --without-cppunit
+==> make install
+🍺  /home/kali/.linuxbrew/Cellar/zookeeper/3.4.10: 238 files, 32.7MB, built in 1 minute 43 seconds
+==> Installing kafka
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=/kafka/0.11.0.0/kafka_2.12-0.11.0.0.tgz
+==> Best Mirror http://apache.cs.utah.edu/kafka/0.11.0.0/kafka_2.12-0.11.0.0.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall lcrack`
-🍺  /home/kali/.linuxbrew/Cellar/lcrack/20040914: 10 files, 144.2KB, built in 2 seconds
-==> Determining lcrack bottle rebuild...
-==> Bottling lcrack-20040914.i686_linux.bottle.tar.gz...
-./lcrack-20040914.i686_linux.bottle.tar.gz
+You can run it manually using `brew postinstall kafka`
+🍺  /home/kali/.linuxbrew/Cellar/kafka/0.11.0.0: 148 files, 35.5MB, built in 1 minute 7 seconds
+==> Determining kafka bottle rebuild...
+==> Bottling kafka-0.11.0.0.i686_linux.bottle.1.tar.gz...
+==> Detecting if kafka-0.11.0.0.i686_linux.bottle.1.tar.gz is relocatable...
+./kafka-0.11.0.0.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/kali/.linuxbrew"
-    cellar "/home/kali/.linuxbrew/Cellar"
-    sha256 "43bc55b8bb19c24293a608c7dc08bde24893189b836ea5302e47153f24c17ac1" => :i686_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "799208a34c92e01a2a3b1ec925d156c252ed4deb56ef8e44d0f8f6c57e1b2014" => :i686_linux
   end
