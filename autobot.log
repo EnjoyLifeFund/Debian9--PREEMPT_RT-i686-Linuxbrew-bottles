@@ -1,26 +1,16 @@
-==> Downloading https://nmap.org/dist/nmap-7.60.tar.bz2
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/nmap/7.60 --with-libpcre=included --with-liblua=included --with-openssl=/home/kali/.linuxbrew/opt/openssl --without-nmap-update --disable-universal --without-zenmap
-==> make
+==> Downloading https://ftp.gnu.org/gnu/texinfo/texinfo-6.5.tar.xz
+==> ./configure --disable-install-warnings --prefix=/home/kali/.linuxbrew/Cellar/texinfo/6.5
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall nmap`
-==> Caveats
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/kali/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/kali/.linuxbrew/lib/python2.7/site-packages")' >> /home/kali/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/kali/.linuxbrew/Cellar/nmap/7.60: 795 files, 26.9MB, built in 9 minutes 35 seconds
-==> Determining nmap bottle rebuild...
-==> Bottling nmap-7.60.i686_linux.bottle.1.tar.gz...
-==> Detecting if nmap-7.60.i686_linux.bottle.1.tar.gz is relocatable...
-./nmap-7.60.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall texinfo`
+🍺  /home/kali/.linuxbrew/Cellar/texinfo/6.5: 458 files, 11.2MB, built in 2 minutes 41 seconds
+==> Determining texinfo bottle rebuild...
+==> Bottling texinfo-6.5.i686_linux.bottle.1.tar.gz...
+==> Detecting if texinfo-6.5.i686_linux.bottle.1.tar.gz is relocatable...
+./texinfo-6.5.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "a3195ebd320ce1a0a6dabcb5f6f1fb067cdc8cab28015bd5bd51ee5d3565eaa5" => :i686_linux
+    sha256 "bbabdb288cd277f738489196563e959dfd81c4712ac578ca1cdd987f1441fb53" => :i686_linux
   end
