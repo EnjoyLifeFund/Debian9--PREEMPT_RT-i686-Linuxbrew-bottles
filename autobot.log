@@ -1,16 +1,16 @@
-==> Downloading http://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.gz
-Already downloaded: /home/kali/.cache/Homebrew/patchelf-0.9.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/patchelf/0.9_1 CXXFLAGS=-static-libgcc -static-libstdc++ --disable-silent-rules
+==> Downloading https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/m4/1.4.18
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall patchelf`
-🍺  /home/kali/.linuxbrew/Cellar/patchelf/0.9_1: 7 files, 1.5MB, built in 13 seconds
-==> Determining patchelf bottle rebuild...
-==> Bottling patchelf-0.9_1.i686_linux.bottle.1.tar.gz...
-./patchelf-0.9_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall m4`
+🍺  /home/kali/.linuxbrew/Cellar/m4/1.4.18: 13 files, 980.7KB, built in 1 minute 28 seconds
+==> Determining m4 bottle rebuild...
+==> Bottling m4-1.4.18.i686_linux.bottle.1.tar.gz...
+./m4-1.4.18.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "85ca93491ee57333d4a4b37007706d8957cae6ee1f9b154f529151dd668e219e" => :i686_linux
+    sha256 "bcb0dd3fb9c04d0aea078e6e1c466022a3f3bc40b1ae1aabca180a2bab095a0b" => :i686_linux
   end
