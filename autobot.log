@@ -1,22 +1,18 @@
-==> Installing dependencies for kafka: zookeeper
-==> Installing kafka dependency: zookeeper
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
-==> Best Mirror http://ftp.wayne.edu/apache/zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/zookeeper/3.4.10 --without-cppunit
+==> Downloading ftp://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2
+Already downloaded: /home/kali/.cache/Homebrew/valgrind-3.13.0.tar.bz2
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/valgrind/3.13.0 --enable-only32bit
+==> make
 ==> make install
-🍺  /home/kali/.linuxbrew/Cellar/zookeeper/3.4.10: 238 files, 32.7MB, built in 1 minute 43 seconds
-==> Installing kafka
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=/kafka/0.11.0.0/kafka_2.12-0.11.0.0.tgz
-==> Best Mirror http://apache.cs.utah.edu/kafka/0.11.0.0/kafka_2.12-0.11.0.0.tgz
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall kafka`
-🍺  /home/kali/.linuxbrew/Cellar/kafka/0.11.0.0: 148 files, 35.5MB, built in 1 minute 7 seconds
-==> Determining kafka bottle rebuild...
-==> Bottling kafka-0.11.0.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if kafka-0.11.0.0.i686_linux.bottle.1.tar.gz is relocatable...
-./kafka-0.11.0.0.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall valgrind`
+🍺  /home/kali/.linuxbrew/Cellar/valgrind/3.13.0: 311 files, 125.5MB, built in 5 minutes 26 seconds
+==> Determining valgrind bottle rebuild...
+==> Bottling valgrind-3.13.0.i686_linux.bottle.1.tar.gz...
+==> Detecting if valgrind-3.13.0.i686_linux.bottle.1.tar.gz is relocatable...
+./valgrind-3.13.0.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
+    prefix "/home/kali/.linuxbrew"
+    cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "799208a34c92e01a2a3b1ec925d156c252ed4deb56ef8e44d0f8f6c57e1b2014" => :i686_linux
+    sha256 "5961e7c534d799dab68177029dc51fe6c6e2e4850d1d7950ec19666728c1ac11" => :i686_linux
   end
