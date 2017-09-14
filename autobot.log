@@ -1,16 +1,17 @@
-==> Downloading https://ftp.gnu.org/gnu/texinfo/texinfo-6.5.tar.xz
-==> ./configure --disable-install-warnings --prefix=/home/kali/.linuxbrew/Cellar/texinfo/6.5
-==> make install
+==> Downloading http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01.tar.xz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/nasm/2.13.01
+==> make rdf
+==> make install install_rdf
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall texinfo`
-🍺  /home/kali/.linuxbrew/Cellar/texinfo/6.5: 458 files, 11.2MB, built in 2 minutes 41 seconds
-==> Determining texinfo bottle rebuild...
-==> Bottling texinfo-6.5.i686_linux.bottle.1.tar.gz...
-==> Detecting if texinfo-6.5.i686_linux.bottle.1.tar.gz is relocatable...
-./texinfo-6.5.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall nasm`
+🍺  /home/kali/.linuxbrew/Cellar/nasm/2.13.01: 30 files, 4.2MB, built in 44 seconds
+==> Determining nasm bottle rebuild...
+==> Bottling nasm-2.13.01.i686_linux.bottle.1.tar.gz...
+==> Detecting if nasm-2.13.01.i686_linux.bottle.1.tar.gz is relocatable...
+./nasm-2.13.01.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "bbabdb288cd277f738489196563e959dfd81c4712ac578ca1cdd987f1441fb53" => :i686_linux
+    sha256 "92ce2890957eb8fd5f9ac108978f999d6eac68071bd4fbd50f0a5b54a0332cc8" => :i686_linux
   end
