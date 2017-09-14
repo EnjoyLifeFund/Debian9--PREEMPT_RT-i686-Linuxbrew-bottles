@@ -1,11 +1,16 @@
-==> Downloading https://ftp.gnu.org/gnu/tar/tar-1.29.tar.gz
-==> Downloading https://sources.debian.net/data/main/t/tar/1.29b-1.1/debian/patches/When-extracting-skip-.-members.patch
-==> Patching
-==> Applying When-extracting-skip-.-members.patch
-patching file src/extract.c
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1 --mandir=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1/share/man
+==> Downloading http://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/patchelf-0.9.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/patchelf/0.9_1 CXXFLAGS=-static-libgcc -static-libstdc++ --disable-silent-rules
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-tar`
-🍺  /home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1: 55 files, 5.1MB, built in 2 minutes 26 seconds
-==> Installing patchelf...
+You can run it manually using `brew postinstall patchelf`
+🍺  /home/kali/.linuxbrew/Cellar/patchelf/0.9_1: 7 files, 1.5MB, built in 13 seconds
+==> Determining patchelf bottle rebuild...
+==> Bottling patchelf-0.9_1.i686_linux.bottle.1.tar.gz...
+./patchelf-0.9_1.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/kali/.linuxbrew"
+    cellar "/home/kali/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "85ca93491ee57333d4a4b37007706d8957cae6ee1f9b154f529151dd668e219e" => :i686_linux
+  end
