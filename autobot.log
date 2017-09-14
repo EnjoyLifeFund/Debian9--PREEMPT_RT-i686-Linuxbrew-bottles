@@ -1,13 +1,15 @@
-==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/autoconf/2.69 --with-lispdir=/home/kali/.linuxbrew/Cellar/autoconf/2.69/share/emacs/site-lisp/autoconf
+==> Downloading https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gpatch/2.7.5
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autoconf`
-🍺  /home/kali/.linuxbrew/Cellar/autoconf/2.69: 67 files, 3MB, built in 13 seconds
-==> Determining autoconf bottle rebuild...
-==> Bottling autoconf-2.69.i686_linux.bottle.tar.gz...
-./autoconf-2.69.i686_linux.bottle.tar.gz
+You can run it manually using `brew postinstall gpatch`
+🍺  /home/kali/.linuxbrew/Cellar/gpatch/2.7.5: 10 files, 711.8KB, built in 1 minute 36 seconds
+==> Determining gpatch bottle rebuild...
+==> Bottling gpatch-2.7.5.i686_linux.bottle.1.tar.gz...
+./gpatch-2.7.5.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "4f88dfc3876e5ec0d832b8f173adadc3c4f8ce1b1499894a104be994a41b6f35" => :i686_linux
+    prefix "/home/kali/.linuxbrew"
+    cellar "/home/kali/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "2d33fd269b9120375400ebe3a648e09a83b27aebecd2544509e0aa1942b28407" => :i686_linux
   end
