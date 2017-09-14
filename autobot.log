@@ -1,2 +1,9 @@
 ==> Determining python bottle rebuild...
 ==> Bottling python-2.7.13_1.i686_linux.bottle.1.tar.gz...
+./python-2.7.13_1.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/kali/.linuxbrew"
+    cellar "/home/kali/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "2315520c35de2594e0c333548084c97c3d3f799050aa457653998a1268b988e1" => :i686_linux
+  end
