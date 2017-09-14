@@ -1,16 +1,23 @@
-==> Downloading https://libbsd.freedesktop.org/releases/libbsd-0.8.3.tar.xz
-Already downloaded: /home/kali/.cache/Homebrew/libbsd-0.8.3.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/kali/.linuxbrew/Cellar/libbsd/0.8.3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libbsd`
-🍺  /home/kali/.linuxbrew/Cellar/libbsd/0.8.3: 83 files, 1.2MB, built in 31 seconds
-==> Determining libbsd bottle rebuild...
-==> Bottling libbsd-0.8.3.i686_linux.bottle.1.tar.gz...
-./libbsd-0.8.3.i686_linux.bottle.1.tar.gz
-  bottle do
-    prefix "/home/kali/.linuxbrew"
-    cellar "/home/kali/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "53a8ce0c072f1702245a40da73abaf9722069ca2741a4884fd8c70f28957b3f9" => :i686_linux
-  end
+==> Downloading https://downloads.sourceforge.net/project/expat/expat/2.2.4/expat-2.2.4.tar.bz2
+==> Downloading from https://superb-dca2.dl.sourceforge.net/project/expat/expat/2.2.4/expat-2.2.4.tar.bz2
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/expat/2.2.4 --mandir=/home/kali/.linuxbrew/Cellar/expat/2.2.4/share/man --with-libbsd
+Last 15 lines from /home/kali/.cache/Homebrew/Logs/expat/01.configure:
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc-6 option to accept ISO C99... none needed
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++-6 accepts -g... yes
+checking dependency style of g++-6... gcc3
+checking how to run the C++ preprocessor...  g++- -E
+configure: error: in `/tmp/expat-20170914-26222-q28qnl/expat-2.2.4':
+configure: error: C++ preprocessor " g++- -E" fails sanity check
+See `config.log' for more details
+
+READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
