@@ -1,16 +1,9 @@
-==> Downloading https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/m4/1.4.18
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall m4`
-🍺  /home/kali/.linuxbrew/Cellar/m4/1.4.18: 13 files, 980.7KB, built in 1 minute 28 seconds
-==> Determining m4 bottle rebuild...
-==> Bottling m4-1.4.18.i686_linux.bottle.1.tar.gz...
-./m4-1.4.18.i686_linux.bottle.1.tar.gz
+==> Determining berkeley-db@4 bottle rebuild...
+==> Bottling berkeley-db@4-4.8.30.i686_linux.bottle.1.tar.gz...
+./berkeley-db@4-4.8.30.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "bcb0dd3fb9c04d0aea078e6e1c466022a3f3bc40b1ae1aabca180a2bab095a0b" => :i686_linux
+    sha256 "41c506d8a5d4f8676d255e120cbcb721b10e2d917dc9e9f7784273214c660576" => :i686_linux
   end
