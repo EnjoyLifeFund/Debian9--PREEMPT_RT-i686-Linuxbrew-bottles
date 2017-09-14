@@ -1,16 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/expat/expat/2.2.4/expat-2.2.4.tar.bz2
-Already downloaded: /home/kali/.cache/Homebrew/expat-2.2.4.tar.bz2
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/expat/2.2.4 --mandir=/home/kali/.linuxbrew/Cellar/expat/2.2.4/share/man --with-libbsd
+==> Downloading https://zlib.net/zlib-1.2.11.tar.gz
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/zlib/1.2.11
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall expat`
-🍺  /home/kali/.linuxbrew/Cellar/expat/2.2.4: 18 files, 1.2MB, built in 35 seconds
-==> Determining expat bottle rebuild...
-==> Bottling expat-2.2.4.i686_linux.bottle.1.tar.gz...
-./expat-2.2.4.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall zlib`
+🍺  /home/kali/.linuxbrew/Cellar/zlib/1.2.11: 12 files, 487.8KB, built in 28 seconds
+==> Determining zlib bottle rebuild...
+==> Bottling zlib-1.2.11.i686_linux.bottle.1.tar.gz...
+./zlib-1.2.11.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/kali/.linuxbrew"
-    cellar "/home/kali/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "e6725cdb0ad7c80f0f8571e2cff5dcf7089b21648f5dba2efae114b94660478a" => :i686_linux
+    sha256 "74b7e937f4de7f95152ee9760103dbcc4b886cc51ad29421ff2e6f56aa9c3b10" => :i686_linux
   end
