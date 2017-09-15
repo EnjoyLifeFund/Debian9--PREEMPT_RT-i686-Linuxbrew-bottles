@@ -1,18 +1,22 @@
-==> Downloading ftp://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2
-Already downloaded: /home/kali/.cache/Homebrew/valgrind-3.13.0.tar.bz2
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/valgrind/3.13.0 --enable-only32bit
-==> make
+==> Downloading https://ftp.gnu.org/gnu/tar/tar-1.29.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/gnu-tar-1.29.tar.gz
+==> Downloading https://sources.debian.net/data/main/t/tar/1.29b-1.1/debian/patches/When-extracting-skip-.-members.patch
+Already downloaded: /home/kali/.cache/Homebrew/gnu-tar--patch-6b1371b9abd391e1654f7d730aae9c4dee703a867276b1e8a9ef97a2a906b7cf.patch
+==> Patching
+==> Applying When-extracting-skip-.-members.patch
+patching file src/extract.c
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1 --mandir=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall valgrind`
-🍺  /home/kali/.linuxbrew/Cellar/valgrind/3.13.0: 311 files, 125.5MB, built in 5 minutes 26 seconds
-==> Determining valgrind bottle rebuild...
-==> Bottling valgrind-3.13.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if valgrind-3.13.0.i686_linux.bottle.1.tar.gz is relocatable...
-./valgrind-3.13.0.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gnu-tar`
+🍺  /home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1: 54 files, 5MB, built in 2 minutes 20 seconds
+==> Determining gnu-tar bottle rebuild...
+==> Bottling gnu-tar-1.29_1.i686_linux.bottle.1.tar.gz...
+==> Detecting if gnu-tar-1.29_1.i686_linux.bottle.1.tar.gz is relocatable...
+./gnu-tar-1.29_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/kali/.linuxbrew"
     cellar "/home/kali/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "5961e7c534d799dab68177029dc51fe6c6e2e4850d1d7950ec19666728c1ac11" => :i686_linux
+    sha256 "d0dc816d73e4e0e820bf3256c2d39d481c527195757eb1d8af78db052b653cd4" => :i686_linux
   end
