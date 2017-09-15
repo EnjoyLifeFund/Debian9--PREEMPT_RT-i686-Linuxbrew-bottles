@@ -1,22 +1,16 @@
-==> Downloading https://ftp.gnu.org/gnu/tar/tar-1.29.tar.gz
-Already downloaded: /home/kali/.cache/Homebrew/gnu-tar-1.29.tar.gz
-==> Downloading https://sources.debian.net/data/main/t/tar/1.29b-1.1/debian/patches/When-extracting-skip-.-members.patch
-Already downloaded: /home/kali/.cache/Homebrew/gnu-tar--patch-6b1371b9abd391e1654f7d730aae9c4dee703a867276b1e8a9ef97a2a906b7cf.patch
-==> Patching
-==> Applying When-extracting-skip-.-members.patch
-patching file src/extract.c
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1 --mandir=/home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1/share/man
+==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.64.tar.gz
+Already downloaded: /home/kali/.cache/Homebrew/autoconf-2.64.tar.gz
+A checksum was not provided for this resource
+For your reference the SHA256 is: a84471733f86ac2c1240a6d28b705b05a6b79c3cca8835c3712efbdf813c5eb6
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/autoconf/2.64 --with-lispdir=/home/kali/.linuxbrew/Cellar/autoconf/2.64/share/emacs/site-lisp/autoconf
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-tar`
-🍺  /home/kali/.linuxbrew/Cellar/gnu-tar/1.29_1: 54 files, 5MB, built in 2 minutes 20 seconds
-==> Determining gnu-tar bottle rebuild...
-==> Bottling gnu-tar-1.29_1.i686_linux.bottle.1.tar.gz...
-==> Detecting if gnu-tar-1.29_1.i686_linux.bottle.1.tar.gz is relocatable...
-./gnu-tar-1.29_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall autoconf`
+🍺  /home/kali/.linuxbrew/Cellar/autoconf/2.64: 65 files, 3.5MB, built in 7 seconds
+==> Determining autoconf bottle rebuild...
+==> Bottling autoconf-2.64.i686_linux.bottle.tar.gz...
+./autoconf-2.64.i686_linux.bottle.tar.gz
   bottle do
-    prefix "/home/kali/.linuxbrew"
-    cellar "/home/kali/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "d0dc816d73e4e0e820bf3256c2d39d481c527195757eb1d8af78db052b653cd4" => :i686_linux
+    cellar :any_skip_relocation
+    sha256 "c943cfeaac6029db2a0e6bad03d787ebfb21cddc24be6b726aacd13265b923cb" => :i686_linux
   end
