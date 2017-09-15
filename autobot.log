@@ -1,16 +1,73 @@
-==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.64.tar.gz
-Already downloaded: /home/kali/.cache/Homebrew/autoconf-2.64.tar.gz
-A checksum was not provided for this resource
-For your reference the SHA256 is: a84471733f86ac2c1240a6d28b705b05a6b79c3cca8835c3712efbdf813c5eb6
-==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/autoconf/2.64 --with-lispdir=/home/kali/.linuxbrew/Cellar/autoconf/2.64/share/emacs/site-lisp/autoconf
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-001
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-002
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-003
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-004
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-005
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-006
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-007
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-008
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-009
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-010
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-011
+==> Downloading https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-012
+==> Patching
+==> Applying bash44-001
+patching file lib/readline/history.c
+patching file patchlevel.h
+==> Applying bash44-002
+patching file subst.c
+patching file patchlevel.h
+==> Applying bash44-003
+patching file lib/glob/sm_loop.c
+patching file patchlevel.h
+==> Applying bash44-004
+patching file jobs.c
+patching file jobs.h
+patching file subst.c
+patching file patchlevel.h
+==> Applying bash44-005
+patching file builtins/evalstring.c
+patching file patchlevel.h
+==> Applying bash44-006
+patching file builtins/pushd.def
+patching file patchlevel.h
+==> Applying bash44-007
+patching file bashline.c
+patching file subst.c
+patching file patchlevel.h
+==> Applying bash44-008
+patching file expr.c
+patching file patchlevel.h
+==> Applying bash44-009
+patching file lib/readline/history.c
+patching file patchlevel.h
+==> Applying bash44-010
+patching file builtins/read.def
+patching file patchlevel.h
+==> Applying bash44-011
+patching file sig.c
+patching file patchlevel.h
+==> Applying bash44-012
+patching file subst.c
+patching file patchlevel.h
+==> ./configure --prefix=/home/kali/.linuxbrew/Cellar/bash/4.4.12
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autoconf`
-🍺  /home/kali/.linuxbrew/Cellar/autoconf/2.64: 65 files, 3.5MB, built in 7 seconds
-==> Determining autoconf bottle rebuild...
-==> Bottling autoconf-2.64.i686_linux.bottle.tar.gz...
-./autoconf-2.64.i686_linux.bottle.tar.gz
+You can run it manually using `brew postinstall bash`
+==> Caveats
+In order to use this build of bash as your login shell,
+it must be added to /etc/shells.
+
+==> Summary
+🍺  /home/kali/.linuxbrew/Cellar/bash/4.4.12: 146 files, 9.5MB, built in 2 minutes 29 seconds
+==> Determining bash bottle rebuild...
+==> Bottling bash-4.4.12.i686_linux.bottle.1.tar.gz...
+==> Detecting if bash-4.4.12.i686_linux.bottle.1.tar.gz is relocatable...
+./bash-4.4.12.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "c943cfeaac6029db2a0e6bad03d787ebfb21cddc24be6b726aacd13265b923cb" => :i686_linux
+    prefix "/home/kali/.linuxbrew"
+    cellar "/home/kali/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "86313bfa2c6bd5ef80080341559bb233f6e51c8c494f5921ee389b5cd1b7d216" => :i686_linux
   end
