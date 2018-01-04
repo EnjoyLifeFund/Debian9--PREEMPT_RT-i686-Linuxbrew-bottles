@@ -1,14 +1,16 @@
-==> Downloading https://zlib.net/zlib-1.2.11.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/zlib/1.2.11
+==> Downloading https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/m4/1.4.18
+==> make
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall zlib`
-🍺  /home/monday/.linuxbrew/Cellar/zlib/1.2.11: 12 files, 487.9KB, built in 21 seconds
-==> Determining zlib bottle rebuild...
-==> Bottling zlib-1.2.11.i686_linux.bottle.1.tar.gz...
-./zlib-1.2.11.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall m4`
+🍺  /home/monday/.linuxbrew/Cellar/m4/1.4.18: 13 files, 980.7KB, built in 1 minute 34 seconds
+==> Determining m4 bottle rebuild...
+==> Bottling m4-1.4.18.i686_linux.bottle.1.tar.gz...
+./m4-1.4.18.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "2d1dff55644a897c8e1f5a93c8a7687cc402df7d0f3bba7a73c114bbc6d9b0bd" => :i686_linux
+    sha256 "76badb0296da889a912792cc6c9ec5a31eb2012de6ddde8e17f041d153de0116" => :i686_linux
   end
