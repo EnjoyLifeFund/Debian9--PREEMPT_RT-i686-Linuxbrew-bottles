@@ -1,17 +1,16 @@
-==> Downloading https://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/libmpc/1.0.3_1 --with-gmp=/home/monday/.linuxbrew/opt/gmp --with-mpfr=/home/monday/.linuxbrew/opt/mpfr
-==> make
+==> Downloading http://isl.gforge.inria.fr/isl-0.18.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/isl/0.18 --with-gmp=system --with-gmp-prefix=/home/monday/.linuxbrew/opt/gmp
 ==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libmpc`
-🍺  /home/monday/.linuxbrew/Cellar/libmpc/1.0.3_1: 13 files, 1MB, built in 1 minute 21 seconds
-==> Determining libmpc bottle rebuild...
-==> Bottling libmpc-1.0.3_1.i686_linux.bottle.1.tar.gz...
-./libmpc-1.0.3_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall isl`
+🍺  /home/monday/.linuxbrew/Cellar/isl/0.18: 81 files, 5.6MB, built in 2 minutes 26 seconds
+==> Determining isl bottle rebuild...
+==> Bottling isl-0.18.i686_linux.bottle.1.tar.gz...
+==> Detecting if isl-0.18.i686_linux.bottle.1.tar.gz is relocatable...
+./isl-0.18.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d346c080b4fca49179904f106797c2a312d82f4e7edfabffec743032e7353343" => :i686_linux
+    sha256 "642aca197a54708b5cc9fd5fe101c88b5e9e5ab1e8c5a9e13ab5489a7f83db2c" => :i686_linux
   end
