@@ -1,16 +1,16 @@
-==> Downloading http://isl.gforge.inria.fr/isl-0.18.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/isl/0.18 --with-gmp=system --with-gmp-prefix=/home/monday/.linuxbrew/opt/gmp
-==> make check
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/zookeeper-3.4.10.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/zookeeper/3.4.10 --without-cppunit
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall isl`
-🍺  /home/monday/.linuxbrew/Cellar/isl/0.18: 81 files, 5.6MB, built in 2 minutes 26 seconds
-==> Determining isl bottle rebuild...
-==> Bottling isl-0.18.i686_linux.bottle.1.tar.gz...
-==> Detecting if isl-0.18.i686_linux.bottle.1.tar.gz is relocatable...
-./isl-0.18.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall zookeeper`
+🍺  /home/monday/.linuxbrew/Cellar/zookeeper/3.4.10: 242 files, 32.7MB, built in 1 minute 1 second
+==> Determining zookeeper bottle rebuild...
+==> Bottling zookeeper-3.4.10.i686_linux.bottle.tar.gz...
+==> Detecting if zookeeper-3.4.10.i686_linux.bottle.tar.gz is relocatable...
+./zookeeper-3.4.10.i686_linux.bottle.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "642aca197a54708b5cc9fd5fe101c88b5e9e5ab1e8c5a9e13ab5489a7f83db2c" => :i686_linux
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    sha256 "a1f21cd49f99a30178763aa02114da855da7e4b0bef5249ca9ddbea3e03623f0" => :i686_linux
   end
