@@ -1,20 +1,18 @@
-==> Downloading https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz
-==> ./configure --disable-static --prefix=/home/monday/.linuxbrew/Cellar/gmp/6.1.2_1 --enable-cxx --build=core2-linux-gnu ABI=32
+==> Downloading https://ftp.gnu.org/gnu/mpfr/mpfr-3.1.6.tar.xz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/mpfr/3.1.6 --disable-silent-rules
 ==> make
 ==> make check
 ==> make install
-==> make clean
-==> ./configure --disable-shared --disable-assembly --prefix=/home/monday/.linuxbrew/Cellar/gmp/6.1.2_1 --enable-cxx --build=core2-linux-gnu ABI=32
-==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gmp`
-🍺  /home/monday/.linuxbrew/Cellar/gmp/6.1.2_1: 25 files, 3.6MB, built in 6 minutes 20 seconds
-==> Determining gmp bottle rebuild...
-==> Bottling gmp-6.1.2_1.i686_linux.bottle.1.tar.gz...
-==> Detecting if gmp-6.1.2_1.i686_linux.bottle.1.tar.gz is relocatable...
-./gmp-6.1.2_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall mpfr`
+🍺  /home/monday/.linuxbrew/Cellar/mpfr/3.1.6: 27 files, 7MB, built in 2 minutes 25 seconds
+==> Determining mpfr bottle rebuild...
+==> Bottling mpfr-3.1.6.i686_linux.bottle.1.tar.gz...
+==> Detecting if mpfr-3.1.6.i686_linux.bottle.1.tar.gz is relocatable...
+./mpfr-3.1.6.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "763c11f0b3884b9afc80bfb676e61f7d75ae3f8cd62b40360b5010ee8d621739" => :i686_linux
+    sha256 "0414e9e6b23f4e5d67e2c8924a2d28bd70242b0d043aef3fb152d0f07d081630" => :i686_linux
   end
