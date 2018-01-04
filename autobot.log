@@ -1,18 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/lzmautils/xz-5.2.3.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/xz-5.2.3.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/xz/5.2.3
-==> make check
+==> Downloading https://zlib.net/zlib-1.2.11.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/zlib/1.2.11
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall xz`
-🍺  /home/monday/.linuxbrew/Cellar/xz/5.2.3: 99 files, 3MB, built in 1 minute 29 seconds
-==> Determining xz bottle rebuild...
-==> Bottling xz-5.2.3.i686_linux.bottle.1.tar.gz...
-==> Detecting if xz-5.2.3.i686_linux.bottle.1.tar.gz is relocatable...
-./xz-5.2.3.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall zlib`
+🍺  /home/monday/.linuxbrew/Cellar/zlib/1.2.11: 12 files, 487.9KB, built in 21 seconds
+==> Determining zlib bottle rebuild...
+==> Bottling zlib-1.2.11.i686_linux.bottle.1.tar.gz...
+./zlib-1.2.11.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "f868683809ff98ce172d2e2b1209bc4d3332d33ee73a7d1008c74ad956d8b5f7" => :i686_linux
+    sha256 "2d1dff55644a897c8e1f5a93c8a7687cc402df7d0f3bba7a73c114bbc6d9b0bd" => :i686_linux
   end
