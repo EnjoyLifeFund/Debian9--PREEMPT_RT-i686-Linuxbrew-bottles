@@ -1,18 +1,17 @@
-==> Downloading https://ftp.gnu.org/gnu/mpfr/mpfr-3.1.6.tar.xz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/mpfr/3.1.6 --disable-silent-rules
+==> Downloading https://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/libmpc/1.0.3_1 --with-gmp=/home/monday/.linuxbrew/opt/gmp --with-mpfr=/home/monday/.linuxbrew/opt/mpfr
 ==> make
 ==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall mpfr`
-🍺  /home/monday/.linuxbrew/Cellar/mpfr/3.1.6: 27 files, 7MB, built in 2 minutes 25 seconds
-==> Determining mpfr bottle rebuild...
-==> Bottling mpfr-3.1.6.i686_linux.bottle.1.tar.gz...
-==> Detecting if mpfr-3.1.6.i686_linux.bottle.1.tar.gz is relocatable...
-./mpfr-3.1.6.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libmpc`
+🍺  /home/monday/.linuxbrew/Cellar/libmpc/1.0.3_1: 13 files, 1MB, built in 1 minute 21 seconds
+==> Determining libmpc bottle rebuild...
+==> Bottling libmpc-1.0.3_1.i686_linux.bottle.1.tar.gz...
+./libmpc-1.0.3_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "0414e9e6b23f4e5d67e2c8924a2d28bd70242b0d043aef3fb152d0f07d081630" => :i686_linux
+    sha256 "d346c080b4fca49179904f106797c2a312d82f4e7edfabffec743032e7353343" => :i686_linux
   end
