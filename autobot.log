@@ -1,16 +1,20 @@
-==> Downloading https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/m4/1.4.18
+==> Downloading https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz
+==> ./configure --disable-static --prefix=/home/monday/.linuxbrew/Cellar/gmp/6.1.2_1 --enable-cxx --build=core2-linux-gnu ABI=32
 ==> make
+==> make check
 ==> make install
+==> make clean
+==> ./configure --disable-shared --disable-assembly --prefix=/home/monday/.linuxbrew/Cellar/gmp/6.1.2_1 --enable-cxx --build=core2-linux-gnu ABI=32
+==> make
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall m4`
-🍺  /home/monday/.linuxbrew/Cellar/m4/1.4.18: 13 files, 980.7KB, built in 1 minute 34 seconds
-==> Determining m4 bottle rebuild...
-==> Bottling m4-1.4.18.i686_linux.bottle.1.tar.gz...
-./m4-1.4.18.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gmp`
+🍺  /home/monday/.linuxbrew/Cellar/gmp/6.1.2_1: 25 files, 3.6MB, built in 6 minutes 20 seconds
+==> Determining gmp bottle rebuild...
+==> Bottling gmp-6.1.2_1.i686_linux.bottle.1.tar.gz...
+==> Detecting if gmp-6.1.2_1.i686_linux.bottle.1.tar.gz is relocatable...
+./gmp-6.1.2_1.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "76badb0296da889a912792cc6c9ec5a31eb2012de6ddde8e17f041d153de0116" => :i686_linux
+    sha256 "763c11f0b3884b9afc80bfb676e61f7d75ae3f8cd62b40360b5010ee8d621739" => :i686_linux
   end
