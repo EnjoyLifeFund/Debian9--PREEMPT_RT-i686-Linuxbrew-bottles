@@ -1,15 +1,80 @@
-==> Downloading https://ftp.gnu.org/gnu/gdbm/gdbm-1.14.1.tar.gz
-==> ./configure --disable-silent-rules --without-readline --prefix=/home/monday/.linuxbrew/Cellar/gdbm/1.14.1_1 --enable-libgdbm-compat
+==> Installing dependencies for openssl: berkeley-db, libbsd, expat, perl
+==> Installing openssl dependency: berkeley-db
+==> Downloading http://download.oracle.com/berkeley-db/db-6.2.32.tar.gz
+==> ../dist/configure --disable-debug --prefix=/home/monday/.linuxbrew/Cellar/berkeley-db/6.2.32 --mandir=/home/monday/.linuxbrew/Cellar/berkeley-db/6.2.32/share/man --enable-cxx --enable-compat185 --enable-sql --enable-sql_codegen --enable-dbm --enable-stl
 ==> make install
+🍺  /home/monday/.linuxbrew/Cellar/berkeley-db/6.2.32: 5,632 files, 125.8MB, built in 12 minutes 55 seconds
+==> Installing openssl dependency: libbsd
+==> Downloading https://libbsd.freedesktop.org/releases/libbsd-0.8.3.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/libbsd/0.8.3
+==> make install
+🍺  /home/monday/.linuxbrew/Cellar/libbsd/0.8.3: 83 files, 1.2MB, built in 39 seconds
+==> Installing openssl dependency: expat
+==> Downloading https://downloads.sourceforge.net/project/expat/expat/2.2.5/expat-2.2.5.tar.bz2
+==> Downloading from https://ncu.dl.sourceforge.net/project/expat/expat/2.2.5/expat-2.2.5.tar.bz2
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/expat/2.2.5 --mandir=/home/monday/.linuxbrew/Cellar/expat/2.2.5/share/man --with-libbsd
+==> make install
+🍺  /home/monday/.linuxbrew/Cellar/expat/2.2.5: 18 files, 1.2MB, built in 41 seconds
+==> Installing openssl dependency: perl
+==> Downloading https://www.cpan.org/src/5.0/perl-5.26.1.tar.xz
+==> ./Configure -des -Dprefix=/home/monday/.linuxbrew/Cellar/perl/5.26.1 -Dprivlib=/home/monday/.linuxbrew/Cellar/perl/5.26.1/lib/perl5/5.26.1 -Dsitelib=/home/monday/.linuxbrew/Cellar/perl/5.26.1/lib/perl5/site_perl/5.26.1 -Dotherlibdirs=/home/monday/.linuxbrew/lib/perl5/site_perl/5.26.1 -Dperlpath=/home/monday/.linuxbrew/opt/perl/bin/perl -Dstartperl=#!/home/monday/.linuxbrew/opt/perl/bin/perl -Dman1dir=/home/monday/.linuxbrew/Cellar/perl/5.26.1/share/man/man1 -Dman3dir=/home/monday/.linuxbrew/Cellar/perl/5.26.1/share/man/man3 -Duseshrplib -Duselargefiles -Dusethreads -Dlocincpth=/home/monday/.linuxbrew/include
+==> make
+==> make install
+==> /home/monday/.linuxbrew/Cellar/perl/5.26.1/bin/cpan -i XML::Parser
+==> /home/monday/.linuxbrew/Cellar/perl/5.26.1/bin/cpan -i XML::SAX
+==> Caveats
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.bash_profile
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/perl/5.26.1: 2,730 files, 62.2MB, built in 10 minutes 33 seconds
+==> Installing openssl
+==> Downloading https://www.openssl.org/source/openssl-1.0.2n.tar.gz
+==> Downloading https://github.com/openssl/openssl/pull/1524.patch
+==> Downloading from https://patch-diff.githubusercontent.com/raw/openssl/openssl/pull/1524.patch
+==> Patching
+==> Applying 1524.patch
+patching file Configure
+Hunk #1 succeeded at 1723 (offset 2 lines).
+==> perl ./Configure --prefix=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n --openssldir=/home/monday/.linuxbrew/etc/openssl no-ssl2 zlib-dynamic shared enable-cms -Wa,--noexecstack linux-generic32
+==> make depend
+==> make
+==> make test
+==> make install MANDIR=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n/share/man MANSUFFIX=ssl
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gdbm`
-🍺  /home/monday/.linuxbrew/Cellar/gdbm/1.14.1_1: 37 files, 1.7MB, built in 45 seconds
-==> Determining gdbm bottle rebuild...
-==> Bottling gdbm-1.14.1_1.i686_linux.bottle.1.tar.gz...
-./gdbm-1.14.1_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall openssl`
+==> Caveats
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /home/monday/.linuxbrew/etc/openssl/certs
+
+and run
+  /home/monday/.linuxbrew/opt/openssl/bin/c_rehash
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/openssl/1.0.2n: 1,801 files, 13.3MB, built in 11 minutes
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+angular-cli
+node-build
+pushpin
+sassc
+spdlog
+swi-prolog
+terragrunt
+xmrig
+
+==> Determining openssl bottle rebuild...
+==> Bottling openssl-1.0.2n.i686_linux.bottle.1.tar.gz...
+==> Detecting if openssl-1.0.2n.i686_linux.bottle.1.tar.gz is relocatable...
+./openssl-1.0.2n.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "b5e6796906730246ab23d57450d27d254048a12a8ae8131a4d914d9086cf9d5a" => :i686_linux
+    sha256 "b7127420ba3c9534d55943f9d43c1454298249a19012550a57ca840253203c76" => :i686_linux
   end
