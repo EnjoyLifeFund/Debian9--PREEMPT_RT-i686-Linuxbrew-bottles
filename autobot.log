@@ -1,16 +1,15 @@
-==> Downloading https://sqlite.org/2017/sqlite-autoconf-3210000.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sqlite/3.21.0 --enable-dynamic-extensions --enable-readline --disable-editline
+==> Downloading https://ftp.gnu.org/gnu/gdbm/gdbm-1.14.1.tar.gz
+==> ./configure --disable-silent-rules --without-readline --prefix=/home/monday/.linuxbrew/Cellar/gdbm/1.14.1_1 --enable-libgdbm-compat
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall sqlite`
-🍺  /home/monday/.linuxbrew/Cellar/sqlite/3.21.0: 12 files, 11.8MB, built in 3 minutes 54 seconds
-==> Determining sqlite bottle rebuild...
-==> Bottling sqlite-3.21.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if sqlite-3.21.0.i686_linux.bottle.1.tar.gz is relocatable...
-./sqlite-3.21.0.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gdbm`
+🍺  /home/monday/.linuxbrew/Cellar/gdbm/1.14.1_1: 37 files, 1.7MB, built in 45 seconds
+==> Determining gdbm bottle rebuild...
+==> Bottling gdbm-1.14.1_1.i686_linux.bottle.1.tar.gz...
+./gdbm-1.14.1_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "80d0ba02683807b855c9acc01bb029ecb1754b23d4acf33c19ec54919c7fa920" => :i686_linux
+    sha256 "b5e6796906730246ab23d57450d27d254048a12a8ae8131a4d914d9086cf9d5a" => :i686_linux
   end
