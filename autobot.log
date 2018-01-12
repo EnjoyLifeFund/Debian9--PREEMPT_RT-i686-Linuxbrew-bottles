@@ -1,21 +1,17 @@
-==> Downloading https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
-Already downloaded: /home/monday/.cache/Homebrew/libtool-2.4.6.tar.xz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/libtool/2.4.6_2  --enable-ltdl-install
-==> make install
+==> Downloading http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/bzip2-1.0.6.tar.gz
+==> make install PREFIX=/home/monday/.linuxbrew/Cellar/bzip2/1.0.6_1
+==> make -f Makefile-libbz2_so clean
+==> make -f Makefile-libbz2_so
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall libtool`
-==> Caveats
-In order to prevent conflicts with Apple's own libtool we have prepended a "g"
-so, you have instead: glibtool and glibtoolize.
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/libtool/2.4.6_2: 74 files, 3.9MB, built in 33 seconds
-==> Determining libtool bottle rebuild...
-==> Bottling libtool-2.4.6_2.i686_linux.bottle.1.tar.gz...
-==> Detecting if libtool-2.4.6_2.i686_linux.bottle.1.tar.gz is relocatable...
-./libtool-2.4.6_2.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall bzip2`
+🍺  /home/monday/.linuxbrew/Cellar/bzip2/1.0.6_1: 30 files, 1.2MB, built in 9 seconds
+==> Determining bzip2 bottle rebuild...
+==> Bottling bzip2-1.0.6_1.i686_linux.bottle.1.tar.gz...
+./bzip2-1.0.6_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "0cac59ed067e5bd6df6a6a6e26d3ee6af47158972820331e1330a5227c03618a" => :i686_linux
+    sha256 "5960375ad25bc1aab1fdd92b7e2887479ff677cdfe25f2dd062e18be90c2f67e" => :i686_linux
   end
