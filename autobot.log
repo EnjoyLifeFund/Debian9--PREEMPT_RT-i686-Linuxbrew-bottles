@@ -1,16 +1,25 @@
-==> Downloading https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz
-Already downloaded: /home/monday/.cache/Homebrew/gpatch-2.7.5.tar.xz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/gpatch/2.7.5
+==> Downloading http://download.osgeo.org/libtiff/tiff-4.0.9.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/libtiff-4.0.9.tar.gz
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/t/tiff/tiff_4.0.9-3.debian.tar.xz
+Already downloaded: /home/monday/.cache/Homebrew/libtiff--patch-c413f5b2423b95d8b068adca695f0ddaea5219088a1d38de4800b379bc20ca73.tar.xz
+==> Patching
+==> Applying patches/CVE-2017-9935.patch
+patching file libtiff/tif_dir.c
+patching file tools/tiff2pdf.c
+==> Applying patches/CVE-2017-18013.patch
+patching file libtiff/tif_print.c
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/libtiff/4.0.9_2 --without-x --with-jpeg-include-dir=/home/monday/.linuxbrew/opt/jpeg/include --with-jpeg-lib-dir=/home/monday/.linuxbrew/opt/jpeg/lib --disable-lzma
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gpatch`
-🍺  /home/monday/.linuxbrew/Cellar/gpatch/2.7.5: 10 files, 688.7KB, built in 1 minute 31 seconds
-==> Determining gpatch bottle rebuild...
-==> Bottling gpatch-2.7.5.i686_linux.bottle.1.tar.gz...
-./gpatch-2.7.5.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libtiff`
+🍺  /home/monday/.linuxbrew/Cellar/libtiff/4.0.9_2: 248 files, 6.3MB, built in 1 minute 18 seconds
+==> Determining libtiff bottle rebuild...
+==> Bottling libtiff-4.0.9_2.i686_linux.bottle.1.tar.gz...
+==> Detecting if libtiff-4.0.9_2.i686_linux.bottle.1.tar.gz is relocatable...
+./libtiff-4.0.9_2.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "532b3b5f456cb4a325269330cc8622b55a988f9242baac297e6c28c690ea64da" => :i686_linux
+    sha256 "aa0f9ff6303a04abd211d5c6d37474fe24ff1df40df2d4f903e926c3906d224a" => :i686_linux
   end
