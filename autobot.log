@@ -1,18 +1,21 @@
-==> Downloading https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/pkg-config-0.29.2.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/pkg-config/0.29.2_1 --disable-host-tool --with-internal-glib --with-pc-path=/home/monday/.linuxbrew/lib/pkgconfig:/home/monday/.linuxbrew/share/pkgconfig:/home/monday/.linuxbrew/Library/Homebrew/os/linux/pkgconfig
-==> make
-==> make check
+==> Downloading https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
+Already downloaded: /home/monday/.cache/Homebrew/libtool-2.4.6.tar.xz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/libtool/2.4.6_2  --enable-ltdl-install
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall pkg-config`
-🍺  /home/monday/.linuxbrew/Cellar/pkg-config/0.29.2_1: 11 files, 1.4MB, built in 1 minute 47 seconds
-==> Determining pkg-config bottle rebuild...
-==> Bottling pkg-config-0.29.2_1.i686_linux.bottle.1.tar.gz...
-./pkg-config-0.29.2_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall libtool`
+==> Caveats
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/libtool/2.4.6_2: 74 files, 3.9MB, built in 33 seconds
+==> Determining libtool bottle rebuild...
+==> Bottling libtool-2.4.6_2.i686_linux.bottle.1.tar.gz...
+==> Detecting if libtool-2.4.6_2.i686_linux.bottle.1.tar.gz is relocatable...
+./libtool-2.4.6_2.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "fcabd665057d415ae2ae480f1aa04bf15cedcc22a668a721fd2cb47f29c9433c" => :i686_linux
+    sha256 "0cac59ed067e5bd6df6a6a6e26d3ee6af47158972820331e1330a5227c03618a" => :i686_linux
   end
