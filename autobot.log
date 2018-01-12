@@ -1,19 +1,29 @@
-==> Downloading https://ftp.gnu.org/gnu/ncurses/ncurses-6.0.tar.gz
-==> Downloading https://invisible-mirror.net/archives/ncurses/6.0/ncurses-6.0-20170930-patch.sh.bz2
-==> sh ncurses-6.0-20170930-patch.sh
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/ncurses/6.0_4 --enable-pc-files --with-pkg-config-libdir=/home/monday/.linuxbrew/Cellar/ncurses/6.0_4/lib/pkgconfig --enable-sigwinch --enable-symlinks --enable-widec --mandir=/home/monday/.linuxbrew/Cellar/ncurses/6.0_4/share/man --with-manpage-format=normal --with-shared --with-gpm=no --without-ada
-==> make
-==> make install
+==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0-patches/readline70-001
+==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0-patches/readline70-002
+==> Downloading https://ftp.gnu.org/gnu/readline/readline-7.0-patches/readline70-003
+==> Patching
+==> Applying readline70-001
+patching file history.c
+patching file patchlevel
+==> Applying readline70-002
+patching file history.c
+patching file patchlevel
+==> Applying readline70-003
+patching file input.c
+patching file patchlevel
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/readline/7.0.3_1 --with-curses
+==> make install SHLIB_LIBS=-lcurses
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ncurses`
-🍺  /home/monday/.linuxbrew/Cellar/ncurses/6.0_4: 3,899 files, 16.3MB, built in 4 minutes 31 seconds
-==> Determining ncurses bottle rebuild...
-==> Bottling ncurses-6.0_4.i686_linux.bottle.1.tar.gz...
-==> Detecting if ncurses-6.0_4.i686_linux.bottle.1.tar.gz is relocatable...
-./ncurses-6.0_4.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall readline`
+🍺  /home/monday/.linuxbrew/Cellar/readline/7.0.3_1: 46 files, 2.9MB, built in 1 minute 11 seconds
+==> Determining readline bottle rebuild...
+==> Bottling readline-7.0.3_1.i686_linux.bottle.1.tar.gz...
+==> Detecting if readline-7.0.3_1.i686_linux.bottle.1.tar.gz is relocatable...
+./readline-7.0.3_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "eac96480693354fa514bdffc95d6d88c3b7a7a235d62a1300ecc7f6d8c39a450" => :i686_linux
+    sha256 "df007059839b0e1594bee45eeec1246b3b3e7a20415941ce964aba529150bc40" => :i686_linux
   end
