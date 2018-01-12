@@ -1,16 +1,18 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/zookeeper-3.4.10.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/zookeeper/3.4.10 --without-cppunit
+==> Downloading https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/pkg-config-0.29.2.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/pkg-config/0.29.2_1 --disable-host-tool --with-internal-glib --with-pc-path=/home/monday/.linuxbrew/lib/pkgconfig:/home/monday/.linuxbrew/share/pkgconfig:/home/monday/.linuxbrew/Library/Homebrew/os/linux/pkgconfig
+==> make
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall zookeeper`
-🍺  /home/monday/.linuxbrew/Cellar/zookeeper/3.4.10: 242 files, 32.7MB, built in 1 minute 1 second
-==> Determining zookeeper bottle rebuild...
-==> Bottling zookeeper-3.4.10.i686_linux.bottle.tar.gz...
-==> Detecting if zookeeper-3.4.10.i686_linux.bottle.tar.gz is relocatable...
-./zookeeper-3.4.10.i686_linux.bottle.tar.gz
+You can run it manually using `brew postinstall pkg-config`
+🍺  /home/monday/.linuxbrew/Cellar/pkg-config/0.29.2_1: 11 files, 1.4MB, built in 1 minute 47 seconds
+==> Determining pkg-config bottle rebuild...
+==> Bottling pkg-config-0.29.2_1.i686_linux.bottle.1.tar.gz...
+./pkg-config-0.29.2_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
-    sha256 "a1f21cd49f99a30178763aa02114da855da7e4b0bef5249ca9ddbea3e03623f0" => :i686_linux
+    rebuild 1
+    sha256 "fcabd665057d415ae2ae480f1aa04bf15cedcc22a668a721fd2cb47f29c9433c" => :i686_linux
   end
