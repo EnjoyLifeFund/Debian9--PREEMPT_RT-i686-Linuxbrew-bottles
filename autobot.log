@@ -1,18 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/freetype/freetype2/2.9/freetype-2.9.tar.bz2
-Already downloaded: /home/monday/.cache/Homebrew/freetype-2.9.tar.bz2
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/freetype/2.9 --without-harfbuzz
-==> make
-==> make install
+==> Downloading https://github.com/dylanaraps/neofetch/archive/3.3.0.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/neofetch-3.3.0.tar.gz
+==> make install PREFIX=/home/monday/.linuxbrew/Cellar/neofetch/3.3.0 SYSCONFDIR=/home/monday/.linuxbrew/etc
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall freetype`
-🍺  /home/monday/.linuxbrew/Cellar/freetype/2.9: 61 files, 7.7MB, built in 59 seconds
-==> Determining freetype bottle rebuild...
-==> Bottling freetype-2.9.i686_linux.bottle.1.tar.gz...
-==> Detecting if freetype-2.9.i686_linux.bottle.1.tar.gz is relocatable...
-./freetype-2.9.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall neofetch`
+🍺  /home/monday/.linuxbrew/Cellar/neofetch/3.3.0: 141 files, 284.8KB, built in 1 second
+==> Determining neofetch bottle rebuild...
+==> Bottling neofetch-3.3.0.i686_linux.bottle.1.tar.gz...
+./neofetch-3.3.0.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "aa1228164c47d895ae1cbc8a3089d638983d01ce574b788b4181c366a3818570" => :i686_linux
+    sha256 "219461dbbfabdcff59042cf196d88ba3df1d65d4d566dbf12d08d55b89ae16e1" => :i686_linux
   end
