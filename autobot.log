@@ -1,80 +1,65 @@
-==> Installing dependencies for openssl: berkeley-db, libbsd, expat, perl
-==> Installing openssl dependency: berkeley-db
-==> Downloading http://download.oracle.com/berkeley-db/db-6.2.32.tar.gz
-==> ../dist/configure --disable-debug --prefix=/home/monday/.linuxbrew/Cellar/berkeley-db/6.2.32 --mandir=/home/monday/.linuxbrew/Cellar/berkeley-db/6.2.32/share/man --enable-cxx --enable-compat185 --enable-sql --enable-sql_codegen --enable-dbm --enable-stl
-==> make install
-🍺  /home/monday/.linuxbrew/Cellar/berkeley-db/6.2.32: 5,632 files, 125.8MB, built in 12 minutes 55 seconds
-==> Installing openssl dependency: libbsd
-==> Downloading https://libbsd.freedesktop.org/releases/libbsd-0.8.3.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/libbsd/0.8.3
-==> make install
-🍺  /home/monday/.linuxbrew/Cellar/libbsd/0.8.3: 83 files, 1.2MB, built in 39 seconds
-==> Installing openssl dependency: expat
-==> Downloading https://downloads.sourceforge.net/project/expat/expat/2.2.5/expat-2.2.5.tar.bz2
-==> Downloading from https://ncu.dl.sourceforge.net/project/expat/expat/2.2.5/expat-2.2.5.tar.bz2
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/expat/2.2.5 --mandir=/home/monday/.linuxbrew/Cellar/expat/2.2.5/share/man --with-libbsd
-==> make install
-🍺  /home/monday/.linuxbrew/Cellar/expat/2.2.5: 18 files, 1.2MB, built in 41 seconds
-==> Installing openssl dependency: perl
-==> Downloading https://www.cpan.org/src/5.0/perl-5.26.1.tar.xz
-==> ./Configure -des -Dprefix=/home/monday/.linuxbrew/Cellar/perl/5.26.1 -Dprivlib=/home/monday/.linuxbrew/Cellar/perl/5.26.1/lib/perl5/5.26.1 -Dsitelib=/home/monday/.linuxbrew/Cellar/perl/5.26.1/lib/perl5/site_perl/5.26.1 -Dotherlibdirs=/home/monday/.linuxbrew/lib/perl5/site_perl/5.26.1 -Dperlpath=/home/monday/.linuxbrew/opt/perl/bin/perl -Dstartperl=#!/home/monday/.linuxbrew/opt/perl/bin/perl -Dman1dir=/home/monday/.linuxbrew/Cellar/perl/5.26.1/share/man/man1 -Dman3dir=/home/monday/.linuxbrew/Cellar/perl/5.26.1/share/man/man3 -Duseshrplib -Duselargefiles -Dusethreads -Dlocincpth=/home/monday/.linuxbrew/include
-==> make
-==> make install
-==> /home/monday/.linuxbrew/Cellar/perl/5.26.1/bin/cpan -i XML::Parser
-==> /home/monday/.linuxbrew/Cellar/perl/5.26.1/bin/cpan -i XML::SAX
-==> Caveats
-By default non-brewed cpan modules are installed to the Cellar. If you wish
-for your modules to persist across updates we recommend using `local::lib`.
-
-You can set that up like this:
-  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
-  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.bash_profile
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/perl/5.26.1: 2,730 files, 62.2MB, built in 10 minutes 33 seconds
-==> Installing openssl
-==> Downloading https://www.openssl.org/source/openssl-1.0.2n.tar.gz
-==> Downloading https://github.com/openssl/openssl/pull/1524.patch
-==> Downloading from https://patch-diff.githubusercontent.com/raw/openssl/openssl/pull/1524.patch
-==> Patching
-==> Applying 1524.patch
-patching file Configure
-Hunk #1 succeeded at 1723 (offset 2 lines).
-==> perl ./Configure --prefix=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n --openssldir=/home/monday/.linuxbrew/etc/openssl no-ssl2 zlib-dynamic shared enable-cms -Wa,--noexecstack linux-generic32
-==> make depend
-==> make
-==> make test
-==> make install MANDIR=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n/share/man MANSUFFIX=ssl
+==> Downloading https://files.pythonhosted.org/packages/7a/1e/415e6071c7bbceb5ce5e92b06297a5192544bcd5c0d50fd73e1f61da55f5/Sphinx-1.6.6.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/41/5f/6da80400340fd48ba4ae1c673be4dc3821ac06cd9821ea60f9c7d32a009f/setuptools-38.4.0.zip
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/d0/a5/e3a9ad3ee86aceeff71908ae562580643b955ea1b1d4f08ed6f7e8396bd7/alabaster-0.7.10.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/5a/22/63f1dbb8514bb7e0d0c8a85cc9b14506599a075e231985f98afd70430e1f/Babel-2.5.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/23/3f/8be01c50ed24a4bd6b8da799839066ce0288f66f5e11f0367323467f0cbc/certifi-2017.11.5.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/84/f4/5771e41fdf52aabebbadecc9381d11dea0fa34e4759b4071244fa094804c/docutils-0.14.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/53/72/6c6f1e787d9cab2cc733cf042f125abec07209a58308831c9f292504e826/imagesize-0.7.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/56/e6/332789f295cf22308386cf5bbd1f4e00ed11484299c5d7383378cf48ba47/Jinja2-2.10.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/21/94/0e087bd669bb69da3b0996acfee97cee9f7d91c825991ad76eb863dc020d/numpydoc-0.7.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/71/2a/2e4e77803a8bd6408a2903340ac498cb0a2181811af7c9ec92cb70b0308a/Pygments-2.2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/60/88/d3152c234da4b2a1f7a989f89609ea488225eaea015bc16fbde2b3fdfefa/pytz-2017.3.zip
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/20/6b/d2a7cb176d4d664d94a6debf52cd8dbae1f7203c8e42426daa077051d59c/snowballstemmer-1.2.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/c5/6b/f0630436b931ad4f8331a9399ca18a7d447f0fcc0c7178fb56b1aee68d01/sphinxcontrib-websupport-1.0.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/ca/38/16ba8d542e609997fdcd0214628421c971f8c395084085354b11ff4ac9c3/typing-3.6.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6/libexec --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall openssl`
+You can run it manually using `brew postinstall sphinx-doc`
 ==> Caveats
-A CA file has been bootstrapped using certificates from the SystemRoots
-keychain. To add additional certificates (e.g. the certificates added in
-the System keychain), place .pem files in
-  /home/monday/.linuxbrew/etc/openssl/certs
+This formula is keg-only, which means it was not symlinked into /home/monday/.linuxbrew,
+because this formula is mainly used internally by other formulae.
+Users are advised to use `pip` to install sphinx-doc.
 
-and run
-  /home/monday/.linuxbrew/opt/openssl/bin/c_rehash
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/monday/.linuxbrew/opt/sphinx-doc/bin:$PATH"' >> ~/.bash_profile
+
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/openssl/1.0.2n: 1,801 files, 13.3MB, built in 11 minutes
+🍺  /home/monday/.linuxbrew/Cellar/sphinx-doc/1.6.6: 3,393 files, 48.3MB, built in 2 minutes 22 seconds
 ==> Auto-updated Homebrew!
 Updated 1 tap (homebrew/core).
-==> Updated Formulae
-angular-cli
-node-build
-pushpin
-sassc
-spdlog
-swi-prolog
-terragrunt
-xmrig
+No changes to formulae.
 
-==> Determining openssl bottle rebuild...
-==> Bottling openssl-1.0.2n.i686_linux.bottle.1.tar.gz...
-==> Detecting if openssl-1.0.2n.i686_linux.bottle.1.tar.gz is relocatable...
-./openssl-1.0.2n.i686_linux.bottle.1.tar.gz
+==> Determining sphinx-doc bottle rebuild...
+==> Bottling sphinx-doc-1.6.6.i686_linux.bottle.1.tar.gz...
+==> Detecting if sphinx-doc-1.6.6.i686_linux.bottle.1.tar.gz is relocatable...
+./sphinx-doc-1.6.6.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "b7127420ba3c9534d55943f9d43c1454298249a19012550a57ca840253203c76" => :i686_linux
+    sha256 "ad6501d747b9ac9bd71ddd851aefb3f096e071c745bbd51f944dc724cea56d5c" => :i686_linux
   end
