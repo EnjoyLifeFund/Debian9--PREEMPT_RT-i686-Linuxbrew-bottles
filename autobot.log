@@ -1,17 +1,16 @@
-==> Downloading http://www.ijg.org/files/jpegsrc.v9b.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/jpeg-9b.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/jpeg/9b
+==> Downloading https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz
+Already downloaded: /home/monday/.cache/Homebrew/gpatch-2.7.5.tar.xz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/gpatch/2.7.5
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall jpeg`
-🍺  /home/monday/.linuxbrew/Cellar/jpeg/9b: 21 files, 2.9MB, built in 31 seconds
-==> Determining jpeg bottle rebuild...
-==> Bottling jpeg-9b.i686_linux.bottle.1.tar.gz...
-==> Detecting if jpeg-9b.i686_linux.bottle.1.tar.gz is relocatable...
-./jpeg-9b.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gpatch`
+🍺  /home/monday/.linuxbrew/Cellar/gpatch/2.7.5: 10 files, 688.7KB, built in 1 minute 31 seconds
+==> Determining gpatch bottle rebuild...
+==> Bottling gpatch-2.7.5.i686_linux.bottle.1.tar.gz...
+./gpatch-2.7.5.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "49654e51c5936405d36e69b728c3b4644e09c31b1916537fe451a68789422f95" => :i686_linux
+    sha256 "532b3b5f456cb4a325269330cc8622b55a988f9242baac297e6c28c690ea64da" => :i686_linux
   end
