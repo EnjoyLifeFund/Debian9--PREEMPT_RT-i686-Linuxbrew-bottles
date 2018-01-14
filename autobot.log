@@ -1,24 +1,29 @@
-==> Downloading https://cmake.org/files/v3.10/cmake-3.10.1.tar.gz
-==> ./bootstrap --prefix=/home/monday/.linuxbrew/Cellar/cmake/3.10.1 --no-system-libs --parallel=4 --datadir=/share/cmake --docdir=/share/doc/cmake --mandir=/share/man --system-zlib --system-bzip2 --system-curl --sphinx-man --sphinx-build=/home/monday/.linuxbrew/opt/sphinx-doc/bin/sphinx-build -- -DCMAKE_BUILD_TYPE=Release
-==> make
-==> make install
+==> Downloading https://github.com/ninja-build/ninja/archive/v1.8.2.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/ninja-1.8.2.tar.gz
+==> python configure.py --bootstrap
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/googletest/gtest-1.7.0.zip
+Already downloaded: /home/monday/.cache/Homebrew/ninja--gtest-1.7.0.zip
+==> ./configure.py --with-gtest=gtest
+==> ./ninja ninja_test
+==> ./ninja_test --gtest_filter=-SubprocessTest.SetWithLots
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cmake`
+You can run it manually using `brew postinstall ninja`
 ==> Caveats
-Emacs Lisp files have been installed to:
-  /home/monday/.linuxbrew/share/emacs/site-lisp/cmake
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/cmake/3.10.1: 2,333 files, 37.4MB, built in 12 minutes 40 seconds
+🍺  /home/monday/.linuxbrew/Cellar/ninja/1.8.2: 7 files, 3.4MB, built in 1 minute 12 seconds
 ==> Auto-updated Homebrew!
 Updated 1 tap (homebrew/core).
 No changes to formulae.
 
-==> Determining cmake bottle rebuild...
-==> Bottling cmake-3.10.1.i686_linux.bottle.1.tar.gz...
-==> Detecting if cmake-3.10.1.i686_linux.bottle.1.tar.gz is relocatable...
-./cmake-3.10.1.i686_linux.bottle.1.tar.gz
+==> Determining ninja bottle rebuild...
+==> Bottling ninja-1.8.2.i686_linux.bottle.1.tar.gz...
+==> Detecting if ninja-1.8.2.i686_linux.bottle.1.tar.gz is relocatable...
+./ninja-1.8.2.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "225545e6f1f2e1469e2c66cd3d63e62c2a219670f1e9bdedc0e3224c6058f3b7" => :i686_linux
+    sha256 "567f5e1dae70b539b42d12e43fb798d04fa60dd50dcf70331a7c53c1c53d4f3e" => :i686_linux
   end
