@@ -1,38 +1,29 @@
-==> Upgrading 1 outdated package, with result:
-openssl 1.0.2n_1
-==> Upgrading openssl 
-==> Downloading https://www.openssl.org/source/openssl-1.0.2n.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/openssl-1.0.2n.tar.gz
-==> Downloading https://github.com/openssl/openssl/pull/1524.patch
-Already downloaded: /home/monday/.cache/Homebrew/openssl--patch-bc954e98673a78983e58da2fe6decfcf94b38eeec78d8b456ca716a539f78b06.patch
-==> Patching
-==> Applying 1524.patch
-patching file Configure
-Hunk #1 succeeded at 1723 (offset 2 lines).
-==> perl ./Configure --prefix=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n_1 --openssldir=/home/monday/.linuxbrew/etc/openssl no-ssl2 zlib-dynamic shared enable-cms -Wa,--noexecstack linux-generic32
-==> make depend
-==> make
-==> make test
-==> make install MANDIR=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n_1/share/man MANSUFFIX=ssl
+==> Downloading https://dl.google.com/go/go1.10.src.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/go-1.10.tar.gz
+==> Downloading https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/go--gobootstrap-1.7.tar.gz
+==> ./make.bash --no-clean
+==> Cloning https://go.googlesource.com/tools.git
+==> Checking out branch release-branch.go1.10
+==> go build
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall openssl`
+You can run it manually using `brew postinstall go`
 ==> Caveats
-A CA file has been bootstrapped using certificates from the SystemRoots
-keychain. To add additional certificates (e.g. the certificates added in
-the System keychain), place .pem files in
-  /home/monday/.linuxbrew/etc/openssl/certs
+A valid GOPATH is required to use the `go get` command.
+If $GOPATH is not specified, $HOME/go will be used by default:
+  https://golang.org/doc/code.html#GOPATH
 
-and run
-  /home/monday/.linuxbrew/opt/openssl/bin/c_rehash
+You may wish to add the GOROOT-based install location to your PATH:
+  export PATH=$PATH:/home/monday/.linuxbrew/opt/go/libexec/bin
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/openssl/1.0.2n_1: 1,791 files, 13.2MB, built in 10 minutes 54 seconds
-==> Determining openssl bottle rebuild...
-==> Bottling openssl-1.0.2n_1.i686_linux.bottle.1.tar.gz...
-==> Detecting if openssl-1.0.2n_1.i686_linux.bottle.1.tar.gz is relocatable...
-./openssl-1.0.2n_1.i686_linux.bottle.1.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/go/1.10: 7,966 files, 284.3MB, built in 4 minutes 45 seconds
+==> Determining go bottle rebuild...
+==> Bottling go-1.10.i686_linux.bottle.1.tar.gz...
+==> Detecting if go-1.10.i686_linux.bottle.1.tar.gz is relocatable...
+./go-1.10.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "1365920d47988621d008e64e9e27f968b7f7246a93fe93c6ba24fa7ef66d2433" => :i686_linux
+    sha256 "5588abe0acd9aa70de9d4a75508f833792962301237bed90c120f0f8bcdd702b" => :i686_linux
   end

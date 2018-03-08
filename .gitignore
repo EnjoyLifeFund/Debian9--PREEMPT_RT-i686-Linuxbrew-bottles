@@ -1,5 +1,4 @@
 bot_path
-gcc*.bootle.*.tar.gz
 llvm*.bottle.*.tar.gz
 rust-*.bottle.*.tar.gz
 message.txt
