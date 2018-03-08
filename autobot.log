@@ -1,29 +1,26 @@
 ==> Upgrading 1 outdated package, with result:
-perl 5.26.1_1
-==> Upgrading perl 
-==> Downloading https://www.cpan.org/src/5.0/perl-5.26.1.tar.xz
-Already downloaded: /home/monday/.cache/Homebrew/perl-5.26.1.tar.xz
-==> ./Configure -des -Dprefix=/home/monday/.linuxbrew/Cellar/perl/5.26.1_1 -Dprivlib=/home/monday/.linuxbrew/Cellar/perl/5.26.1_1/lib/perl5/5.26.1 -Dsitelib=/home/monday/.linuxbrew/Cellar/perl/5.26.1_1/lib/perl5/site_perl/5.26.1 -Dotherlibdirs=/home/monday/.linuxbrew/lib/perl5/site_perl/5.26.1 -Dperlpath=/home/monday/.linuxbrew/opt/perl/bin/perl -Dstartperl=#!/home/monday/.linuxbrew/opt/perl/bin/perl -Dman1dir=/home/monday/.linuxbrew/Cellar/perl/5.26.1_1/share/man/man1 -Dman3dir=/home/monday/.linuxbrew/Cellar/perl/5.26.1_1/share/man/man3 -Duseshrplib -Duselargefiles -Dusethreads -Dlocincpth=/home/monday/.linuxbrew/include
-==> make
+sqlite 3.22.0
+==> Upgrading sqlite 
+==> Installing dependencies for sqlite: ncurses
+==> Installing sqlite dependency: ncurses
+==> Downloading https://ftp.gnu.org/gnu/ncurses/ncurses-6.1.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/ncurses/6.1 --enable-pc-files --with-pkg-config-libdir=/home/monday/.linuxbrew/Cellar/ncurses/6.1/lib/pkgconfig --enable-sigwinch --enable-symlinks --enable-widec --with-shared --with-gpm=no --without-ada
+==> make install
+🍺  /home/monday/.linuxbrew/Cellar/ncurses/6.1: 3,856 files, 14.7MB, built in 2 minutes 47 seconds
+==> Installing sqlite
+==> Downloading https://sqlite.org/2018/sqlite-autoconf-3220000.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sqlite/3.22.0 --enable-dynamic-extensions --enable-readline --disable-editline
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall perl`
-==> Caveats
-By default non-brewed cpan modules are installed to the Cellar. If you wish
-for your modules to persist across updates we recommend using `local::lib`.
-
-You can set that up like this:
-  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
-  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.bash_profile
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/perl/5.26.1_1: 2,402 files, 59.4MB, built in 6 minutes 42 seconds
-==> Determining perl bottle rebuild...
-==> Bottling perl-5.26.1_1.i686_linux.bottle.2.tar.gz...
-==> Detecting if perl-5.26.1_1.i686_linux.bottle.2.tar.gz is relocatable...
-./perl-5.26.1_1.i686_linux.bottle.2.tar.gz
+You can run it manually using `brew postinstall sqlite`
+🍺  /home/monday/.linuxbrew/Cellar/sqlite/3.22.0: 12 files, 12MB, built in 3 minutes 41 seconds
+==> Determining sqlite bottle rebuild...
+==> Bottling sqlite-3.22.0.i686_linux.bottle.1.tar.gz...
+==> Detecting if sqlite-3.22.0.i686_linux.bottle.1.tar.gz is relocatable...
+./sqlite-3.22.0.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
-    rebuild 2
-    sha256 "183abfe324aa5429b518a3e04a767a0a1abdf52452732402af3f0eec8fe564cc" => :i686_linux
+    rebuild 1
+    sha256 "46febf0b5f13533d3841ab1ab406da3a5e6a2be0b4ad12370b270f9659a5a299" => :i686_linux
   end
