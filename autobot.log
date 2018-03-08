@@ -1,29 +1,21 @@
-==> Downloading https://dl.google.com/go/go1.10.src.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/go-1.10.tar.gz
-==> Downloading https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/go--gobootstrap-1.7.tar.gz
-==> ./make.bash --no-clean
-==> Cloning https://go.googlesource.com/tools.git
-==> Checking out branch release-branch.go1.10
-==> go build
+==> Downloading https://dl.bintray.com/homebrew/mirror/dpkg-1.19.0.5.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/dpkg/1.19.0.5/libexec --sysconfdir=/home/monday/.linuxbrew/etc --localstatedir=/home/monday/.linuxbrew/var --disable-dselect --disable-start-stop-daemon
+==> make
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall go`
+You can run it manually using `brew postinstall dpkg`
 ==> Caveats
-A valid GOPATH is required to use the `go get` command.
-If $GOPATH is not specified, $HOME/go will be used by default:
-  https://golang.org/doc/code.html#GOPATH
-
-You may wish to add the GOROOT-based install location to your PATH:
-  export PATH=$PATH:/home/monday/.linuxbrew/opt/go/libexec/bin
+This installation of dpkg is not configured to install software, so
+commands such as `dpkg -i`, `dpkg --configure` will fail.
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/go/1.10: 7,966 files, 284.3MB, built in 4 minutes 45 seconds
-==> Determining go bottle rebuild...
-==> Bottling go-1.10.i686_linux.bottle.1.tar.gz...
-==> Detecting if go-1.10.i686_linux.bottle.1.tar.gz is relocatable...
-./go-1.10.i686_linux.bottle.1.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/dpkg/1.19.0.5: 332 files, 13.9MB, built in 1 minute 57 seconds
+==> Determining dpkg bottle rebuild...
+==> Bottling dpkg-1.19.0.5.i686_linux.bottle.1.tar.gz...
+==> Detecting if dpkg-1.19.0.5.i686_linux.bottle.1.tar.gz is relocatable...
+./dpkg-1.19.0.5.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "5588abe0acd9aa70de9d4a75508f833792962301237bed90c120f0f8bcdd702b" => :i686_linux
+    sha256 "2d6a5f01068e8d496adbd8c7d26fa7547424a548196a03cd47302c3785c24850" => :i686_linux
   end
