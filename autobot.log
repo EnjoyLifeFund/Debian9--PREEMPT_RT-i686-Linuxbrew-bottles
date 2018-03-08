@@ -1,26 +1,38 @@
 ==> Upgrading 1 outdated package, with result:
-sqlite 3.22.0
-==> Upgrading sqlite 
-==> Installing dependencies for sqlite: ncurses
-==> Installing sqlite dependency: ncurses
-==> Downloading https://ftp.gnu.org/gnu/ncurses/ncurses-6.1.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/ncurses/6.1 --enable-pc-files --with-pkg-config-libdir=/home/monday/.linuxbrew/Cellar/ncurses/6.1/lib/pkgconfig --enable-sigwinch --enable-symlinks --enable-widec --with-shared --with-gpm=no --without-ada
-==> make install
-🍺  /home/monday/.linuxbrew/Cellar/ncurses/6.1: 3,856 files, 14.7MB, built in 2 minutes 47 seconds
-==> Installing sqlite
-==> Downloading https://sqlite.org/2018/sqlite-autoconf-3220000.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sqlite/3.22.0 --enable-dynamic-extensions --enable-readline --disable-editline
-==> make install
+openssl 1.0.2n_1
+==> Upgrading openssl 
+==> Downloading https://www.openssl.org/source/openssl-1.0.2n.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/openssl-1.0.2n.tar.gz
+==> Downloading https://github.com/openssl/openssl/pull/1524.patch
+Already downloaded: /home/monday/.cache/Homebrew/openssl--patch-bc954e98673a78983e58da2fe6decfcf94b38eeec78d8b456ca716a539f78b06.patch
+==> Patching
+==> Applying 1524.patch
+patching file Configure
+Hunk #1 succeeded at 1723 (offset 2 lines).
+==> perl ./Configure --prefix=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n_1 --openssldir=/home/monday/.linuxbrew/etc/openssl no-ssl2 zlib-dynamic shared enable-cms -Wa,--noexecstack linux-generic32
+==> make depend
+==> make
+==> make test
+==> make install MANDIR=/home/monday/.linuxbrew/Cellar/openssl/1.0.2n_1/share/man MANSUFFIX=ssl
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall sqlite`
-🍺  /home/monday/.linuxbrew/Cellar/sqlite/3.22.0: 12 files, 12MB, built in 3 minutes 41 seconds
-==> Determining sqlite bottle rebuild...
-==> Bottling sqlite-3.22.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if sqlite-3.22.0.i686_linux.bottle.1.tar.gz is relocatable...
-./sqlite-3.22.0.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall openssl`
+==> Caveats
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /home/monday/.linuxbrew/etc/openssl/certs
+
+and run
+  /home/monday/.linuxbrew/opt/openssl/bin/c_rehash
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/openssl/1.0.2n_1: 1,791 files, 13.2MB, built in 10 minutes 54 seconds
+==> Determining openssl bottle rebuild...
+==> Bottling openssl-1.0.2n_1.i686_linux.bottle.1.tar.gz...
+==> Detecting if openssl-1.0.2n_1.i686_linux.bottle.1.tar.gz is relocatable...
+./openssl-1.0.2n_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "46febf0b5f13533d3841ab1ab406da3a5e6a2be0b4ad12370b270f9659a5a299" => :i686_linux
+    sha256 "1365920d47988621d008e64e9e27f968b7f7246a93fe93c6ba24fa7ef66d2433" => :i686_linux
   end
