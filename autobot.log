@@ -1,16 +1,18 @@
-==> Downloading https://ftp.gnu.org/gnu/tar/tar-1.30.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/gnu-tar/1.30 --mandir=/home/monday/.linuxbrew/Cellar/gnu-tar/1.30/share/man
+==> Upgrading 1 outdated package, with result:
+gpatch 2.7.6
+==> Upgrading gpatch 
+==> Downloading https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.xz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/gpatch/2.7.6
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall gnu-tar`
-🍺  /home/monday/.linuxbrew/Cellar/gnu-tar/1.30: 54 files, 5.2MB, built in 3 minutes 18 seconds
-==> Determining gnu-tar bottle rebuild...
-==> Bottling gnu-tar-1.30.i686_linux.bottle.1.tar.gz...
-==> Detecting if gnu-tar-1.30.i686_linux.bottle.1.tar.gz is relocatable...
-./gnu-tar-1.30.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall gpatch`
+🍺  /home/monday/.linuxbrew/Cellar/gpatch/2.7.6: 10 files, 769.6KB, built in 1 minute 56 seconds
+==> Determining gpatch bottle rebuild...
+==> Bottling gpatch-2.7.6.i686_linux.bottle.1.tar.gz...
+./gpatch-2.7.6.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "745b2379c362155d9ec2a9d437e09db1b3b84dcac481ff382283f2f1a897f991" => :i686_linux
+    sha256 "9a68a849902f68093ab5d3435c1aa50a46e12ff947cfe380187c8c4225862f60" => :i686_linux
   end
