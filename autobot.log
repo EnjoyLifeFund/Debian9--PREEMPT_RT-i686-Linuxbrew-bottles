@@ -1,4 +1,4 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=/activemq/5.15.2/apache-activemq-5.15.2-bin.tar.gz
-==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/activemq/5.15.2/apache-activemq-5.15.2-bin.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/activemq/5.15.2: 562 files, 65.0MB, built in 29 seconds
+==> Downloading https://github.com/npryce/adr-tools/archive/2.1.0.tar.gz
+==> Downloading from https://codeload.github.com/npryce/adr-tools/tar.gz/2.1.0
+🍺  /home/monday/.linuxbrew/Cellar/adr-tools/2.1.0: 24 files, 27.7KB, built in 3 seconds
 This formula doesn't require compiling.
