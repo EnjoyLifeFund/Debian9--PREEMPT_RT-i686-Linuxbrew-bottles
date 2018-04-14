@@ -1,5 +1,13 @@
-==> Downloading https://github.com/ymattw/cdiff/archive/1.0.tar.gz
-==> Downloading from https://codeload.github.com/ymattw/cdiff/tar.gz/1.0
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cdiff/1.0/libexec --single-version-externally-managed --record=installed.txt
-🍺  /home/monday/.linuxbrew/Cellar/cdiff/1.0: 13 files, 122KB, built in 4 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.aczoom.com/pub/tools/cdlabelgen-4.3.0.tgz
+==> make install BASE_DIR=/home/monday/.linuxbrew/Cellar/cdlabelgen/4.3.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cdlabelgen`
+🍺  /home/monday/.linuxbrew/Cellar/cdlabelgen/4.3.0: 19 files, 542.2KB, built in 4 seconds
+==> Determining cdlabelgen bottle rebuild...
+==> Bottling cdlabelgen-4.3.0.i686_linux.bottle.1.tar.gz...
+./cdlabelgen-4.3.0.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d80e3f2c0044057280b42d58015ae4ca2d5d7a07ab72ca409a8619dfa5b7167a" => :i686_linux
+  end
