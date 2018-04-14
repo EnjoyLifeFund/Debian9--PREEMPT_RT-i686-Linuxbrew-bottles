@@ -1,23 +1,4 @@
-==> Downloading https://github.com/AlDanial/cloc/releases/download/v1.76/cloc-1.76.tar.gz
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/42029482/7396a24c-0d83-11e8-9895-088bd8c44589?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T223628Z&X-Amz-Expires=300&X-Amz-Signature=e73fcf4718248fed7922929e656e85bfb3f7bb92a91a85e92085a80a88ce4c9a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcloc-1.76.tar.gz&response-content-type=application%2Foctet-stream
-==> Downloading https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/monday/.linuxbrew/Cellar/cloc/1.76/libexec
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/monday/.linuxbrew/Cellar/cloc/1.76/libexec
-==> make install
-==> Downloading https://cpan.metacpan.org/authors/id/Y/YA/YANICK/Parallel-ForkManager-1.19.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/monday/.linuxbrew/Cellar/cloc/1.76/libexec
-==> make install
-==> make -C Unix prefix=/home/monday/.linuxbrew/Cellar/cloc/1.76/libexec install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cloc`
-🍺  /home/monday/.linuxbrew/Cellar/cloc/1.76: 87 files, 1.5MB, built in 21 seconds
-==> Determining cloc bottle rebuild...
-==> Bottling cloc-1.76.i686_linux.bottle.1.tar.gz...
-./cloc-1.76.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "e7c1c78694e779b03e9547d391af47d2c256581d371526e5f36cdde2e512fbe1" => :i686_linux
-  end
+==> Downloading https://download.clojure.org/install/clojure-tools-1.9.0.358.tar.gz
+==> ./install.sh /home/monday/.linuxbrew/Cellar/clojure/1.9.0.358
+🍺  /home/monday/.linuxbrew/Cellar/clojure/1.9.0.358: 9 files, 19.4MB, built in 23 seconds
+This formula doesn't require compiling.
