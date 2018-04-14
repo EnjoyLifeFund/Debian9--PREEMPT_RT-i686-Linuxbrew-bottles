@@ -1,8 +1,4 @@
-==> Downloading https://github.com/xyb/homebrew-cask-completion/archive/v2.1.tar.gz
-==> Downloading from https://codeload.github.com/xyb/homebrew-cask-completion/tar.gz/v2.1
-==> Caveats
-Bash completion has been installed to:
-  /home/monday/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/brew-cask-completion/2.1: 6 files, 42.8KB, built in 3 seconds
+==> Downloading https://github.com/sportngin/brew-gem/archive/v0.8.4.tar.gz
+==> Downloading from https://codeload.github.com/sportngin/brew-gem/tar.gz/v0.8.4
+🍺  /home/monday/.linuxbrew/Cellar/brew-gem/0.8.4: 10 files, 37.2KB, built in 3 seconds
 This formula doesn't require compiling.
