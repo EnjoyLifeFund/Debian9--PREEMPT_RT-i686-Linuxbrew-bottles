@@ -1,15 +1,16 @@
-==> Downloading http://www.quut.com/abnfgen/abnfgen-0.20.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/abnfgen/0.20 --mandir=/home/monday/.linuxbrew/Cellar/abnfgen/0.20/share/man
+==> Downloading https://downloads.sourceforge.net/project/abook/abook/0.5.6/abook-0.5.6.tar.gz
+==> Downloading from https://netix.dl.sourceforge.net/project/abook/abook/0.5.6/abook-0.5.6.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/abook/0.5.6_1 --mandir=/home/monday/.linuxbrew/Cellar/abook/0.5.6_1/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall abnfgen`
-🍺  /home/monday/.linuxbrew/Cellar/abnfgen/0.20: 9 files, 162.7KB, built in 10 seconds
-==> Determining abnfgen bottle rebuild...
-==> Bottling abnfgen-0.20.i686_linux.bottle.1.tar.gz...
-./abnfgen-0.20.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall abook`
+🍺  /home/monday/.linuxbrew/Cellar/abook/0.5.6_1: 15 files, 377.5KB, built in 41 seconds
+==> Determining abook bottle rebuild...
+==> Bottling abook-0.5.6_1.i686_linux.bottle.1.tar.gz...
+./abook-0.5.6_1.i686_linux.bottle.1.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "fb8b48f770c9f657c02778636ed2511f05bc6a4e43a25a4c09409aa30cea258b" => :i686_linux
+    sha256 "08eaef5b4d866f5ed0aac7f0aca2799db2a14d53bc0087da5ea0fd3fcf602923" => :i686_linux
   end
