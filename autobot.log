@@ -1,3 +1,13 @@
-==> Downloading http://www.benf.org/other/cfr/cfr_0_125.jar
-🍺  /home/monday/.linuxbrew/Cellar/cfr-decompiler/0.125: 4 files, 1.5MB, built in 5 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
+==> Downloading from https://jaist.dl.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
+==> make prefix=/home/monday/.linuxbrew/Cellar/cfv/1.18.3 mandir=/home/monday/.linuxbrew/Cellar/cfv/1.18.3/share/man install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cfv`
+🍺  /home/monday/.linuxbrew/Cellar/cfv/1.18.3: 7 files, 145.5KB, built in 2 seconds
+==> Determining cfv bottle rebuild...
+==> Bottling cfv-1.18.3.i686_linux.bottle.tar.gz...
+./cfv-1.18.3.i686_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "ecd3d721e1ba7c901376d3a11e422e83edd94baa1cd5171a6181e5241b76b3ab" => :i686_linux
+  end
