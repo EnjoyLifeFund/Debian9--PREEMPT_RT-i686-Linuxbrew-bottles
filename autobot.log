@@ -1,3 +1,9 @@
-==> Downloading https://downloads.jboss.org/byteman/4.0.2/byteman-download-4.0.2-bin.zip
-🍺  /home/monday/.linuxbrew/Cellar/byteman/4.0.2: 35 files, 2.1MB, built in 8 seconds
-This formula doesn't require compiling.
+==> Determining bzip2 bottle rebuild...
+==> Bottling bzip2-1.0.6_1.i686_linux.bottle.1.tar.gz...
+./bzip2-1.0.6_1.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "15b79b7d201524e13de07c40783d605047b1807b0ab5571d7a03d6fd8605eea3" => :i686_linux
+  end
