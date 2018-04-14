@@ -1,4 +1,9 @@
-==> Downloading https://github.com/google/closure-stylesheets/releases/download/v1.5.0/closure-stylesheets.jar
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/19253501/d4aaa168-6c58-11e7-8be8-a16172b0cfe5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T224317Z&X-Amz-Expires=300&X-Amz-Signature=8bbcab5e22ecc4747c8d0d578d2444542f0c4596a678a1a859d6686ba3b25d2e&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dclosure-stylesheets.jar&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/closure-stylesheets/1.5.0: 4 files, 9.4MB, built in 9 seconds
+==> Downloading https://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/cloud-watch/1.0.20.0: 60 files, 6.9MB, built in 8 seconds
 This formula doesn't require compiling.
