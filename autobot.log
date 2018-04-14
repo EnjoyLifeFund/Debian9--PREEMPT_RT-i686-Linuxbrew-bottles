@@ -1,27 +1,18 @@
-==> Downloading http://colorsvn.tigris.org/files/documents/4414/49311/colorsvn-0.3.3.tar.gz
-==> Patching
-patching file Makefile.in
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/colorsvn/0.3.3_1 --mandir=/home/monday/.linuxbrew/Cellar/colorsvn/0.3.3_1/share/man --sysconfdir=/home/monday/.linuxbrew/etc
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall colorsvn`
-==> Caveats
-You probably want to set an alias to svn in your bash profile.
-So source /home/monday/.linuxbrew/etc/profile.d/colorsvn-env.sh or add the line
+==> Downloading https://getcomposer.org/download/1.6.4/composer.phar
+The formula built, but is not symlinked into /home/monday/.linuxbrew
+Could not symlink bin/composer
+Target /home/monday/.linuxbrew/bin/composer
+is a symlink belonging to ballerina. You can unlink it:
+  brew unlink ballerina
 
-    alias svn=colorsvn
+To force the link and overwrite all conflicting files:
+  brew link --overwrite composer
 
-to your bash profile.
+To list all files that would be deleted:
+  brew link --overwrite --dry-run composer
 
-So when you type "svn" you'll run "colorsvn".
+Possible conflicting files are:
+/home/monday/.linuxbrew/bin/composer -> /home/monday/.linuxbrew/Cellar/ballerina/0.964.0/bin/composer
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/colorsvn/0.3.3_1: 8 files, 70KB, built in 6 seconds
-==> Determining colorsvn bottle rebuild...
-==> Bottling colorsvn-0.3.3_1.i686_linux.bottle.1.tar.gz...
-./colorsvn-0.3.3_1.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "486b712bc2f5300b6cc2fb59ce2e795caca805f70809adf936e78f783c9f564d" => :i686_linux
-  end
+🍺  /home/monday/.linuxbrew/Cellar/composer/1.6.4: 3 files, 1.8MB, built in 6 seconds
+This formula doesn't require compiling.
