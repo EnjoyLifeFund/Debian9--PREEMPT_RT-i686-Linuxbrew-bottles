@@ -1,30 +1,15 @@
-==> Installing dependencies for a2ps: gperf
-==> Installing a2ps dependency: gperf
-==> Downloading https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/gperf/3.1
-==> make install
-🍺  /home/monday/.linuxbrew/Cellar/gperf/3.1: 11 files, 732.4KB, built in 26 seconds
-==> Installing a2ps
-==> Downloading https://ftp.gnu.org/gnu/a2ps/a2ps-4.14.tar.gz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/0ae366e6/a2ps/patch-lib__xstrrpl.c
-==> Patching
-==> Applying patch-lib__xstrrpl.c
-patching file lib/xstrrpl.c
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/a2ps/4.14 --sysconfdir=/home/monday/.linuxbrew/etc --with-lispdir=/home/monday/.linuxbrew/Cellar/a2ps/4.14/share/emacs/site-lisp/a2ps
+==> Downloading https://liba52.sourceforge.io/files/a52dec-0.7.4.tar.gz
+==> Downloading from http://liba52.sourceforge.net/files/a52dec-0.7.4.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/a52dec/0.7.4 --enable-shared --mandir=/home/monday/.linuxbrew/Cellar/a52dec/0.7.4/share/man
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall a2ps`
-==> Caveats
-Emacs Lisp files have been installed to:
-  /home/monday/.linuxbrew/share/emacs/site-lisp/a2ps
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/a2ps/4.14: 299 files, 5.9MB, built in 2 minutes 29 seconds
-==> Determining a2ps bottle rebuild...
-==> Bottling a2ps-4.14.i686_linux.bottle.tar.gz...
-==> Detecting if a2ps-4.14.i686_linux.bottle.tar.gz is relocatable...
-./a2ps-4.14.i686_linux.bottle.tar.gz
+You can run it manually using `brew postinstall a52dec`
+🍺  /home/monday/.linuxbrew/Cellar/a52dec/0.7.4: 21 files, 242.9KB, built in 24 seconds
+==> Determining a52dec bottle rebuild...
+==> Bottling a52dec-0.7.4.i686_linux.bottle.1.tar.gz...
+./a52dec-0.7.4.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
-    sha256 "9b7a207e214891b1e38204f7fcb9bd0c20281fa422f5d1b1d232f767808bef63" => :i686_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f53ed92ff1c9bb4aa5dc051929ae501d45b1c49cbfb6d023a3200f90d3d41d56" => :i686_linux
   end
