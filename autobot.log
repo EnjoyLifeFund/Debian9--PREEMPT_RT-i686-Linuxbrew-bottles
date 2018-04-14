@@ -1,3 +1,4 @@
-==> Downloading https://dl.google.com/android/repository/platform-tools_r25.0.4-linux.zip
-🍺  /home/monday/.linuxbrew/Cellar/android-platform-tools/25.0.4: 5 files, 4.4MB, built in 8 seconds
+==> Downloading https://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz
+==> Downloading from https://jaist.dl.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/ant-contrib/1.0b3: 257 files, 3.5MB, built in 5 seconds
 This formula doesn't require compiling.
