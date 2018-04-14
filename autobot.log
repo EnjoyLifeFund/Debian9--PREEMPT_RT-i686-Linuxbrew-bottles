@@ -1,3 +1,13 @@
-==> Downloading https://downloads.typesafe.com/akka/akka_2.11-2.4.17.zip
-🍺  /home/monday/.linuxbrew/Cellar/akka/2.4.17: 3,238 files, 251.4MB, built in 1 minute 35 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz
+==> make install BINDIR=/home/monday/.linuxbrew/Cellar/align/1.7.5/bin
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall align`
+🍺  /home/monday/.linuxbrew/Cellar/align/1.7.5: 7 files, 43.1KB, built in 4 seconds
+==> Determining align bottle rebuild...
+==> Bottling align-1.7.5.i686_linux.bottle.1.tar.gz...
+./align-1.7.5.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "078b4c8b9c120d79d617b7287449d934ef3264ca9ef2d1b28b2666a55063b20d" => :i686_linux
+  end
