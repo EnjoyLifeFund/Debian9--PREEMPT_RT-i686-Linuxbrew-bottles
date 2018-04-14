@@ -1,4 +1,27 @@
-==> Downloading https://github.com/pagekite/Colormake/archive/0.9.20140503.tar.gz
-==> Downloading from https://codeload.github.com/pagekite/Colormake/tar.gz/0.9.20140503
-🍺  /home/monday/.linuxbrew/Cellar/colormake/0.9.20140503: 13 files, 57.4KB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading http://colorsvn.tigris.org/files/documents/4414/49311/colorsvn-0.3.3.tar.gz
+==> Patching
+patching file Makefile.in
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/colorsvn/0.3.3_1 --mandir=/home/monday/.linuxbrew/Cellar/colorsvn/0.3.3_1/share/man --sysconfdir=/home/monday/.linuxbrew/etc
+==> make
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall colorsvn`
+==> Caveats
+You probably want to set an alias to svn in your bash profile.
+So source /home/monday/.linuxbrew/etc/profile.d/colorsvn-env.sh or add the line
+
+    alias svn=colorsvn
+
+to your bash profile.
+
+So when you type "svn" you'll run "colorsvn".
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/colorsvn/0.3.3_1: 8 files, 70KB, built in 6 seconds
+==> Determining colorsvn bottle rebuild...
+==> Bottling colorsvn-0.3.3_1.i686_linux.bottle.1.tar.gz...
+./colorsvn-0.3.3_1.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "486b712bc2f5300b6cc2fb59ce2e795caca805f70809adf936e78f783c9f564d" => :i686_linux
+  end
