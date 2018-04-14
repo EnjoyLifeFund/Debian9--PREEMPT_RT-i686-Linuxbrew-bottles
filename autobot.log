@@ -1,4 +1,4 @@
-==> Downloading https://github.com/hanxue/brew-pip/archive/0.4.1.tar.gz
-==> Downloading from https://codeload.github.com/hanxue/brew-pip/tar.gz/0.4.1
-🍺  /home/monday/.linuxbrew/Cellar/brew-pip/0.4.1: 5 files, 18.3KB, built in 3 seconds
+==> Downloading https://downloads.sourceforge.net/project/briss/release%200.9/briss-0.9.tar.gz
+==> Downloading from https://jaist.dl.sourceforge.net/project/briss/release%200.9/briss-0.9.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/briss/0.9: 15 files, 9.2MB, built in 9 seconds
 This formula doesn't require compiling.
