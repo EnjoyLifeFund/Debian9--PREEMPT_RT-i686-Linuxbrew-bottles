@@ -1,14 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz
-==> ./configure --program-suffix=213 --prefix=/home/monday/.linuxbrew/Cellar/autoconf@2.13/2.13 --infodir=/home/monday/.linuxbrew/Cellar/autoconf@2.13/2.13/share/autoconf@2.13/info --datadir=/home/monday/.linuxbrew/Cellar/autoconf@2.13/2.13/share/autoconf@2.13
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autoconf@2.13`
-🍺  /home/monday/.linuxbrew/Cellar/autoconf@2.13/2.13: 29 files, 1MB, built in 5 seconds
-==> Determining autoconf@2.13 bottle rebuild...
-==> Bottling autoconf@2.13-2.13.i686_linux.bottle.1.tar.gz...
-./autoconf@2.13-2.13.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "56ee87c702e458761a30feaee013e32c9d0986a072075a3d0787b3783a0c87a1" => :i686_linux
-  end
+==> Downloading https://github.com/kennethreitz/autoenv/archive/v0.2.1.tar.gz
+==> Downloading from https://codeload.github.com/kennethreitz/autoenv/tar.gz/v0.2.1
+==> Caveats
+To finish the installation, source activate.sh in your shell:
+  source /home/monday/.linuxbrew/opt/autoenv/activate.sh
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/autoenv/0.2.1: 6 files, 18.7KB, built in 3 seconds
+This formula doesn't require compiling.
