@@ -1,4 +1,3 @@
-==> Downloading https://ceylon-lang.org/download/dist/1_3_3
-==> Downloading from https://downloads.ceylon-lang.org/cli/ceylon-1.3.3.zip
-🍺  /home/monday/.linuxbrew/Cellar/ceylon/1.3.3: 732 files, 35.4MB, built in 14 seconds
+==> Downloading http://www.benf.org/other/cfr/cfr_0_125.jar
+🍺  /home/monday/.linuxbrew/Cellar/cfr-decompiler/0.125: 4 files, 1.5MB, built in 5 seconds
 This formula doesn't require compiling.
