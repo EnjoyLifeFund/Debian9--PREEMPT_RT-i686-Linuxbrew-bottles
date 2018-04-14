@@ -1,16 +1,4 @@
-==> Downloading https://downloads.sourceforge.net/project/abook/abook/0.5.6/abook-0.5.6.tar.gz
-==> Downloading from https://netix.dl.sourceforge.net/project/abook/abook/0.5.6/abook-0.5.6.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/abook/0.5.6_1 --mandir=/home/monday/.linuxbrew/Cellar/abook/0.5.6_1/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall abook`
-🍺  /home/monday/.linuxbrew/Cellar/abook/0.5.6_1: 15 files, 377.5KB, built in 41 seconds
-==> Determining abook bottle rebuild...
-==> Bottling abook-0.5.6_1.i686_linux.bottle.1.tar.gz...
-./abook-0.5.6_1.i686_linux.bottle.1.tar.gz
-  bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "08eaef5b4d866f5ed0aac7f0aca2799db2a14d53bc0087da5ea0fd3fcf602923" => :i686_linux
-  end
+==> Downloading https://beyondgrep.com/ack-2.22-single-file
+==> pod2man /home/monday/.linuxbrew/Cellar/ack/2.22/bin/ack ack.1
+🍺  /home/monday/.linuxbrew/Cellar/ack/2.22: 4 files, 213KB, built in 5 seconds
+This formula doesn't require compiling.
