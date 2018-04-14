@@ -1,4 +1,4 @@
-==> Downloading https://github.com/bobthecow/coda-cli/archive/v1.0.5.tar.gz
-==> Downloading from https://codeload.github.com/bobthecow/coda-cli/tar.gz/v1.0.5
-🍺  /home/monday/.linuxbrew/Cellar/coda-cli/1.0.5: 5 files, 22.8KB, built in 3 seconds
+==> Downloading https://files.pythonhosted.org/packages/9b/e3/cb31bfcf14f976060ea7b7f34135ebc796cde65eba923f6a0c4b71f15cc2/codemod-1.0.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/codemod/1.0.0/libexec --single-version-externally-managed --record=installed.txt
+🍺  /home/monday/.linuxbrew/Cellar/codemod/1.0.0: 14 files, 117.6KB, built in 2 seconds
 This formula doesn't require compiling.
