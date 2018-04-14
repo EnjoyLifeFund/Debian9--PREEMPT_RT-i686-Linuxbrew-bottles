@@ -1,15 +1,29 @@
-==> Downloading https://liba52.sourceforge.io/files/a52dec-0.7.4.tar.gz
-==> Downloading from http://liba52.sourceforge.net/files/a52dec-0.7.4.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/a52dec/0.7.4 --enable-shared --mandir=/home/monday/.linuxbrew/Cellar/a52dec/0.7.4/share/man
+==> Downloading https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz
+==> Downloading from https://downloads.sourceforge.net/project/aa-project/aa-lib/1.4rc5/aalib-1.4rc5.tar.gz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/6e23dfb/aalib/1.4rc5.patch
+==> Patching
+==> Applying 1.4rc5.patch
+patching file src/aaedit.c
+patching file src/aakbdreg.c
+patching file src/aalib.c
+patching file src/aamoureg.c
+patching file src/aarec.c
+patching file src/aaregist.c
+patching file src/aax.c
+patching file src/aaxkbd.c
+patching file src/aaxmouse.c
+patching file aalib.m4
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/aalib/1.4rc5_1 --mandir=/home/monday/.linuxbrew/Cellar/aalib/1.4rc5_1/share/man --infodir=/home/monday/.linuxbrew/Cellar/aalib/1.4rc5_1/share/info --enable-shared=yes --enable-static=yes --without-x
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall a52dec`
-🍺  /home/monday/.linuxbrew/Cellar/a52dec/0.7.4: 21 files, 242.9KB, built in 24 seconds
-==> Determining a52dec bottle rebuild...
-==> Bottling a52dec-0.7.4.i686_linux.bottle.1.tar.gz...
-./a52dec-0.7.4.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall aalib`
+🍺  /home/monday/.linuxbrew/Cellar/aalib/1.4rc5_1: 86 files, 1.3MB, built in 26 seconds
+==> Determining aalib bottle rebuild...
+==> Bottling aalib-1.4rc5_1.i686_linux.bottle.1.tar.gz...
+./aalib-1.4rc5_1.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
     rebuild 1
-    sha256 "f53ed92ff1c9bb4aa5dc051929ae501d45b1c49cbfb6d023a3200f90d3d41d56" => :i686_linux
+    sha256 "df475d310adb433d1927da70768cf8408301d7f3bc98279d0d39946a308e26b9" => :i686_linux
   end
