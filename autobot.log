@@ -1,3 +1,7 @@
-==> Downloading https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.6.0/allure-2.6.0.zip
-🍺  /home/monday/.linuxbrew/Cellar/allure/2.6.0: 73 files, 11.9MB, built in 8 seconds
+==> Downloading http://downloads.alluxio.org/downloads/files/1.7.0/alluxio-1.7.0-bin.tar.gz
+==> Caveats
+To configure alluxio, edit
+  /home/monday/.linuxbrew/etc/alluxio/alluxio-env.sh
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/alluxio/1.7.0: 6,898 files, 316.5MB, built in 2 minutes 39 seconds
 This formula doesn't require compiling.
