@@ -1,3 +1,4 @@
-==> Downloading https://www.antlr.org/download/antlr-4.7.1-complete.jar
-🍺  /home/monday/.linuxbrew/Cellar/antlr/4.7.1: 5 files, 2.2MB, built in 11 seconds
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz
+==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/apache-archiva/2.2.3: 469 files, 76.5MB, built in 34 seconds
 This formula doesn't require compiling.
