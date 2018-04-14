@@ -1,14 +1,12 @@
-==> Downloading https://savannah.nongnu.org/download/atool/atool-0.39.0.tar.gz
-==> Downloading from http://download.savannah.gnu.org/releases/atool/atool-0.39.0.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/atool/0.39.0
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall atool`
-🍺  /home/monday/.linuxbrew/Cellar/atool/0.39.0: 22 files, 211.3KB, built in 5 seconds
-==> Determining atool bottle rebuild...
-==> Bottling atool-0.39.0.i686_linux.bottle.tar.gz...
-./atool-0.39.0.i686_linux.bottle.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "1d4e0ed91ac6c708c52273623e7bca1cfaf6e148ac1322f24d93483bdc543a42" => :i686_linux
-  end
+==> Downloading https://ec2-downloads.s3.amazonaws.com/AutoScaling-2011-01-01.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+
+See the website for more details:
+https://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/UsingTheCommandLineTools.html
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/auto-scaling/1.0.61.6: 127 files, 7.1MB, built in 7 seconds
+This formula doesn't require compiling.
