@@ -1,10 +1,8 @@
-==> Installing dependencies for calabash: saxon
-==> Installing calabash dependency: saxon
-==> Downloading https://downloads.sourceforge.net/project/saxon/Saxon-HE/9.8/SaxonHE9-8-0-8J.zip
-==> Downloading from https://jaist.dl.sourceforge.net/project/saxon/Saxon-HE/9.8/SaxonHE9-8-0-8J.zip
-🍺  /home/monday/.linuxbrew/Cellar/saxon/9.8.0.8: 15 files, 5.2MB, built in 4 seconds
-==> Installing calabash
-==> Downloading https://github.com/ndw/xmlcalabash1/releases/download/1.1.20-98/xmlcalabash-1.1.20-98.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2278928/58ee43ae-27a6-11e8-9cf6-6ec6af7a5237?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T204159Z&X-Amz-Expires=300&X-Amz-Signature=94a8ec2d27c1ba3d7ebdfa32a356a9452db26bdacf06fdf0bdb92b96e33a5bfb&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dxmlcalabash-1.1.20-98.zip&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/calabash/1.1.20-98: 226 files, 22.1MB, built in 2 minutes 53 seconds
+==> Downloading https://github.com/bashaus/capistrano-autocomplete/archive/v1.0.0.tar.gz
+==> Downloading from https://codeload.github.com/bashaus/capistrano-autocomplete/tar.gz/v1.0.0
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/cap-completion/1.0.0: 4 files, 18.4KB, built in 3 seconds
 This formula doesn't require compiling.
