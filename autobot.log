@@ -1,11 +1,8 @@
-==> Downloading https://github.com/magicmonty/bash-git-prompt/archive/2.7.1.tar.gz
-==> Downloading from https://codeload.github.com/magicmonty/bash-git-prompt/tar.gz/2.7.1
+==> Downloading https://github.com/rcaloras/bash-preexec/archive/0.3.7.tar.gz
+==> Downloading from https://codeload.github.com/rcaloras/bash-preexec/tar.gz/0.3.7
 ==> Caveats
-You should add the following to your .bashrc (or .bash_profile):
-  if [ -f "/home/monday/.linuxbrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    __GIT_PROMPT_DIR="/home/monday/.linuxbrew/opt/bash-git-prompt/share"
-    source "/home/monday/.linuxbrew/opt/bash-git-prompt/share/gitprompt.sh"
-  fi
+Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)
+  [ -f /home/monday/.linuxbrew/etc/profile.d/bash-preexec.sh ] && . /home/monday/.linuxbrew/etc/profile.d/bash-preexec.sh
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/bash-git-prompt/2.7.1: 44 files, 128.4KB, built in 4 seconds
+🍺  /home/monday/.linuxbrew/Cellar/bash-preexec/0.3.7: 5 files, 33.9KB, built in 3 seconds
 This formula doesn't require compiling.
