@@ -1,8 +1,5 @@
-==> Downloading https://github.com/rcaloras/bash-preexec/archive/0.3.7.tar.gz
-==> Downloading from https://codeload.github.com/rcaloras/bash-preexec/tar.gz/0.3.7
-==> Caveats
-Add the following line to your bash profile (e.g. ~/.bashrc, ~/.profile, or ~/.bash_profile)
-  [ -f /home/monday/.linuxbrew/etc/profile.d/bash-preexec.sh ] && . /home/monday/.linuxbrew/etc/profile.d/bash-preexec.sh
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/bash-preexec/0.3.7: 5 files, 33.9KB, built in 3 seconds
+==> Downloading https://github.com/alexanderepstein/Bash-Snippets/archive/v1.22.0.tar.gz
+==> Downloading from https://codeload.github.com/alexanderepstein/Bash-Snippets/tar.gz/v1.22.0
+==> ./install.sh --prefix=/home/monday/.linuxbrew/Cellar/bash-snippets/1.22.0 all
+🍺  /home/monday/.linuxbrew/Cellar/bash-snippets/1.22.0: 27 files, 231.8KB, built in 8 seconds
 This formula doesn't require compiling.
