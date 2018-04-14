@@ -1,4 +1,3 @@
-==> Downloading https://github.com/bdesham/chrome-export/archive/v2.0.1.tar.gz
-==> Downloading from https://codeload.github.com/bdesham/chrome-export/tar.gz/v2.0.1
-🍺  /home/monday/.linuxbrew/Cellar/chrome-export/2.0.1: 11 files, 134.4KB, built in 3 seconds
+==> Downloading https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
+🍺  /home/monday/.linuxbrew/Cellar/chromedriver/2.37: 3 files, 7.5MB, built in 6 seconds
 This formula doesn't require compiling.
