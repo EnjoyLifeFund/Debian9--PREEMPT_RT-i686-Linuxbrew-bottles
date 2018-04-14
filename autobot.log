@@ -1,13 +1,3 @@
-==> Downloading https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz
-==> make install BINDIR=/home/monday/.linuxbrew/Cellar/align/1.7.5/bin
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall align`
-🍺  /home/monday/.linuxbrew/Cellar/align/1.7.5: 7 files, 43.1KB, built in 4 seconds
-==> Determining align bottle rebuild...
-==> Bottling align-1.7.5.i686_linux.bottle.1.tar.gz...
-./align-1.7.5.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "078b4c8b9c120d79d617b7287449d934ef3264ca9ef2d1b28b2666a55063b20d" => :i686_linux
-  end
+==> Downloading https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.6.0/allure-2.6.0.zip
+🍺  /home/monday/.linuxbrew/Cellar/allure/2.6.0: 73 files, 11.9MB, built in 8 seconds
+This formula doesn't require compiling.
