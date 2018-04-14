@@ -1,4 +1,8 @@
-==> Downloading https://download.clojure.org/install/clojure-tools-1.9.0.358.tar.gz
-==> ./install.sh /home/monday/.linuxbrew/Cellar/clojure/1.9.0.358
-🍺  /home/monday/.linuxbrew/Cellar/clojure/1.9.0.358: 9 files, 19.4MB, built in 23 seconds
+==> Downloading https://github.com/clojure/clojurescript/releases/download/r1.9.946/cljs.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2080922/8d03b9b2-a844-11e7-9dca-86c8f51b3621?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T223855Z&X-Amz-Expires=300&X-Amz-Signature=8b02bb541fc327e5e2df82cc489be5df207ef6e5df3b0414dae338a68beaa723&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcljs.jar&response-content-type=application%2Foctet-stream
+==> Caveats
+This formula is useful if you need to use the ClojureScript compiler directly.
+For a more integrated workflow use Leiningen, Boot, or Maven.
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/clojurescript/1.9.946: 4 files, 24.5MB, built in 2 minutes 23 seconds
 This formula doesn't require compiling.
