@@ -1,13 +1,4 @@
-==> Downloading https://www.aczoom.com/pub/tools/cdlabelgen-4.3.0.tgz
-==> make install BASE_DIR=/home/monday/.linuxbrew/Cellar/cdlabelgen/4.3.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cdlabelgen`
-🍺  /home/monday/.linuxbrew/Cellar/cdlabelgen/4.3.0: 19 files, 542.2KB, built in 4 seconds
-==> Determining cdlabelgen bottle rebuild...
-==> Bottling cdlabelgen-4.3.0.i686_linux.bottle.1.tar.gz...
-./cdlabelgen-4.3.0.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "d80e3f2c0044057280b42d58015ae4ca2d5d7a07ab72ca409a8619dfa5b7167a" => :i686_linux
-  end
+==> Downloading https://ceylon-lang.org/download/dist/1_3_3
+==> Downloading from https://downloads.ceylon-lang.org/cli/ceylon-1.3.3.zip
+🍺  /home/monday/.linuxbrew/Cellar/ceylon/1.3.3: 732 files, 35.4MB, built in 14 seconds
+This formula doesn't require compiling.
