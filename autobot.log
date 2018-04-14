@@ -1,3 +1,7 @@
-==> Downloading http://www.theiling.de/downloads/bar-1.4-src.tar.bz2
-🍺  /home/monday/.linuxbrew/Cellar/bar/1.4: 5 files, 36.4KB, built in 3 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+No changes to formulae.
+
+==> Downloading http://files.basex.org/releases/9.0/BaseX90.zip
+🍺  /home/monday/.linuxbrew/Cellar/basex/9.0: 118 files, 9.9MB, built in 13 seconds
 This formula doesn't require compiling.
