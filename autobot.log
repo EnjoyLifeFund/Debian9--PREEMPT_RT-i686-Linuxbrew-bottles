@@ -1,16 +1,4 @@
-==> Downloading https://github.com/CocoaPods/CocoaPods/archive/1.5.0.tar.gz
-==> Downloading from https://codeload.github.com/CocoaPods/CocoaPods/tar.gz/1.5.0
-==> gem build cocoapods.gemspec
-==> gem install cocoapods-1.5.0.gem
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cocoapods`
-🍺  /home/monday/.linuxbrew/Cellar/cocoapods/1.5.0: 8,919 files, 18.2MB, built in 1 minute 10 seconds
-==> Determining cocoapods bottle rebuild...
-==> Bottling cocoapods-1.5.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if cocoapods-1.5.0.i686_linux.bottle.1.tar.gz is relocatable...
-./cocoapods-1.5.0.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "92aa333970c3b2dce461462b7613390fe4b78439bba04c814cbdd474d3e781ed" => :i686_linux
-  end
+==> Downloading https://github.com/bobthecow/coda-cli/archive/v1.0.5.tar.gz
+==> Downloading from https://codeload.github.com/bobthecow/coda-cli/tar.gz/v1.0.5
+🍺  /home/monday/.linuxbrew/Cellar/coda-cli/1.0.5: 5 files, 22.8KB, built in 3 seconds
+This formula doesn't require compiling.
