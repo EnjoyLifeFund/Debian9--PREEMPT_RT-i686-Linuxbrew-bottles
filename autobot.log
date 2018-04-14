@@ -1,4 +1,14 @@
-==> Downloading https://downloads.sourceforge.net/project/checkstyle/checkstyle/8.9/checkstyle-8.9-all.jar
-==> Downloading from https://jaist.dl.sourceforge.net/project/checkstyle/checkstyle/8.9/checkstyle-8.9-all.jar
-🍺  /home/monday/.linuxbrew/Cellar/checkstyle/8.9: 4 files, 10.1MB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/postmodern/chgems/archive/v0.3.2.tar.gz
+==> Downloading from https://codeload.github.com/postmodern/chgems/tar.gz/v0.3.2
+==> make install PREFIX=/home/monday/.linuxbrew/Cellar/chgems/0.3.2
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall chgems`
+🍺  /home/monday/.linuxbrew/Cellar/chgems/0.3.2: 9 files, 38.3KB, built in 2 seconds
+==> Determining chgems bottle rebuild...
+==> Bottling chgems-0.3.2.i686_linux.bottle.1.tar.gz...
+./chgems-0.3.2.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "28d5c694e9ef82920a968cf3c5ec8e008aaee131d90caabac465ec3572e8ce8c" => :i686_linux
+  end
