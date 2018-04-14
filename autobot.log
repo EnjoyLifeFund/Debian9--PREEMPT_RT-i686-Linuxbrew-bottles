@@ -1,4 +1,3 @@
-==> Downloading https://github.com/visionmedia/burl/archive/1.0.1.tar.gz
-==> Downloading from https://github.com/tj/burl/archive/1.0.1.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/burl/1.0.1: 5 files, 18KB, built in 4 seconds
+==> Downloading https://downloads.jboss.org/byteman/4.0.2/byteman-download-4.0.2-bin.zip
+🍺  /home/monday/.linuxbrew/Cellar/byteman/4.0.2: 35 files, 2.1MB, built in 8 seconds
 This formula doesn't require compiling.
