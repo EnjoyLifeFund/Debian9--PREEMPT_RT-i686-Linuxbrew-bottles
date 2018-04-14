@@ -1,14 +1,28 @@
-==> Downloading https://github.com/postmodern/chgems/archive/v0.3.2.tar.gz
-==> Downloading from https://codeload.github.com/postmodern/chgems/tar.gz/v0.3.2
-==> make install PREFIX=/home/monday/.linuxbrew/Cellar/chgems/0.3.2
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall chgems`
-🍺  /home/monday/.linuxbrew/Cellar/chgems/0.3.2: 9 files, 38.3KB, built in 2 seconds
-==> Determining chgems bottle rebuild...
-==> Bottling chgems-0.3.2.i686_linux.bottle.1.tar.gz...
-./chgems-0.3.2.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "28d5c694e9ef82920a968cf3c5ec8e008aaee131d90caabac465ec3572e8ce8c" => :i686_linux
-  end
+==> Installing dependencies for chocolate-doom: sdl2, sdl2_net, libmodplug, sdl2_mixer, libsamplerate
+==> Installing chocolate-doom dependency: sdl2
+==> Downloading https://libsdl.org/release/SDL2-2.0.8.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/sdl2-2.0.8.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sdl2/2.0.8 --disable-haptic --disable-joystick
+Last 15 lines from /home/monday/.cache/Homebrew/Logs/sdl2/01.configure:
+2018-04-14 15:00:29 -0700
+
+./configure
+--prefix=/home/monday/.linuxbrew/Cellar/sdl2/2.0.8
+--disable-haptic
+--disable-joystick
+
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc-7
+checking whether the C compiler works... no
+configure: error: in `/tmp/sdl2-20180414-15461-zu6voj/SDL2-2.0.8':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+
+READ THIS: https://github.com/Linuxbrew/brew/wiki/troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
+These open issues may also help:
+sdl2: enable X for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/7188
+Linuxbrew's sdl2 bottle doesn't have X support https://github.com/Linuxbrew/homebrew-core/issues/7187
