@@ -1,8 +1,22 @@
-==> Downloading https://github.com/kennethreitz/autoenv/archive/v0.2.1.tar.gz
-==> Downloading from https://codeload.github.com/kennethreitz/autoenv/tar.gz/v0.2.1
+==> Downloading https://github.com/wting/autojump/archive/release-v22.5.1.tar.gz
+==> Downloading from https://codeload.github.com/wting/autojump/tar.gz/release-v22.5.1
+==> ./install.py -d /home/monday/.linuxbrew/Cellar/autojump/22.5.1 -z /home/monday/.linuxbrew/Cellar/autojump/22.5.1/share/zsh/site-functions
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autojump`
 ==> Caveats
-To finish the installation, source activate.sh in your shell:
-  source /home/monday/.linuxbrew/opt/autoenv/activate.sh
+Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
+to source the file to update your current session):
+  [ -f /home/monday/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/monday/.linuxbrew/etc/profile.d/autojump.sh
+
+If you use the Fish shell then add the following line to your ~/.config/fish/config.fish:
+  [ -f /home/monday/.linuxbrew/share/autojump/autojump.fish ]; and source /home/monday/.linuxbrew/share/autojump/autojump.fish
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/autoenv/0.2.1: 6 files, 18.7KB, built in 3 seconds
-This formula doesn't require compiling.
+🍺  /home/monday/.linuxbrew/Cellar/autojump/22.5.1: 20 files, 218.4KB, built in 3 seconds
+==> Determining autojump bottle rebuild...
+==> Bottling autojump-22.5.1.i686_linux.bottle.1.tar.gz...
+./autojump-22.5.1.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "fb938ce7754847f046be6513b67c4bc2e9eb514fa5bd16026e6380f825e0c452" => :i686_linux
+  end
