@@ -1,4 +1,39 @@
-==> Downloading https://github.com/carrot2/carrot2/releases/download/release%2F3.15.1/carrot2-dcs-3.15.1.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2424377/014d6b3a-04b5-11e7-8b00-a199cb379490?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T205847Z&X-Amz-Expires=300&X-Amz-Signature=82633db7ed7d35c527fa92e909c92c4d727806aa83551c2915345eb0ec8a43a1&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcarrot2-dcs-3.15.1.zip&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/carrot2/3.15.1: 60 files, 20.3MB, built in 15 seconds
-This formula doesn't require compiling.
+==> Downloading https://archive.apache.org/dist/cassandra/2.1.13/apache-cassandra-2.1.13-bin.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-12.0.5.tar.gz
+==> Downloading from https://files.pythonhosted.org/packages/c6/b6/7d0793d138644f8857753ac341e1f5fe744f157754a7b2b59a93b0ce6c38/setuptools-12.0.5.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/t/thrift/thrift-0.9.2.tar.gz
+==> Downloading from https://files.pythonhosted.org/packages/3c/69/50ee9e3ed9663f97eb506a15c1dfce6224b5ac98674ddc008b51b9d0ae3b/thrift-0.9.2.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/f/futures/futures-2.2.0.tar.gz
+==> Downloading from https://files.pythonhosted.org/packages/c0/12/927b89a24dcb336e5af18a8fbf581581c36e9620ae963a693a2522b2d340/futures-2.2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/s/six/six-1.9.0.tar.gz
+==> Downloading from https://files.pythonhosted.org/packages/16/64/1dc5e5976b17466fd7d712e59cbe9fb1e18bec153109e5ba3ed6c9102f1a/six-1.9.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/c/cql/cql-1.4.0.tar.gz
+==> Downloading from https://files.pythonhosted.org/packages/0b/15/523f6008d32f05dd3c6a2e7c2f21505f0a785b6dc8949cad325306858afc/cql-1.4.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Downloading https://files.pythonhosted.org/packages/source/c/cassandra-driver/cassandra-driver-2.6.0.tar.gz
+==> Downloading from https://files.pythonhosted.org/packages/fa/a2/df00e9e9f58878539671e5cc2cb528c8257b936721b9708c59f238edebc3/cassandra-driver-2.6.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13/libexec/vendor --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cassandra@2.1`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/monday/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/monday/.linuxbrew/opt/cassandra@2.1/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/cassandra@2.1/2.1.13: 4,495 files, 94MB, built in 1 minute 5 seconds
+==> Determining cassandra@2.1 bottle rebuild...
+==> Bottling cassandra@2.1-2.1.13.i686_linux.bottle.1.tar.gz...
+==> Detecting if cassandra@2.1-2.1.13.i686_linux.bottle.1.tar.gz is relocatable...
+./cassandra@2.1-2.1.13.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8304e58528e8164b46203c4cf1b215c8d6bc6cb15eb51525535defb677775bd0" => :i686_linux
+  end
