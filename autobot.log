@@ -1,3 +1,9 @@
-==> Downloading https://s3.amazonaws.com/amazon-cloudsearch-data/cloud-search-tools-v2-2.0.1.0-2014.10.27.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/aws-cloudsearch/2.0.1.0-2014.10.27_1: 228 files, 46MB, built in 32 seconds
+==> Downloading https://s3.amazonaws.com/elasticache-downloads/AmazonElastiCacheCli-2014-09-30-1.12.000.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/aws-elasticache/1.12.000: 104 files, 7MB, built in 12 seconds
 This formula doesn't require compiling.
