@@ -1,68 +1,16 @@
-==> Installing dependencies for aap: openssl, sqlite, python@2
-==> Installing aap dependency: openssl
-==> Downloading https://www.openssl.org/source/openssl-1.0.2o.tar.gz
-Already downloaded: /home/monday/.cache/Homebrew/openssl-1.0.2o.tar.gz
-==> perl ./Configure --prefix=/home/monday/.linuxbrew/Cellar/openssl/1.0.2o_1 --openssldir=/home/monday/.linuxbrew/etc/openssl no-comp no-ssl2 no-ssl3 no-zlib shared enable-cms -Wa,--noexecstack linux-generic32
-==> make depend
+==> Downloading http://downloads.laffeycomputer.com/current_builds/shellutils/aardvark_shell_utils-1.0.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/aardvark_shell_utils/1.0 --mandir=/home/monday/.linuxbrew/Cellar/aardvark_shell_utils/1.0/share/man
 ==> make
-==> make test
-==> make install MANDIR=/home/monday/.linuxbrew/Cellar/openssl/1.0.2o_1/share/man MANSUFFIX=ssl
-==> Downloading https://curl.haxx.se/ca/cacert-2017-01-18.pem
-Trying a mirror...
-==> Downloading http://cdn.rawgit.com/sjackman/e4066d2cb6b45fbb6d213e676cb109d0/raw/58964378cb5eefe96cba245ef863c57fb2b480e0/cacert-2017-01-18.pem
-==> Downloading from https://cdn.rawgit.com/sjackman/e4066d2cb6b45fbb6d213e676cb109d0/raw/58964378cb5eefe96cba245ef863c57fb2b480e0/cacert-2017-01-18.pem
-You can try again using `brew postinstall openssl`
-==> Caveats
-A CA file has been bootstrapped using certificates from the SystemRoots
-keychain. To add additional certificates (e.g. the certificates added in
-the System keychain), place .pem files in
-  /home/monday/.linuxbrew/etc/openssl/certs
-
-and run
-  /home/monday/.linuxbrew/opt/openssl/bin/c_rehash
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/openssl/1.0.2o_1: 1,790 files, 13.2MB, built in 10 minutes 57 seconds
-==> Installing aap dependency: sqlite
-==> Downloading https://sqlite.org/2018/sqlite-autoconf-3230100.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sqlite/3.23.1 --enable-dynamic-extensions --enable-readline --disable-editline
 ==> make install
-🍺  /home/monday/.linuxbrew/Cellar/sqlite/3.23.1: 12 files, 12.1MB, built in 3 minutes 21 seconds
-==> Installing aap dependency: python@2
-==> Downloading https://www.python.org/ftp/python/2.7.14/Python-2.7.14.tar.xz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4 --enable-ipv6 --datarootdir=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/share --datadir=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/share --enable-shared --without-ensurepip MACOSX_DEPLOYMENT_TARGET= LDFLAGS=  -L/home/monday/.linuxbrew/lib CPPFLAGS=  -I/home/monday/.linuxbrew/include
-==> make
-==> make install PYTHONAPPSDIR=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4
-==> Downloading https://files.pythonhosted.org/packages/e0/02/2b14188e06ddf61e5b462e216b15d893e8472fca28b1b0c5d9272ad7e87c/setuptools-38.5.2.zip
-==> Downloading https://files.pythonhosted.org/packages/c4/44/e6b8056b6c8f2bfd1445cc9990f478930d8e3459e9dbf5b8e2d2922d64d3/pip-9.0.3.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/fa/b4/f9886517624a4dcb81a1d766f68034344b7565db69f13d52697222daeb72/wheel-0.30.0.tar.gz
-==> /home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/bin/python -s setup.py --no-user-cfg install --force --verbose --single-version-externally-managed --record=installed.txt --install-scripts=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/bin --install-lib=/home/monday/.linuxbrew/lib/python2.7/site-packages
-==> /home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/bin/python -s setup.py --no-user-cfg install --force --verbose --single-version-externally-managed --record=installed.txt --install-scripts=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/bin --install-lib=/home/monday/.linuxbrew/lib/python2.7/site-packages
-==> /home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/bin/python -s setup.py --no-user-cfg install --force --verbose --single-version-externally-managed --record=installed.txt --install-scripts=/home/monday/.linuxbrew/Cellar/python@2/2.7.14_4/bin --install-lib=/home/monday/.linuxbrew/lib/python2.7/site-packages
-==> Caveats
-Pip and setuptools have been installed. To update them
-  pip install --upgrade pip setuptools
-
-You can install Python packages with
-  pip install <package>
-
-They will install into the site-package directory
-  /home/monday/.linuxbrew/lib/python2.7/site-packages
-
-See: https://docs.brew.sh/Homebrew-and-Python
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/python@2/2.7.14_4: 5,551 files, 98.7MB, built in 7 minutes 34 seconds
-==> Installing aap
-==> Downloading https://downloads.sourceforge.net/project/a-a-p/aap-1.094.zip
-==> Downloading from https://jaist.dl.sourceforge.net/project/a-a-p/aap-1.094.zip
-==> ./aap install PREFIX=/home/monday/.linuxbrew/Cellar/aap/1.094 MANSUBDIR=share/man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aap`
-🍺  /home/monday/.linuxbrew/Cellar/aap/1.094: 166 files, 3.3MB, built in 5 seconds
-==> Determining aap bottle rebuild...
-==> Bottling aap-1.094.i686_linux.bottle.2.tar.gz...
-./aap-1.094.i686_linux.bottle.2.tar.gz
+You can run it manually using `brew postinstall aardvark_shell_utils`
+🍺  /home/monday/.linuxbrew/Cellar/aardvark_shell_utils/1.0: 13 files, 95.4KB, built in 12 seconds
+==> Determining aardvark_shell_utils bottle rebuild...
+==> Bottling aardvark_shell_utils-1.0.i686_linux.bottle.1.tar.gz...
+./aardvark_shell_utils-1.0.i686_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    rebuild 2
-    sha256 "989554fc18f4316d672abd9f3dc1b96dcf90624692411c85536a4fa8c8afd235" => :i686_linux
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "235158b2fe33519756794f72cbbe17a09174375f9a16bd03ef9eddbff8e2943a" => :i686_linux
   end
