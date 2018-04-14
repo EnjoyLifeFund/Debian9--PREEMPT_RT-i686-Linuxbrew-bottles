@@ -1,17 +1,5 @@
-==> Downloading https://files.pythonhosted.org/packages/fc/ab/b51afd466cc4acf2192e230ddb6fd3adb56066f05c7be1852af7bd655068/ccm-3.1.4.tar.gz
-==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/ccm/3.1.4/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/ccm/3.1.4/libexec/vendor --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/ccm/3.1.4/libexec --single-version-externally-managed --record=installed.txt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ccm`
-🍺  /home/monday/.linuxbrew/Cellar/ccm/3.1.4: 82 files, 1.2MB, built in 13 seconds
-==> Determining ccm bottle rebuild...
-==> Bottling ccm-3.1.4.i686_linux.bottle.1.tar.gz...
-./ccm-3.1.4.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "17b05fbb78233c639bcd94809571b8a4cd5904766f7705128f9516b8ca2f63e0" => :i686_linux
-  end
+==> Downloading https://github.com/ymattw/cdiff/archive/1.0.tar.gz
+==> Downloading from https://codeload.github.com/ymattw/cdiff/tar.gz/1.0
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cdiff/1.0/libexec --single-version-externally-managed --record=installed.txt
+🍺  /home/monday/.linuxbrew/Cellar/cdiff/1.0: 13 files, 122KB, built in 4 seconds
+This formula doesn't require compiling.
