@@ -1,4 +1,3 @@
-==> Downloading https://github.com/npryce/adr-tools/archive/2.1.0.tar.gz
-==> Downloading from https://codeload.github.com/npryce/adr-tools/tar.gz/2.1.0
-🍺  /home/monday/.linuxbrew/Cellar/adr-tools/2.1.0: 24 files, 27.7KB, built in 3 seconds
+==> Downloading https://downloads.typesafe.com/akka/akka_2.11-2.4.17.zip
+🍺  /home/monday/.linuxbrew/Cellar/akka/2.4.17: 3,238 files, 251.4MB, built in 1 minute 35 seconds
 This formula doesn't require compiling.
