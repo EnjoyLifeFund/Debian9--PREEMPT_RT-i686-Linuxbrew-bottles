@@ -1,5 +1,41 @@
-==> Downloading http://www.primaledge.ca/chcase
-==> Patching
-patching file chcase
-🍺  /home/monday/.linuxbrew/Cellar/chcase/2.0: 3 files, 16.3KB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/chrisallenlane/cheat/archive/2.2.3.tar.gz
+==> Downloading from https://codeload.github.com/chrisallenlane/cheat/tar.gz/2.2.3
+==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
+==> python2 -c import setuptools... --no-user-cfg install --prefix=/tmp/cheat--homebrew-virtualenv-20180414-16145-1pfzijp/target --single-version-externally-managed --record=installed.txt
+==> python2 -s /tmp/cheat--homebrew-virtualenv-20180414-16145-1pfzijp/target/bin/virtualenv -p python2 /home/monday/.linuxbrew/Cellar/cheat/2.2.3/libexec
+==> Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+==> /home/monday/.linuxbrew/Cellar/cheat/2.2.3/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat--docopt-20180414-16145-1nclc5w/docopt-0.6.2
+==> Downloading https://files.pythonhosted.org/packages/71/2a/2e4e77803a8bd6408a2903340ac498cb0a2181811af7c9ec92cb70b0308a/Pygments-2.2.0.tar.gz
+==> /home/monday/.linuxbrew/Cellar/cheat/2.2.3/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat--Pygments-20180414-16145-drhf48/Pygments-2.2.0
+==> /home/monday/.linuxbrew/Cellar/cheat/2.2.3/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/cheat-20180414-16145-1vv21p9/cheat-2.2.3
+The formula built, but is not symlinked into /home/monday/.linuxbrew
+Could not symlink bin/cheat
+Target /home/monday/.linuxbrew/bin/cheat
+is a symlink belonging to bash-snippets. You can unlink it:
+  brew unlink bash-snippets
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite cheat
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run cheat
+
+Possible conflicting files are:
+/home/monday/.linuxbrew/bin/cheat -> /home/monday/.linuxbrew/Cellar/bash-snippets/1.22.0/bin/cheat
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cheat`
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/cheat/2.2.3: 1,498 files, 17.3MB, built in 1 minute 44 seconds
+==> Determining cheat bottle rebuild...
+==> Bottling cheat-2.2.3.i686_linux.bottle.1.tar.gz...
+==> Detecting if cheat-2.2.3.i686_linux.bottle.1.tar.gz is relocatable...
+./cheat-2.2.3.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "0885c3c77d15094708772a999db6b4abbc88504ce72370d691f56db59b1716f3" => :i686_linux
+  end
