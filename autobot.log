@@ -1,4 +1,8 @@
-==> Downloading https://github.com/mattly/bork/archive/v0.11.1.tar.gz
-==> Downloading from https://codeload.github.com/mattly/bork/tar.gz/v0.11.1
-🍺  /home/monday/.linuxbrew/Cellar/bork/0.11.1: 109 files, 182.3KB, built in 3 seconds
+==> Downloading https://github.com/xyb/homebrew-cask-completion/archive/v2.1.tar.gz
+==> Downloading from https://codeload.github.com/xyb/homebrew-cask-completion/tar.gz/v2.1
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/brew-cask-completion/2.1: 6 files, 42.8KB, built in 3 seconds
 This formula doesn't require compiling.
