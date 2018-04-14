@@ -1,17 +1,4 @@
-==> Downloading https://github.com/google/closure-linter/archive/v2.3.19.tar.gz
-==> Downloading from https://codeload.github.com/google/closure-linter/tar.gz/v2.3.19
-==> Downloading https://files.pythonhosted.org/packages/source/p/python-gflags/python-gflags-2.0.tar.gz
-==> Downloading from https://files.pythonhosted.org/packages/46/47/12c17c3216c04a85e5ffd9163ad09f0c1661c2cc2ccc0faf70e39cb8dc96/python-gflags-2.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/closure-linter/2.3.19/libexec --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/closure-linter/2.3.19/libexec --single-version-externally-managed --record=installed.txt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall closure-linter`
-🍺  /home/monday/.linuxbrew/Cellar/closure-linter/2.3.19: 134 files, 1.2MB, built in 6 seconds
-==> Determining closure-linter bottle rebuild...
-==> Bottling closure-linter-2.3.19.i686_linux.bottle.1.tar.gz...
-./closure-linter-2.3.19.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "44e1f840f0a2e2f48aca26739d9f271250ef1860c73455c257f7f0152e938297" => :i686_linux
-  end
+==> Downloading https://github.com/google/closure-stylesheets/releases/download/v1.5.0/closure-stylesheets.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/19253501/d4aaa168-6c58-11e7-8be8-a16172b0cfe5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T224317Z&X-Amz-Expires=300&X-Amz-Signature=8bbcab5e22ecc4747c8d0d578d2444542f0c4596a678a1a859d6686ba3b25d2e&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dclosure-stylesheets.jar&response-content-type=application%2Foctet-stream
+🍺  /home/monday/.linuxbrew/Cellar/closure-stylesheets/1.5.0: 4 files, 9.4MB, built in 9 seconds
+This formula doesn't require compiling.
