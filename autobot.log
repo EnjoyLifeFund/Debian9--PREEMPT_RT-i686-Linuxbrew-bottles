@@ -1,5 +1,12 @@
-==> Downloading https://github.com/sstephenson/bats/archive/v0.4.0.tar.gz
-==> Downloading from https://codeload.github.com/sstephenson/bats/tar.gz/v0.4.0
-==> ./install.sh /home/monday/.linuxbrew/Cellar/bats/0.4.0
-🍺  /home/monday/.linuxbrew/Cellar/bats/0.4.0: 12 files, 66.1KB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading https://daringfireball.net/projects/downloads/bbcolors_1.0.1.zip
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall bbcolors`
+🍺  /home/monday/.linuxbrew/Cellar/bbcolors/1.0.1: 3 files, 22.6KB, built in 2 seconds
+==> Determining bbcolors bottle rebuild...
+==> Bottling bbcolors-1.0.1.i686_linux.bottle.1.tar.gz...
+./bbcolors-1.0.1.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "aa5569ad987d57da6a9d6c95759486f8494d90c635e346c892ffbbf19501440c" => :i686_linux
+  end
