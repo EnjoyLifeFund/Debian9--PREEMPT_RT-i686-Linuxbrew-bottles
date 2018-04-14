@@ -1,13 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
-==> Downloading from https://jaist.dl.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz
-==> make prefix=/home/monday/.linuxbrew/Cellar/cfv/1.18.3 mandir=/home/monday/.linuxbrew/Cellar/cfv/1.18.3/share/man install
+==> Downloading http://www.uzix.org/cgvg/cgvg-1.6.3.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/cgvg/1.6.3 --mandir=/home/monday/.linuxbrew/Cellar/cgvg/1.6.3/share/man
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cfv`
-🍺  /home/monday/.linuxbrew/Cellar/cfv/1.18.3: 7 files, 145.5KB, built in 2 seconds
-==> Determining cfv bottle rebuild...
-==> Bottling cfv-1.18.3.i686_linux.bottle.tar.gz...
-./cfv-1.18.3.i686_linux.bottle.tar.gz
+You can run it manually using `brew postinstall cgvg`
+🍺  /home/monday/.linuxbrew/Cellar/cgvg/1.6.3: 14 files, 87.3KB, built in 4 seconds
+==> Determining cgvg bottle rebuild...
+==> Bottling cgvg-1.6.3.i686_linux.bottle.tar.gz...
+./cgvg-1.6.3.i686_linux.bottle.tar.gz
   bottle do
     cellar :any_skip_relocation
-    sha256 "ecd3d721e1ba7c901376d3a11e422e83edd94baa1cd5171a6181e5241b76b3ab" => :i686_linux
+    sha256 "8de3a06af323323e0923b136edb23a238bd2eb829542e33cbd90bb49555ca11f" => :i686_linux
   end
