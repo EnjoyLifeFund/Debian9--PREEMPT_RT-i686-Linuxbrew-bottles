@@ -1,18 +1,6 @@
-==> Downloading https://apache.osuosl.org/ctakes/ctakes-4.0.0/apache-ctakes-4.0.0-bin.tar.gz
-The formula built, but is not symlinked into /home/monday/.linuxbrew
-Could not symlink bin/ant
-Target /home/monday/.linuxbrew/bin/ant
-is a symlink belonging to ant. You can unlink it:
-  brew unlink ant
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite apache-ctakes
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run apache-ctakes
-
-Possible conflicting files are:
-/home/monday/.linuxbrew/bin/ant -> /home/monday/.linuxbrew/Cellar/ant/1.10.3/bin/ant
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/apache-ctakes/4.0.0: 1,005 files, 640.5MB, built in 5 minutes 27 seconds
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=drill/drill-1.10.0/apache-drill-1.10.0.tar.gz
+==> Best Mirror http://apache.stu.edu.tw/drill/drill-1.10.0/apache-drill-1.10.0.tar.gz
+Trying a mirror...
+==> Downloading https://archive.apache.org/dist/drill/drill-1.10.0/apache-drill-1.10.0.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/apache-drill/1.10.0: 296 files, 209.4MB, built in 1 minute 56 seconds
 This formula doesn't require compiling.
