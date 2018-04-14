@@ -1,16 +1,8 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=forrest/apache-forrest-0.9-sources.tar.gz
-==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/forrest/apache-forrest-0.9-sources.tar.gz
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=forrest/apache-forrest-0.9-dependencies.tar.gz
-==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/forrest/apache-forrest-0.9-dependencies.tar.gz
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apache-forrest`
-🍺  /home/monday/.linuxbrew/Cellar/apache-forrest/0.9: 1,439 files, 34.8MB, built in 22 seconds
-==> Determining apache-forrest bottle rebuild...
-==> Bottling apache-forrest-0.9.i686_linux.bottle.1.tar.gz...
-==> Detecting if apache-forrest-0.9.i686_linux.bottle.1.tar.gz is relocatable...
-./apache-forrest-0.9.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "cecbb84859bf363a03098fb601dd957aef786a39d6d4df107cf2b1e4cb4a245d" => :i686_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=geode/1.5.0/apache-geode-1.5.0.tgz
+==> Best Mirror http://ftp.tc.edu.tw/pub/Apache/geode/1.5.0/apache-geode-1.5.0.tgz
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/apache-geode/1.5.0: 883 files, 121.5MB, built in 1 minute 2 seconds
+This formula doesn't require compiling.
