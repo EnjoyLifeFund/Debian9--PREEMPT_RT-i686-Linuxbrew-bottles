@@ -1,8 +1,8 @@
-==> Downloading https://github.com/bashaus/capistrano-autocomplete/archive/v1.0.0.tar.gz
-==> Downloading from https://codeload.github.com/bashaus/capistrano-autocomplete/tar.gz/v1.0.0
+==> Downloading https://github.com/rust-lang/cargo/archive/0.25.0.tar.gz
+==> Downloading from https://codeload.github.com/rust-lang/cargo/tar.gz/0.25.0
 ==> Caveats
 Bash completion has been installed to:
   /home/monday/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/cap-completion/1.0.0: 4 files, 18.4KB, built in 3 seconds
+🍺  /home/monday/.linuxbrew/Cellar/cargo-completion/0.25.0: 5 files, 64.2KB, built in 5 seconds
 This formula doesn't require compiling.
