@@ -1,4 +1,24 @@
-==> Downloading https://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz
-==> Downloading from https://jaist.dl.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/ant-contrib/1.0b3: 257 files, 3.5MB, built in 5 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.9.9-bin.tar.bz2
+==> Best Mirror http://ftp.mirror.tw/pub/apache/ant/binaries/apache-ant-1.9.9-bin.tar.bz2
+Trying a mirror...
+==> Downloading https://archive.apache.org/dist/ant/binaries/apache-ant-1.9.9-bin.tar.bz2
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ant@1.9`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/monday/.linuxbrew,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/monday/.linuxbrew/opt/ant@1.9/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/ant@1.9/1.9.9: 1,617 files, 35.4MB, built in 15 seconds
+==> Determining ant@1.9 bottle rebuild...
+==> Bottling ant@1.9-1.9.9.i686_linux.bottle.1.tar.gz...
+==> Detecting if ant@1.9-1.9.9.i686_linux.bottle.1.tar.gz is relocatable...
+./ant@1.9-1.9.9.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "ac95ab700b154c75326547d5c184140a20a6934283beae6b6b7f81e4b0c02950" => :i686_linux
+  end
