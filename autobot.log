@@ -1,4 +1,4 @@
-==> Downloading https://downloads.sourceforge.net/project/briss/release%200.9/briss-0.9.tar.gz
-==> Downloading from https://jaist.dl.sourceforge.net/project/briss/release%200.9/briss-0.9.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/briss/0.9: 15 files, 9.2MB, built in 9 seconds
+==> Downloading https://gist.github.com/defunkt/318247/raw/7720fc969d58a9bfdc74d71deaa15c1eb7582fc1/browser
+==> Downloading from https://gist.githubusercontent.com/defunkt/318247/raw/7720fc969d58a9bfdc74d71deaa15c1eb7582fc1/browser
+🍺  /home/monday/.linuxbrew/Cellar/browser/7: 3 files, 13.5KB, built in 2 seconds
 This formula doesn't require compiling.
