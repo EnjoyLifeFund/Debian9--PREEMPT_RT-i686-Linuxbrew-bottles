@@ -1,3 +1,16 @@
-==> Downloading https://dl.bintray.com/asciidoctor/maven/org/asciidoctor/asciidoctorj/1.5.6/asciidoctorj-1.5.6-bin.zip
-🍺  /home/monday/.linuxbrew/Cellar/asciidoctorj/1.5.6: 10 files, 37.3MB, built in 19 seconds
-This formula doesn't require compiling.
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+gitlab-gem
+==> Updated Formulae
+dnscrypt-proxy
+subversion
+
+==> Determining asciidoctor bottle rebuild...
+==> Bottling asciidoctor-1.5.6.2.i686_linux.bottle.1.tar.gz...
+./asciidoctor-1.5.6.2.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "cbd73b69bbe1401deff7a6da69acaa5f020bfed10e9bf2812017d4fce716e1ee" => :i686_linux
+  end
