@@ -1,22 +1,11 @@
-==> Downloading https://github.com/wting/autojump/archive/release-v22.5.1.tar.gz
-==> Downloading from https://codeload.github.com/wting/autojump/tar.gz/release-v22.5.1
-==> ./install.py -d /home/monday/.linuxbrew/Cellar/autojump/22.5.1 -z /home/monday/.linuxbrew/Cellar/autojump/22.5.1/share/zsh/site-functions
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autojump`
+==> Downloading https://downloads.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz
+==> Downloading from https://jaist.dl.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz
 ==> Caveats
-Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
-to source the file to update your current session):
-  [ -f /home/monday/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/monday/.linuxbrew/etc/profile.d/autojump.sh
+You will have to edit
+  /home/monday/.linuxbrew/etc/automysqlbackup/automysqlbackup.conf
+to set AutoMySQLBackup up to find your database and backup directory.
 
-If you use the Fish shell then add the following line to your ~/.config/fish/config.fish:
-  [ -f /home/monday/.linuxbrew/share/autojump/autojump.fish ]; and source /home/monday/.linuxbrew/share/autojump/autojump.fish
+The included plist file will run AutoMySQLBackup every day at 04:00.
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/autojump/22.5.1: 20 files, 218.4KB, built in 3 seconds
-==> Determining autojump bottle rebuild...
-==> Bottling autojump-22.5.1.i686_linux.bottle.1.tar.gz...
-./autojump-22.5.1.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "fb938ce7754847f046be6513b67c4bc2e9eb514fa5bd16026e6380f825e0c452" => :i686_linux
-  end
+🍺  /home/monday/.linuxbrew/Cellar/automysqlbackup/3.0-rc6: 6 files, 135KB, built in 2 seconds
+This formula doesn't require compiling.
