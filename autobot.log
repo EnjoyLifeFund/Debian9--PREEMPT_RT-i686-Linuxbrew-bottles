@@ -1,3 +1,15 @@
-==> Downloading https://dl.bintray.com/jfrog/artifactory/jfrog-artifactory-oss-5.10.2.zip
-🍺  /home/monday/.linuxbrew/Cellar/artifactory/5.10.2: 97 files, 98.3MB, built in 37 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/asciidoctor/asciidoctor/archive/v1.5.6.2.tar.gz
+==> Downloading from https://codeload.github.com/asciidoctor/asciidoctor/tar.gz/v1.5.6.2
+==> gem build asciidoctor.gemspec
+==> gem install asciidoctor-1.5.6.2.gem
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall asciidoctor`
+🍺  /home/monday/.linuxbrew/Cellar/asciidoctor/1.5.6.2: 1,004 files, 3.2MB, built in 13 seconds
+==> Determining asciidoctor bottle rebuild...
+==> Bottling asciidoctor-1.5.6.2.i686_linux.bottle.1.tar.gz...
+./asciidoctor-1.5.6.2.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "cbd73b69bbe1401deff7a6da69acaa5f020bfed10e9bf2812017d4fce716e1ee" => :i686_linux
+  end
