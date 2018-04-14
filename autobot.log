@@ -1,8 +1,4 @@
-==> Downloading https://github.com/rust-lang/cargo/archive/0.25.0.tar.gz
-==> Downloading from https://codeload.github.com/rust-lang/cargo/tar.gz/0.25.0
-==> Caveats
-Bash completion has been installed to:
-  /home/monday/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/cargo-completion/0.25.0: 5 files, 64.2KB, built in 5 seconds
+==> Downloading https://github.com/carrot2/carrot2/releases/download/release%2F3.15.1/carrot2-dcs-3.15.1.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2424377/014d6b3a-04b5-11e7-8b00-a199cb379490?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180414T205847Z&X-Amz-Expires=300&X-Amz-Signature=82633db7ed7d35c527fa92e909c92c4d727806aa83551c2915345eb0ec8a43a1&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcarrot2-dcs-3.15.1.zip&response-content-type=application%2Foctet-stream
+🍺  /home/monday/.linuxbrew/Cellar/carrot2/3.15.1: 60 files, 20.3MB, built in 15 seconds
 This formula doesn't require compiling.
