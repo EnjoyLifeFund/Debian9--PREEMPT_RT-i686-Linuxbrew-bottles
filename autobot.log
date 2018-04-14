@@ -1,4 +1,4 @@
-==> Downloading https://www.apache.org/dyn/closer.lua?path=spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz
-==> Best Mirror http://ftp.tc.edu.tw/pub/Apache/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz
-🍺  /home/monday/.linuxbrew/Cellar/apache-spark/2.3.0: 1,018 files, 244.1MB, built in 1 minute 52 seconds
+==> Downloading https://www.apache.org/dyn/closer.lua?path=zeppelin/zeppelin-0.7.3/zeppelin-0.7.3-bin-all.tgz
+==> Best Mirror http://apache.stu.edu.tw/zeppelin/zeppelin-0.7.3/zeppelin-0.7.3-bin-all.tgz
+🍺  /home/monday/.linuxbrew/Cellar/apache-zeppelin/0.7.3: 1,837 files, 898MB, built in 6 minutes 58 seconds
 This formula doesn't require compiling.
