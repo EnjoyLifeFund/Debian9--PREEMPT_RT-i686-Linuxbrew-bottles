@@ -1,4 +1,20 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/java/avro-tools-1.8.2.jar
-==> Best Mirror http://apache.stu.edu.tw/avro/avro-1.8.2/java/avro-tools-1.8.2.jar
-🍺  /home/monday/.linuxbrew/Cellar/avro-tools/1.8.2: 4 files, 33.2MB, built in 21 seconds
+==> Installing dependencies for aws-cfn-tools: ec2-api-tools
+==> Installing aws-cfn-tools dependency: ec2-api-tools
+==> Downloading https://ec2-downloads.s3.amazonaws.com/ec2-api-tools-1.7.5.1.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/ec2-api-tools/1.7.5.1: 765 files, 18.5MB, built in 17 seconds
+==> Installing aws-cfn-tools
+==> Downloading https://s3.amazonaws.com/cloudformation-cli/AWSCloudFormation-cli.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/aws-cfn-tools/1.0.12: 61 files, 6.9MB, built in 9 seconds
 This formula doesn't require compiling.
