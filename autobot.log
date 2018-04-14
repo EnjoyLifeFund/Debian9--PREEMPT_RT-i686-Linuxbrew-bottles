@@ -1,9 +1,66 @@
-==> Downloading https://s3.amazonaws.com/elasticache-downloads/AmazonElastiCacheCli-2014-09-30-1.12.000.zip
+==> Downloading https://files.pythonhosted.org/packages/45/fd/f0f7ff9cba9a2ab803881d7d910ea06985834eee5ce28a09329b6c1a51e3/awsebcli-3.12.4.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
+==> python2 -c import setuptools... --no-user-cfg install --prefix=/tmp/aws-elasticbeanstalk--homebrew-virtualenv-20180414-6636-6srxe8/target --single-version-externally-managed --record=installed.txt
+==> python2 -s /tmp/aws-elasticbeanstalk--homebrew-virtualenv-20180414-6636-6srxe8/target/bin/virtualenv -p python2 /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec
+==> Downloading https://files.pythonhosted.org/packages/c2/04/be691f2ad9d70252476bb0d74a1e46390364d751b021b747b7dc1c8dfb0c/blessed-1.14.2.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--blessed-20180414-6636-1m4768d/blessed-1.14.2
+==> Downloading https://files.pythonhosted.org/packages/fa/f1/0c806404f8c5d94aca3c585f47299dfc4697c9fc2325ea2647c5a860b040/botocore-1.8.41.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--botocore-20180414-6636-1wxv8xi/botocore-1.8.41
+==> Downloading https://files.pythonhosted.org/packages/70/60/608f0b8975f4ee7deaaaa7052210d095e0b96e7cd3becdeede9bd13674a1/cement-2.8.2.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--cement-20180414-6636-8h6v7o/cement-2.8.2
+==> Downloading https://files.pythonhosted.org/packages/f0/d0/21c6449df0ca9da74859edc40208b3a57df9aca7323118c913e58d442030/colorama-0.3.7.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--colorama-20180414-6636-2267rs/colorama-0.3.7
+==> Downloading https://files.pythonhosted.org/packages/fa/2d/906afc44a833901fc6fed1a89c228e5c88fbfc6bd2f3d2f0497fdfb9c525/docker-py-1.10.6.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--docker-py-20180414-6636-1emsstt/docker-py-1.10.6
+==> Downloading https://files.pythonhosted.org/packages/95/2e/3c99b8707a397153bc78870eb140c580628d7897276960da25d8a83c4719/docker-pycreds-0.2.1.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--docker-pycreds-20180414-6636-9f7xtg/docker-pycreds-0.2.1
+==> Downloading https://files.pythonhosted.org/packages/8d/ee/e9ecce4c32204a6738e0a5d5883d3413794d7498fe8b06f44becc028d3ba/dockerpty-0.4.1.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--dockerpty-20180414-6636-1jox8ra/dockerpty-0.4.1
+==> Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--docopt-20180414-6636-u1aryt/docopt-0.6.2
+==> Downloading https://files.pythonhosted.org/packages/84/f4/5771e41fdf52aabebbadecc9381d11dea0fa34e4759b4071244fa094804c/docutils-0.14.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--docutils-20180414-6636-vckbt4/docutils-0.14
+==> Downloading https://files.pythonhosted.org/packages/f0/ba/860a4a3e283456d6b7e2ab39ce5cf11a3490ee1a363652ac50abf9f0f5df/ipaddress-1.0.19.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--ipaddress-20180414-6636-1rzderc/ipaddress-1.0.19
+==> Downloading https://files.pythonhosted.org/packages/e5/21/795b7549397735e911b032f255cff5fb0de58f96da794274660bca4f58ef/jmespath-0.9.3.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--jmespath-20180414-6636-1ovdsxf/jmespath-0.9.3
+==> Downloading https://files.pythonhosted.org/packages/9f/fb/5a901a3b1eeebf83af6da74ecca69d7daf5189e450f0f4cccf9c19132651/pathspec-0.5.5.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--pathspec-20180414-6636-87ykxp/pathspec-0.5.5
+==> Downloading https://files.pythonhosted.org/packages/54/bb/f1db86504f7a49e1d9b9301531181b00a1c7325dc85a29160ee3eaa73a54/python-dateutil-2.6.1.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--python-dateutil-20180414-6636-ktw7qm/python-dateutil-2.6.1
+==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--PyYAML-20180414-6636-by5dsw/PyYAML-3.12
+==> Downloading https://files.pythonhosted.org/packages/f9/6d/07c44fb1ebe04d069459a189e7dab9e4abfe9432adcd4477367c25332748/requests-2.9.1.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--requests-20180414-6636-1w5mogn/requests-2.9.1
+==> Downloading https://files.pythonhosted.org/packages/8e/0e/33052dd97ab9d07dae8ddffcfb2740efe58c46d72efbc060cf6da250439f/semantic_version-2.5.0.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--semantic_version-20180414-6636-1iurzsj/semantic_version-2.5.0
+==> Downloading https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--six-20180414-6636-lgs4np/six-1.11.0
+==> Downloading https://files.pythonhosted.org/packages/db/40/6ffc855c365769c454591ac30a25e9ea0b3e8c952a1259141f5b9878bd3d/tabulate-0.7.5.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--tabulate-20180414-6636-trlqcz/tabulate-0.7.5
+==> Downloading https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--termcolor-20180414-6636-1pv4t8w/termcolor-1.1.0
+==> Downloading https://files.pythonhosted.org/packages/55/11/e4a2bb08bb450fdbd42cc709dd40de4ed2c472cf0ccb9e64af22279c5495/wcwidth-0.1.7.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--wcwidth-20180414-6636-1hdeo9r/wcwidth-0.1.7
+==> Downloading https://files.pythonhosted.org/packages/83/91/162f2c76729633d1dc36b09746895c7766bc183bba94cb4d2ec398676060/websocket_client-0.46.0.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--websocket-client-20180414-6636-v5eh7g/websocket_client-0.46.0
+==> Downloading https://files.pythonhosted.org/packages/76/21/2dc61178a2038a5cb35d14b61467c6ac632791ed05131dda72c20e7b9e23/backports.ssl_match_hostname-3.5.0.1.tar.gz
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk--backports.ssl_match_hostname-20180414-6636-gpya30/backports.ssl_match_hostname-3.5.0.1
+==> /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/aws-elasticbeanstalk-20180414-6636-2405ii/awsebcli-3.12.4
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall aws-elasticbeanstalk`
 ==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/aws-elasticache/1.12.000: 104 files, 7MB, built in 12 seconds
-This formula doesn't require compiling.
+🍺  /home/monday/.linuxbrew/Cellar/aws-elasticbeanstalk/3.12.4: 2,940 files, 52.3MB, built in 2 minutes 25 seconds
+==> Determining aws-elasticbeanstalk bottle rebuild...
+==> Bottling aws-elasticbeanstalk-3.12.4.i686_linux.bottle.1.tar.gz...
+==> Detecting if aws-elasticbeanstalk-3.12.4.i686_linux.bottle.1.tar.gz is relocatable...
+./aws-elasticbeanstalk-3.12.4.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "377426c61dca5dd196dcfd4a141658a1b9e10fc28bd94840d70149d8dfe6b708" => :i686_linux
+  end
