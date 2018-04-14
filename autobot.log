@@ -1,12 +1,14 @@
-==> Downloading https://ec2-downloads.s3.amazonaws.com/AutoScaling-2011-01-01.zip
-==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
-
-See the website for more details:
-https://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/UsingTheCommandLineTools.html
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/auto-scaling/1.0.61.6: 127 files, 7.1MB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://ftp.gnu.org/gnu/autoconf-archive/autoconf-archive-2018.03.13.tar.xz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/autoconf-archive/2018.03.13
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autoconf-archive`
+🍺  /home/monday/.linuxbrew/Cellar/autoconf-archive/2018.03.13: 585 files, 3.6MB, built in 9 seconds
+==> Determining autoconf-archive bottle rebuild...
+==> Bottling autoconf-archive-2018.03.13.i686_linux.bottle.1.tar.gz...
+./autoconf-archive-2018.03.13.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c528eecbe7216f012c9e4a95b57b85560b418d7713a41a3cd8c9e916a73ea885" => :i686_linux
+  end
