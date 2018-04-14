@@ -1,4 +1,8 @@
-==> Downloading https://gist.github.com/defunkt/318247/raw/7720fc969d58a9bfdc74d71deaa15c1eb7582fc1/browser
-==> Downloading from https://gist.githubusercontent.com/defunkt/318247/raw/7720fc969d58a9bfdc74d71deaa15c1eb7582fc1/browser
-🍺  /home/monday/.linuxbrew/Cellar/browser/7: 3 files, 13.5KB, built in 2 seconds
+==> Cloning https://github.com/mernen/completion-ruby.git
+==> Checking out revision f3e4345042b0cc48317e45b673dfd3d23904b9a7
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/bundler-completion/2: 4 files, 21.0KB, built in 3 seconds
 This formula doesn't require compiling.
