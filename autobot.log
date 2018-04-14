@@ -1,3 +1,12 @@
-==> Downloading https://search.maven.org/remotecontent?filepath=com/madgag/bfg/1.13.0/bfg-1.13.0.jar
-🍺  /home/monday/.linuxbrew/Cellar/bfg/1.13.0: 4 files, 12.9MB, built in 10 seconds
-This formula doesn't require compiling.
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/blazeblogger/blazeblogger-1.2.0.tar.gz
+==> make prefix=/home/monday/.linuxbrew/Cellar/blazeblogger/1.2.0 compdir=/home/monday/.linuxbrew/Cellar/blazeblogger/1.2.0 install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall blazeblogger`
+🍺  /home/monday/.linuxbrew/Cellar/blazeblogger/1.2.0: 44 files, 528.8KB, built in 3 seconds
+==> Determining blazeblogger bottle rebuild...
+==> Bottling blazeblogger-1.2.0.i686_linux.bottle.tar.gz...
+./blazeblogger-1.2.0.i686_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "d9bc3e7bdf5d3d5a78c4402dfd87aaaa503cabbf859d91cdb62ffe6c5e7d2166" => :i686_linux
+  end
