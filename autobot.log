@@ -1,4 +1,14 @@
-==> Downloading https://bobswift.atlassian.net/wiki/download/attachments/16285777/atlassian-cli-7.7.0-distribution.zip
-==> Downloading from https://api.media.atlassian.com/file/2424831c-9708-42bd-b91a-a90616ad6bc3/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIxYzZjOWRlMy05NDAyLTQwZjItYTM1YS0zYmM3MzVjOGQzNWMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOjI0MjQ4MzFjLTk3MDgtNDJiZC1iOTFhLWE5MDYxNmFkNmJjMyI6WyJyZWFkIl19LCJleHAiOjE1MjM3Mjk1MjksIm5iZiI6MTUyMzcyNjQ2OX0.XhuyXzMBUWdJ-Z6e5iXaL9vcFAbVbhM5GY9MoExl7lE&client=1c6c9de3-9402-40f2-a35a-3bc735c8d35c&name=atlassian-cli-7.7.0-distribution.zip
-🍺  /home/monday/.linuxbrew/Cellar/atlassian-cli/7.7.0: 55 files, 6.3MB, built in 7 seconds
-This formula doesn't require compiling.
+==> Downloading https://savannah.nongnu.org/download/atool/atool-0.39.0.tar.gz
+==> Downloading from http://download.savannah.gnu.org/releases/atool/atool-0.39.0.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/atool/0.39.0
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall atool`
+🍺  /home/monday/.linuxbrew/Cellar/atool/0.39.0: 22 files, 211.3KB, built in 5 seconds
+==> Determining atool bottle rebuild...
+==> Bottling atool-0.39.0.i686_linux.bottle.tar.gz...
+./atool-0.39.0.i686_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "1d4e0ed91ac6c708c52273623e7bca1cfaf6e148ac1322f24d93483bdc543a42" => :i686_linux
+  end
