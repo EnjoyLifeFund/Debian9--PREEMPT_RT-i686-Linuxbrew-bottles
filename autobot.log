@@ -1,21 +1,30 @@
-==> Downloading https://dl.bintray.com/homebrew/mirror/dpkg-1.19.0.5.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/dpkg/1.19.0.5/libexec --sysconfdir=/home/monday/.linuxbrew/etc --localstatedir=/home/monday/.linuxbrew/var --disable-dselect --disable-start-stop-daemon
-==> make
+==> Installing dependencies for a2ps: gperf
+==> Installing a2ps dependency: gperf
+==> Downloading https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/gperf/3.1
+==> make install
+🍺  /home/monday/.linuxbrew/Cellar/gperf/3.1: 11 files, 732.4KB, built in 26 seconds
+==> Installing a2ps
+==> Downloading https://ftp.gnu.org/gnu/a2ps/a2ps-4.14.tar.gz
+==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/0ae366e6/a2ps/patch-lib__xstrrpl.c
+==> Patching
+==> Applying patch-lib__xstrrpl.c
+patching file lib/xstrrpl.c
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/a2ps/4.14 --sysconfdir=/home/monday/.linuxbrew/etc --with-lispdir=/home/monday/.linuxbrew/Cellar/a2ps/4.14/share/emacs/site-lisp/a2ps
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall dpkg`
+You can run it manually using `brew postinstall a2ps`
 ==> Caveats
-This installation of dpkg is not configured to install software, so
-commands such as `dpkg -i`, `dpkg --configure` will fail.
+Emacs Lisp files have been installed to:
+  /home/monday/.linuxbrew/share/emacs/site-lisp/a2ps
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/dpkg/1.19.0.5: 332 files, 13.9MB, built in 1 minute 57 seconds
-==> Determining dpkg bottle rebuild...
-==> Bottling dpkg-1.19.0.5.i686_linux.bottle.1.tar.gz...
-==> Detecting if dpkg-1.19.0.5.i686_linux.bottle.1.tar.gz is relocatable...
-./dpkg-1.19.0.5.i686_linux.bottle.1.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/a2ps/4.14: 299 files, 5.9MB, built in 2 minutes 29 seconds
+==> Determining a2ps bottle rebuild...
+==> Bottling a2ps-4.14.i686_linux.bottle.tar.gz...
+==> Detecting if a2ps-4.14.i686_linux.bottle.tar.gz is relocatable...
+./a2ps-4.14.i686_linux.bottle.tar.gz
   bottle do
     prefix "/home/monday/.linuxbrew"
     cellar "/home/monday/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "2d6a5f01068e8d496adbd8c7d26fa7547424a548196a03cd47302c3785c24850" => :i686_linux
+    sha256 "9b7a207e214891b1e38204f7fcb9bd0c20281fa422f5d1b1d232f767808bef63" => :i686_linux
   end
