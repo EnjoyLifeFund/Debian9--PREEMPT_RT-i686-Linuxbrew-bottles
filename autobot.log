@@ -1,4 +1,18 @@
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz
-==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/apache-archiva/2.2.3: 469 files, 76.5MB, built in 34 seconds
+==> Downloading https://apache.osuosl.org/ctakes/ctakes-4.0.0/apache-ctakes-4.0.0-bin.tar.gz
+The formula built, but is not symlinked into /home/monday/.linuxbrew
+Could not symlink bin/ant
+Target /home/monday/.linuxbrew/bin/ant
+is a symlink belonging to ant. You can unlink it:
+  brew unlink ant
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite apache-ctakes
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run apache-ctakes
+
+Possible conflicting files are:
+/home/monday/.linuxbrew/bin/ant -> /home/monday/.linuxbrew/Cellar/ant/1.10.3/bin/ant
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/apache-ctakes/4.0.0: 1,005 files, 640.5MB, built in 5 minutes 27 seconds
 This formula doesn't require compiling.
