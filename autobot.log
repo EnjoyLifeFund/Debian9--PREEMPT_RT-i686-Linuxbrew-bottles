@@ -1,3 +1,8 @@
-==> Downloading https://search.maven.org/remotecontent?filepath=biz/aQute/bnd/biz.aQute.bnd/3.5.0/biz.aQute.bnd-3.5.0.jar
-🍺  /home/monday/.linuxbrew/Cellar/bnd/3.5.0: 4 files, 5.7MB, built in 7 seconds
+==> Downloading https://github.com/holman/boom/archive/v0.5.0.tar.gz
+==> Downloading from https://codeload.github.com/holman/boom/tar.gz/v0.5.0
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/boom-completion/0.5.0: 7 files, 38.2KB, built in 3 seconds
 This formula doesn't require compiling.
