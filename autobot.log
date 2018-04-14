@@ -1,9 +1,25 @@
-==> Downloading https://sns-public-resources.s3.amazonaws.com/SimpleNotificationServiceCli-2010-03-31.zip
+==> Downloading https://github.com/Backblaze/B2_Command_Line_Tool/archive/v1.1.0.tar.gz
+==> Downloading from https://codeload.github.com/Backblaze/B2_Command_Line_Tool/tar.gz/v1.1.0
+==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/b2-tools--homebrew-virtualenv-20180414-32491-15ho8nb/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/b2-tools--homebrew-virtualenv-20180414-32491-15ho8nb/target/bin/virtualenv -p python /home/monday/.linuxbrew/Cellar/b2-tools/1.1.0/libexec
+==> /home/monday/.linuxbrew/Cellar/b2-tools/1.1.0/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/b2-tools-20180414-32491-lhbx7/B2_Command_Line_Tool-1.1.0
+==> /home/monday/.linuxbrew/Cellar/b2-tools/1.1.0/libexec/bin/pip uninstall -y b2
+==> /home/monday/.linuxbrew/Cellar/b2-tools/1.1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/b2-tools-20180414-32491-lhbx7/B2_Command_Line_Tool-1.1.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall b2-tools`
 ==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/aws-sns-cli/2013-09-27: 67 files, 6.9MB, built in 12 seconds
-This formula doesn't require compiling.
+🍺  /home/monday/.linuxbrew/Cellar/b2-tools/1.1.0: 1,391 files, 16.2MB, built in 1 minute 18 seconds
+==> Determining b2-tools bottle rebuild...
+==> Bottling b2-tools-1.1.0.i686_linux.bottle.1.tar.gz...
+==> Detecting if b2-tools-1.1.0.i686_linux.bottle.1.tar.gz is relocatable...
+./b2-tools-1.1.0.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "3489ed123798eec00c92ebb6164c8d6d7956b3eb9206dfeff3435b85b0188d21" => :i686_linux
+  end
