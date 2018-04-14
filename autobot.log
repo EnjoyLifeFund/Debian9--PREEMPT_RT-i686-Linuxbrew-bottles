@@ -1,3 +1,22 @@
-==> Downloading https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
-🍺  /home/monday/.linuxbrew/Cellar/chromedriver/2.37: 3 files, 7.5MB, built in 6 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/postmodern/chruby/archive/v0.3.9.tar.gz
+==> Downloading from https://codeload.github.com/postmodern/chruby/tar.gz/v0.3.9
+==> make install PREFIX=/home/monday/.linuxbrew/Cellar/chruby/0.3.9
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall chruby`
+==> Caveats
+Add the following to the ~/.bash_profile or ~/.zshrc file:
+  source /home/monday/.linuxbrew/opt/chruby/share/chruby/chruby.sh
+
+To enable auto-switching of Rubies specified by .ruby-version files,
+add the following to ~/.bash_profile or ~/.zshrc:
+  source /home/monday/.linuxbrew/opt/chruby/share/chruby/auto.sh
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/chruby/0.3.9: 12 files, 77.7KB, built in 2 seconds
+==> Determining chruby bottle rebuild...
+==> Bottling chruby-0.3.9.i686_linux.bottle.1.tar.gz...
+./chruby-0.3.9.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8e745da1cef2fc3c745b3a53401a5a70c6d6e5dc400e4dfd52e63ae206528103" => :i686_linux
+  end
