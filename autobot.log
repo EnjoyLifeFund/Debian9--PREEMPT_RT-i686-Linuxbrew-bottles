@@ -1,8 +1,4 @@
-==> Cloning https://github.com/mernen/completion-ruby.git
-==> Checking out revision f3e4345042b0cc48317e45b673dfd3d23904b9a7
-==> Caveats
-Bash completion has been installed to:
-  /home/monday/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/bundler-completion/2: 4 files, 21.0KB, built in 3 seconds
+==> Downloading https://github.com/visionmedia/burl/archive/1.0.1.tar.gz
+==> Downloading from https://github.com/tj/burl/archive/1.0.1.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/burl/1.0.1: 5 files, 18KB, built in 4 seconds
 This formula doesn't require compiling.
