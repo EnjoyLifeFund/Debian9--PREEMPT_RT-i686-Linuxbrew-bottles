@@ -1,7 +1,4 @@
-==> Downloading http://downloads.alluxio.org/downloads/files/1.7.0/alluxio-1.7.0-bin.tar.gz
-==> Caveats
-To configure alluxio, edit
-  /home/monday/.linuxbrew/etc/alluxio/alluxio-env.sh
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/alluxio/1.7.0: 6,898 files, 316.5MB, built in 2 minutes 39 seconds
+==> Downloading https://bitbucket.org/amdatuadm/amdatu-bootstrap/downloads/bootstrap-bin-r9.zip
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/13771e4b-3e80-4161-8d6e-df013b6693d3/downloads/aa7d6e35-ff51-43d8-b360-a88761a527c5/bootstrap-bin-r9.zip?Signature=thFt8c%2BWPjF2I04duvGZJj40%2Fk8%3D&Expires=1523720040&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22bootstrap-bin-r9.zip%22
+🍺  /home/monday/.linuxbrew/Cellar/amdatu-bootstrap/9: 8 files, 36.6MB, built in 25 seconds
 This formula doesn't require compiling.
