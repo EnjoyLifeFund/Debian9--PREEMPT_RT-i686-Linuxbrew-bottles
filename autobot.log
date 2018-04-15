@@ -1,9 +1,5 @@
-==> Downloading https://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.zip
-==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/elb-tools/1.0.35.0: 94 files, 7.8MB, built in 15 seconds
+==> Downloading https://github.com/mururu/elixir-build/archive/v20141001.tar.gz
+==> Downloading from https://codeload.github.com/mururu/elixir-build/tar.gz/v20141001
+==> ./install.sh
+🍺  /home/monday/.linuxbrew/Cellar/elixir-build/20141001: 10 files, 43.8KB, built in 3 seconds
 This formula doesn't require compiling.
