@@ -1,4 +1,4 @@
-==> Downloading https://github.com/na-ka-na/ExcelCompare/releases/download/0.6.1/ExcelCompare-0.6.1.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4841359/4b94c738-e5ac-11e6-8fbf-f5019ebf9b5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T070641Z&X-Amz-Expires=300&X-Amz-Signature=17dbbc43340d9056903dec29955b751e5198f1e33e504164fa83bf2c69f817fd&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DExcelCompare-0.6.1.zip&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/excel-compare/0.6.1: 25 files, 18.9MB, built in 19 seconds
+==> Downloading https://github.com/mururu/exenv/archive/v0.1.0.tar.gz
+==> Downloading from https://codeload.github.com/mururu/exenv/tar.gz/v0.1.0
+🍺  /home/monday/.linuxbrew/Cellar/exenv/0.1.0: 31 files, 52.3KB, built in 3 seconds
 This formula doesn't require compiling.
