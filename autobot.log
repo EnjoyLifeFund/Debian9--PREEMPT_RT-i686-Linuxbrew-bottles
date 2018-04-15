@@ -1,20 +1,13 @@
-==> Downloading https://gitlab.com/pycqa/flake8/repository/archive.tar.gz?ref=3.5.0
-==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/flake8--homebrew-virtualenv-20180415-972-hv9x6s/target --single-version-externally-managed --record=installed.txt
-==> python -s /tmp/flake8--homebrew-virtualenv-20180415-972-hv9x6s/target/bin/virtualenv -p python /home/monday/.linuxbrew/Cellar/flake8/3.5.0/libexec
-==> /home/monday/.linuxbrew/Cellar/flake8/3.5.0/libexec/bin/pip install -v --no-binary :all: --ignore-installed /tmp/flake8-20180415-972-16eb2g/flake8-3.5.0-8acf55e0f85233c51c291816d73d828cc62d30d1
-==> /home/monday/.linuxbrew/Cellar/flake8/3.5.0/libexec/bin/pip uninstall -y flake8
-==> /home/monday/.linuxbrew/Cellar/flake8/3.5.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/flake8-20180415-972-16eb2g/flake8-3.5.0-8acf55e0f85233c51c291816d73d828cc62d30d1
+==> Downloading https://www.dwheeler.com/flawfinder/flawfinder-2.0.6.tar.gz
+==> make prefix=/home/monday/.linuxbrew/Cellar/flawfinder/2.0.6 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall flake8`
-🍺  /home/monday/.linuxbrew/Cellar/flake8/3.5.0: 1,040 files, 12.8MB, built in 2 minutes
-==> Determining flake8 bottle rebuild...
-==> Bottling flake8-3.5.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if flake8-3.5.0.i686_linux.bottle.1.tar.gz is relocatable...
-./flake8-3.5.0.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall flawfinder`
+🍺  /home/monday/.linuxbrew/Cellar/flawfinder/2.0.6: 7 files, 217.3KB, built in 3 seconds
+==> Determining flawfinder bottle rebuild...
+==> Bottling flawfinder-2.0.6.i686_linux.bottle.1.tar.gz...
+./flawfinder-2.0.6.i686_linux.bottle.1.tar.gz
   bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ca742429c43260bca7c8b85b252c2895525ccc668a0caa83c8eec8e72e06ae01" => :i686_linux
+    sha256 "3872b3f25c8317c8160b5c96fb7129742f9a8205d7cd555a3f73a6f67f8a73a2" => :i686_linux
   end
