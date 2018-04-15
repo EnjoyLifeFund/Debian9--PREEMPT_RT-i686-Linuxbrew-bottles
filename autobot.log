@@ -1,4 +1,3 @@
-==> Downloading https://github.com/andreafabrizi/Dropbox-Uploader/archive/1.0.tar.gz
-==> Downloading from https://codeload.github.com/andreafabrizi/Dropbox-Uploader/tar.gz/1.0
-🍺  /home/monday/.linuxbrew/Cellar/dropbox-uploader/1.0: 7 files, 112.2KB, built in 3 seconds
+==> Downloading http://static.druid.io/artifacts/releases/druid-0.12.0-bin.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/druid/0.12.0: 472 files, 247MB, built in 1 minute 58 seconds
 This formula doesn't require compiling.
