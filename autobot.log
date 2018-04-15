@@ -1,17 +1,9 @@
-==> Downloading https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.8.tar.gz
+==> Downloading https://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.zip
 ==> Caveats
-Data:    /home/monday/.linuxbrew/var/elasticsearch/elasticsearch_monday/
-Logs:    /home/monday/.linuxbrew/var/log/elasticsearch/elasticsearch_monday.log
-Plugins: /home/monday/.linuxbrew/opt/elasticsearch@5.6/libexec/plugins/
-Config:  /home/monday/.linuxbrew/etc/elasticsearch/
-plugin script: /home/monday/.linuxbrew/opt/elasticsearch@5.6/libexec/bin/elasticsearch-plugin
-
-This formula is keg-only, which means it was not symlinked into /home/monday/.linuxbrew,
-because this is an alternate version of another formula.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/monday/.linuxbrew/opt/elasticsearch@5.6/bin:$PATH"' >> ~/.bash_profile
-
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/elasticsearch@5.6/5.6.8: 103 files, 36.0MB, built in 20 seconds
+🍺  /home/monday/.linuxbrew/Cellar/elb-tools/1.0.35.0: 94 files, 7.8MB, built in 15 seconds
 This formula doesn't require compiling.
