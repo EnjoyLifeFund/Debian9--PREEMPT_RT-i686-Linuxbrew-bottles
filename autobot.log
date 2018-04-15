@@ -1,13 +1,4 @@
-==> Downloading https://files.pythonhosted.org/packages/b1/5d/4a5784409ff94900898ff671df2a32bf19469114eb8006286fda3fc7e8d5/doitlive-3.0.3.tar.gz
-==> python setup.py install --prefix=/home/monday/.linuxbrew/Cellar/doitlive/3.0.3/libexec
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall doitlive`
-🍺  /home/monday/.linuxbrew/Cellar/doitlive/3.0.3: 49 files, 392.1KB, built in 5 seconds
-==> Determining doitlive bottle rebuild...
-==> Bottling doitlive-3.0.3.i686_linux.bottle.1.tar.gz...
-./doitlive-3.0.3.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "6f042872dc4110707437b6a532a5d68ecb99816cf1566903cff3caa97ee1adc5" => :i686_linux
-  end
+==> Downloading https://github.com/devstructure/doubledown/archive/v0.0.2.tar.gz
+==> Downloading from https://codeload.github.com/devstructure/doubledown/tar.gz/v0.0.2
+🍺  /home/monday/.linuxbrew/Cellar/doubledown/0.0.2: 9 files, 39.3KB, built in 3 seconds
+This formula doesn't require compiling.
