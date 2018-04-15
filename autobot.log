@@ -1,12 +1,3 @@
-==> Installing dependencies for flume: hadoop
-==> Installing flume dependency: hadoop
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=hadoop/common/hadoop-3.0.0/hadoop-3.0.0.tar.gz
-==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/hadoop/common/hadoop-3.0.0/hadoop-3.0.0.tar.gz
-Trying a mirror...
-==> Downloading https://archive.apache.org/dist/hadoop/common/hadoop-3.0.0/hadoop-3.0.0.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/hadoop/3.0.0: 20,103 files, 720MB, built in 3 minutes 49 seconds
-==> Installing flume
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=flume/1.6.0/apache-flume-1.6.0-bin.tar.gz
-==> Best Mirror http://ftp.tc.edu.tw/pub/Apache/flume/1.6.0/apache-flume-1.6.0-bin.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/flume/1.6.0: 1,497 files, 78.2MB, built in 33 seconds
+==> Downloading https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/5.0.7/flyway-commandline-5.0.7.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/flyway/5.0.7: 22 files, 16MB, built in 10 seconds
 This formula doesn't require compiling.
