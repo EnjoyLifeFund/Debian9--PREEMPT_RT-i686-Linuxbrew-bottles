@@ -1,17 +1,17 @@
-==> Downloading https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.6/elasticsearch-2.4.6.tar.gz
+==> Downloading https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.8.tar.gz
 ==> Caveats
 Data:    /home/monday/.linuxbrew/var/elasticsearch/elasticsearch_monday/
 Logs:    /home/monday/.linuxbrew/var/log/elasticsearch/elasticsearch_monday.log
-Plugins: /home/monday/.linuxbrew/opt/elasticsearch@2.4/libexec/plugins/
+Plugins: /home/monday/.linuxbrew/opt/elasticsearch@5.6/libexec/plugins/
 Config:  /home/monday/.linuxbrew/etc/elasticsearch/
-plugin script: /home/monday/.linuxbrew/opt/elasticsearch@2.4/libexec/bin/plugin
+plugin script: /home/monday/.linuxbrew/opt/elasticsearch@5.6/libexec/bin/elasticsearch-plugin
 
 This formula is keg-only, which means it was not symlinked into /home/monday/.linuxbrew,
 because this is an alternate version of another formula.
 
 If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/monday/.linuxbrew/opt/elasticsearch@2.4/bin:$PATH"' >> ~/.bash_profile
+  echo 'export PATH="/home/monday/.linuxbrew/opt/elasticsearch@5.6/bin:$PATH"' >> ~/.bash_profile
 
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/elasticsearch@2.4/2.4.6: 58 files, 29.2MB, built in 20 seconds
+🍺  /home/monday/.linuxbrew/Cellar/elasticsearch@5.6/5.6.8: 103 files, 36.0MB, built in 20 seconds
 This formula doesn't require compiling.
