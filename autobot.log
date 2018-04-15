@@ -1,14 +1,4 @@
-==> Downloading https://wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.0/E.tgz
-==> ./configure --bindir=/home/monday/.linuxbrew/Cellar/eprover/2.0/bin --man-prefix=/home/monday/.linuxbrew/Cellar/eprover/2.0/share/man
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall eprover`
-🍺  /home/monday/.linuxbrew/Cellar/eprover/2.0: 18 files, 169.2KB, built in 18 seconds
-==> Determining eprover bottle rebuild...
-==> Bottling eprover-2.0.i686_linux.bottle.1.tar.gz...
-./eprover-2.0.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "3088a652c582518fe274a4988039a5a7adf21ea1bd0fc2295647efd63d14411f" => :i686_linux
-  end
+==> Downloading https://github.com/IDPF/epubcheck/releases/download/v4.0.2/epubcheck-4.0.2.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/13576006/42beccbc-b640-11e6-8653-ade133c4a843?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T061500Z&X-Amz-Expires=300&X-Amz-Signature=81c9a9cb8e61d71f27a1924caf7a5a47fb54f4e50b433c12d1148178859f2661&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Depubcheck-4.0.2.zip&response-content-type=application%2Foctet-stream
+🍺  /home/monday/.linuxbrew/Cellar/epubcheck/4.0.2: 19 files, 15.2MB, built in 9 seconds
+This formula doesn't require compiling.
