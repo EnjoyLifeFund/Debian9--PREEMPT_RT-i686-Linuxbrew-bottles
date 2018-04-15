@@ -1,3 +1,9 @@
-==> Downloading https://sourceware.org/pub/java/ecj-4.9.jar
-🍺  /home/monday/.linuxbrew/Cellar/ecj/4.9: 3 files, 1.6MB, built in 6 seconds
+==> Downloading https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.3.tar.gz
+==> Caveats
+Data:    /home/monday/.linuxbrew/var/lib/elasticsearch/elasticsearch_monday/
+Logs:    /home/monday/.linuxbrew/var/log/elasticsearch/elasticsearch_monday.log
+Plugins: /home/monday/.linuxbrew/var/elasticsearch/plugins/
+Config:  /home/monday/.linuxbrew/etc/elasticsearch/
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/elasticsearch/6.2.3: 111 files, 30.8MB, built in 16 seconds
 This formula doesn't require compiling.
