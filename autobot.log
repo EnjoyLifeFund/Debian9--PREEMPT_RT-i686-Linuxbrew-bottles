@@ -1,8 +1,8 @@
-==> Downloading https://github.com/docker/compose/archive/1.21.0.tar.gz
-==> Downloading from https://codeload.github.com/docker/compose/tar.gz/1.21.0
+==> Downloading https://github.com/docker/machine/archive/v0.14.0.tar.gz
+==> Downloading from https://codeload.github.com/docker/machine/tar.gz/v0.14.0
 ==> Caveats
 Bash completion has been installed to:
   /home/monday/.linuxbrew/etc/bash_completion.d
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/docker-compose-completion/1.21.0: 7 files, 145.9KB, built in 5 seconds
+🍺  /home/monday/.linuxbrew/Cellar/docker-machine-completion/0.14.0: 9 files, 99.8KB, built in 17 seconds
 This formula doesn't require compiling.
