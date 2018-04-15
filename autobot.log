@@ -1,4 +1,19 @@
-==> Downloading https://github.com/adlogix/docker-machine-nfs/archive/0.5.0.tar.gz
-==> Downloading from https://codeload.github.com/adlogix/docker-machine-nfs/tar.gz/0.5.0
-🍺  /home/monday/.linuxbrew/Cellar/docker-machine-nfs/0.5.0: 5 files, 30.0KB, built in 4 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/project/docutils/docutils/0.14/docutils-0.14.tar.gz
+==> Downloading from https://jaist.dl.sourceforge.net/project/docutils/docutils/0.14/docutils-0.14.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
+==> python2 -c import setuptools... --no-user-cfg install --prefix=/tmp/docutils--homebrew-virtualenv-20180414-23798-1qb6cta/target --single-version-externally-managed --record=installed.txt
+==> python2 -s /tmp/docutils--homebrew-virtualenv-20180414-23798-1qb6cta/target/bin/virtualenv -p python2 /home/monday/.linuxbrew/Cellar/docutils/0.14/libexec
+==> /home/monday/.linuxbrew/Cellar/docutils/0.14/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/docutils-20180414-23798-rm61on/docutils-0.14
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall docutils`
+🍺  /home/monday/.linuxbrew/Cellar/docutils/0.14: 1,201 files, 14.7MB, built in 1 minute 44 seconds
+==> Determining docutils bottle rebuild...
+==> Bottling docutils-0.14.i686_linux.bottle.1.tar.gz...
+==> Detecting if docutils-0.14.i686_linux.bottle.1.tar.gz is relocatable...
+./docutils-0.14.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "dbbbe08a7fc7057226544d91355fcad842dd80ab627a3ba5c4b14d9edc74bae9" => :i686_linux
+  end
