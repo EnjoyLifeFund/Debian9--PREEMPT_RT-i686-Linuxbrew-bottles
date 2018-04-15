@@ -1,14 +1,13 @@
-==> Downloading https://downloads.sourceforge.net/docx2txt/docx2txt-1.4.tgz
-==> Downloading from https://downloads.sourceforge.net/project/docx2txt/docx2txt/v1.4/docx2txt-1.4.tgz
-==> make install CONFIGDIR=/home/monday/.linuxbrew/etc BINDIR=/home/monday/.linuxbrew/Cellar/docx2txt/1.4/bin
+==> Downloading https://files.pythonhosted.org/packages/b1/5d/4a5784409ff94900898ff671df2a32bf19469114eb8006286fda3fc7e8d5/doitlive-3.0.3.tar.gz
+==> python setup.py install --prefix=/home/monday/.linuxbrew/Cellar/doitlive/3.0.3/libexec
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall docx2txt`
-🍺  /home/monday/.linuxbrew/Cellar/docx2txt/1.4: 10 files, 95.4KB, built in 2 seconds
-==> Determining docx2txt bottle rebuild...
-==> Bottling docx2txt-1.4.i686_linux.bottle.1.tar.gz...
-./docx2txt-1.4.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall doitlive`
+🍺  /home/monday/.linuxbrew/Cellar/doitlive/3.0.3: 49 files, 392.1KB, built in 5 seconds
+==> Determining doitlive bottle rebuild...
+==> Bottling doitlive-3.0.3.i686_linux.bottle.1.tar.gz...
+./doitlive-3.0.3.i686_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "436821d84962c66a7d7c42b719b95ac1451c5c3b292bcf5949a81626f13f720b" => :i686_linux
+    sha256 "6f042872dc4110707437b6a532a5d68ecb99816cf1566903cff3caa97ee1adc5" => :i686_linux
   end
