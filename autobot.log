@@ -1,18 +1,13 @@
-==> Downloading https://getcomposer.org/download/1.6.4/composer.phar
-The formula built, but is not symlinked into /home/monday/.linuxbrew
-Could not symlink bin/composer
-Target /home/monday/.linuxbrew/bin/composer
-is a symlink belonging to ballerina. You can unlink it:
-  brew unlink ballerina
-
-To force the link and overwrite all conflicting files:
-  brew link --overwrite composer
-
-To list all files that would be deleted:
-  brew link --overwrite --dry-run composer
-
-Possible conflicting files are:
-/home/monday/.linuxbrew/bin/composer -> /home/monday/.linuxbrew/Cellar/ballerina/0.964.0/bin/composer
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/composer/1.6.4: 3 files, 1.8MB, built in 6 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.j3e.de/linux/convmv/convmv-2.05.tar.gz
+==> make install PREFIX=/home/monday/.linuxbrew/Cellar/convmv/2.05
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall convmv`
+🍺  /home/monday/.linuxbrew/Cellar/convmv/2.05: 6 files, 77.1KB, built in 7 seconds
+==> Determining convmv bottle rebuild...
+==> Bottling convmv-2.05.i686_linux.bottle.1.tar.gz...
+./convmv-2.05.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "73a02b749542fa704e0670e3fe14450b4ce5752f36e96df630fe738adf8acebf" => :i686_linux
+  end
