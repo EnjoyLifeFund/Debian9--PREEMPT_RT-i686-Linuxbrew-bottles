@@ -1,19 +1,6 @@
-==> Downloading https://github.com/fonttools/fonttools/releases/download/3.25.0/fonttools-3.25.0.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/11639637/973e7016-3750-11e8-93fd-51fd1f59e337?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T085924Z&X-Amz-Expires=300&X-Amz-Signature=7a69fcedaac49ac17979243365810a176cfc15cbe179fbcbd83221f8a0d4c5dc&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfonttools-3.25.0.zip&response-content-type=application%2Foctet-stream
-==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
-==> python2 -c import setuptools... --no-user-cfg install --prefix=/tmp/fonttools--homebrew-virtualenv-20180415-21819-35jpqv/target --single-version-externally-managed --record=installed.txt
-==> python2 -s /tmp/fonttools--homebrew-virtualenv-20180415-21819-35jpqv/target/bin/virtualenv -p python2 /home/monday/.linuxbrew/Cellar/fonttools/3.25.0/libexec
-==> /home/monday/.linuxbrew/Cellar/fonttools/3.25.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/fonttools-20180415-21819-eq3iku/fonttools-3.25.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall fonttools`
-🍺  /home/monday/.linuxbrew/Cellar/fonttools/3.25.0: 1,292 files, 15.6MB, built in 1 minute 31 seconds
-==> Determining fonttools bottle rebuild...
-==> Bottling fonttools-3.25.0.i686_linux.bottle.1.tar.gz...
-==> Detecting if fonttools-3.25.0.i686_linux.bottle.1.tar.gz is relocatable...
-./fonttools-3.25.0.i686_linux.bottle.1.tar.gz
-  bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
-    rebuild 1
-    sha256 "b4821c8ff104f5b7ec7d1c551bb63febe1e7f3fa6411916e6e6b574081440d32" => :i686_linux
-  end
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=/xmlgraphics/fop/binaries/fop-2.2-bin.tar.gz
+==> Best Mirror http://ftp.twaren.net/Unix/Web/apache/xmlgraphics/fop/binaries/fop-2.2-bin.tar.gz
+==> Downloading https://downloads.sourceforge.net/project/offo/offo-hyphenation-utf8/0.1/offo-hyphenation-fop-stable-utf8.zip
+==> Downloading from https://excellmedia.dl.sourceforge.net/project/offo/offo-hyphenation-utf8/0.1/offo-hyphenation-fop-stable-utf8.zip
+🍺  /home/monday/.linuxbrew/Cellar/fop/2.2: 3,981 files, 100.3MB, built in 35 seconds
+This formula doesn't require compiling.
