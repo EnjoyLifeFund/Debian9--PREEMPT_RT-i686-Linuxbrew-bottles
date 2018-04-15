@@ -1,4 +1,4 @@
-==> Downloading https://github.com/miyagawa/cpanminus/archive/1.7043.tar.gz
-==> Downloading from https://codeload.github.com/miyagawa/cpanminus/tar.gz/1.7043
-🍺  /home/monday/.linuxbrew/Cellar/cpanminus/1.7043: 6 files, 393.1KB, built in 5 seconds
+==> Downloading https://search.maven.org/remotecontent?filepath=org/crashub/crash.distrib/1.3.2/crash.distrib-1.3.2.tar.gz
+==> Downloading https://search.maven.org/remotecontent?filepath=org/crashub/crash.distrib/1.3.2/crash.distrib-1.3.2-docs.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/crash/1.3.2: 1,993 files, 37.0MB, built in 27 seconds
 This formula doesn't require compiling.
