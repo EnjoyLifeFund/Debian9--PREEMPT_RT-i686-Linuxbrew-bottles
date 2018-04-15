@@ -1,4 +1,34 @@
-==> Downloading https://github.com/galenframework/galen/releases/download/galen-2.3.6/galen-bin-2.3.6.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/12896452/a532bc00-e119-11e7-8cab-490b5c18f2c9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T100417Z&X-Amz-Expires=300&X-Amz-Signature=4d3c73545ab5d7c573a3fb62371fd84aab2f38ace7105b933c2214d4c4127f8a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dgalen-bin-2.3.6.zip&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/galen/2.3.6: 6 files, 12.8MB, built in 11 seconds
-This formula doesn't require compiling.
+==> Downloading https://files.pythonhosted.org/packages/f1/f7/e90542fae4fcb8d921946fd55bb88e49314999b22ed2fa4e56a8cf23a434/gandi.cli-1.0.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
+==> python2 -c import setuptools... --no-user-cfg install --prefix=/tmp/gandi.cli--homebrew-virtualenv-20180415-28279-185bq3d/target --single-version-externally-managed --record=installed.txt
+==> python2 -s /tmp/gandi.cli--homebrew-virtualenv-20180415-28279-185bq3d/target/bin/virtualenv -p python2 /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec
+==> Downloading https://files.pythonhosted.org/packages/23/3f/8be01c50ed24a4bd6b8da799839066ce0288f66f5e11f0367323467f0cbc/certifi-2017.11.5.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--certifi-20180415-28279-1bsdz6q/certifi-2017.11.5
+==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--chardet-20180415-28279-1mbz69l/chardet-3.0.4
+==> Downloading https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--click-20180415-28279-cn065g/click-6.7
+==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--idna-20180415-28279-y50e97/idna-2.6
+==> Downloading https://files.pythonhosted.org/packages/88/28/79162bfc351a3f1ab44d663ab3f03fb495806fdb592170990a1568ffbf63/IPy-0.83.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--IPy-20180415-28279-18muf9a/IPy-0.83
+==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--PyYAML-20180415-28279-kskyze/PyYAML-3.12
+==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--requests-20180415-28279-pjixtn/requests-2.18.4
+==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli--urllib3-20180415-28279-1976i2x/urllib3-1.22
+==> /home/monday/.linuxbrew/Cellar/gandi.cli/1.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/gandi.cli-20180415-28279-14ighb7/gandi.cli-1.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall gandi.cli`
+🍺  /home/monday/.linuxbrew/Cellar/gandi.cli/1.0: 1,409 files, 16.8MB, built in 3 minutes 16 seconds
+==> Determining gandi.cli bottle rebuild...
+==> Bottling gandi.cli-1.0.i686_linux.bottle.1.tar.gz...
+==> Detecting if gandi.cli-1.0.i686_linux.bottle.1.tar.gz is relocatable...
+./gandi.cli-1.0.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "058fb734fa2a493a7aca12624a5aabf8e45ba3437e651a5e86db6d3f2981cd68" => :i686_linux
+  end
