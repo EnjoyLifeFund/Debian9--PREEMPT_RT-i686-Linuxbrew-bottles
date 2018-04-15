@@ -1,4 +1,14 @@
-==> Downloading https://github.com/mrowa44/emojify/archive/v1.0.2.tar.gz
-==> Downloading from https://codeload.github.com/mrowa44/emojify/tar.gz/v1.0.2
-🍺  /home/monday/.linuxbrew/Cellar/emojify/1.0.2: 5 files, 56.2KB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading https://wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.0/E.tgz
+==> ./configure --bindir=/home/monday/.linuxbrew/Cellar/eprover/2.0/bin --man-prefix=/home/monday/.linuxbrew/Cellar/eprover/2.0/share/man
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall eprover`
+🍺  /home/monday/.linuxbrew/Cellar/eprover/2.0: 18 files, 169.2KB, built in 18 seconds
+==> Determining eprover bottle rebuild...
+==> Bottling eprover-2.0.i686_linux.bottle.1.tar.gz...
+./eprover-2.0.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3088a652c582518fe274a4988039a5a7adf21ea1bd0fc2295647efd63d14411f" => :i686_linux
+  end
