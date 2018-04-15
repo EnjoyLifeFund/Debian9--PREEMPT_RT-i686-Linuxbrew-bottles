@@ -1,10 +1,4 @@
-==> Downloading https://my.datomic.com/downloads/free/0.9.5656
-==> Caveats
-All commands have been installed with the prefix "datomic-".
-
-We agreed to the Datomic Free Edition License for you:
-  https://my.datomic.com/downloads/free
-If this is unacceptable you should uninstall.
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/datomic/0.9.5656: 160 files, 45.4MB, built in 23 seconds
+==> Downloading https://downloads.sourceforge.net/project/davmail/davmail/4.8.5/davmail-4.8.5-2589.zip
+==> Downloading from https://jaist.dl.sourceforge.net/project/davmail/davmail/4.8.5/davmail-4.8.5-2589.zip
+🍺  /home/monday/.linuxbrew/Cellar/davmail/4.8.5: 23 files, 5.7MB, built in 5 seconds
 This formula doesn't require compiling.
