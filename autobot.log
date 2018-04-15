@@ -1,3 +1,9 @@
-==> Downloading https://people.gnome.org/~newren/eg/download/1.7.5.2/eg
-🍺  /home/monday/.linuxbrew/Cellar/easy-git/1.7.5.2: 3 files, 290.2KB, built in 5 seconds
+==> Downloading https://ec2-downloads.s3.amazonaws.com/ec2-ami-tools-1.5.7.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/ec2-ami-tools/1.5.7: 108 files, 461.8KB, built in 6 seconds
 This formula doesn't require compiling.
