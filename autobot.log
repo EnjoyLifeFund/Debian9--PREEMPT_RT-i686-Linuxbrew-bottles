@@ -1,6 +1,22 @@
-==> Downloading https://www.apache.org/dyn/closer.lua?path=/jena/binaries/apache-jena-fuseki-3.5.0.tar.gz
-==> Best Mirror http://apache.stu.edu.tw/jena/binaries/apache-jena-fuseki-3.5.0.tar.gz
-Trying a mirror...
-==> Downloading https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-3.5.0.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/fuseki/3.5.0: 157 files, 52.9MB, built in 35 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/orefalo/g2/archive/v1.1.tar.gz
+==> Downloading from https://codeload.github.com/orefalo/g2/tar.gz/v1.1
+==> make prefix=/home/monday/.linuxbrew/Cellar/g2/1.1 install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall g2`
+==> Caveats
+To complete the installation:
+  . /home/monday/.linuxbrew/opt/g2/g2-install.sh
+
+NOTE: This will install a new ~/.gitconfig, backing up any existing
+file first. For more information view:
+  /home/monday/.linuxbrew/opt/g2/README.md
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/g2/1.1: 46 files, 122.8KB, built in 3 seconds
+==> Determining g2 bottle rebuild...
+==> Bottling g2-1.1.i686_linux.bottle.1.tar.gz...
+./g2-1.1.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f6c9798a27c987edcc6d2ab5d59d971ea85a0ddbb1f1c33f798ef705ef002b2e" => :i686_linux
+  end
