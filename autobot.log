@@ -1,4 +1,4 @@
-==> Downloading https://github.com/so-fancy/diff-so-fancy/archive/v1.2.0.tar.gz
-==> Downloading from https://codeload.github.com/so-fancy/diff-so-fancy/tar.gz/v1.2.0
-🍺  /home/monday/.linuxbrew/Cellar/diff-so-fancy/1.2.0: 8 files, 53.4KB, built in 3 seconds
+==> Downloading https://dl.digdag.io/digdag-0.9.24.jar
+==> Downloading from https://dl.bintray.com/digdag/maven/digdag-0.9.24.jar
+🍺  /home/monday/.linuxbrew/Cellar/digdag/0.9.24: 4 files, 30.9MB, built in 17 seconds
 This formula doesn't require compiling.
