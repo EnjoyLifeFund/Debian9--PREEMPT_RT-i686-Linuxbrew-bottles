@@ -1,18 +1,13 @@
-==> Downloading https://github.com/zsh-users/zsh-completions/archive/0.27.0.tar.gz
-==> Downloading from https://codeload.github.com/zsh-users/zsh-completions/tar.gz/0.27.0
+==> Downloading https://github.com/zsh-users/zsh-history-substring-search/archive/v1.0.1.tar.gz
+==> Downloading from https://codeload.github.com/zsh-users/zsh-history-substring-search/tar.gz/v1.0.1
 ==> Caveats
-To activate these completions, add the following to your .zshrc:
+To activate the history search, add the following at the end of your .zshrc:
 
-  fpath=(/home/monday/.linuxbrew/share/zsh-completions $fpath)
+  source /home/monday/.linuxbrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
-You may also need to force rebuild `zcompdump`:
+You will also need to force reload of your .zshrc:
 
-  rm -f ~/.zcompdump; compinit
-
-Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
-to load these completions, you may need to run this:
-
-  chmod go-w '/home/monday/.linuxbrew/share'
+  source ~/.zshrc
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/zsh-completions/0.27.0: 139 files, 936.7KB, built in 4 seconds
+🍺  /home/monday/.linuxbrew/Cellar/zsh-history-substring-search/1.0.1: 4 files, 50KB, built in 3 seconds
 This formula doesn't require compiling.
