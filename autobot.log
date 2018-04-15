@@ -1,4 +1,15 @@
-==> Downloading https://github.com/mururu/exenv/archive/v0.1.0.tar.gz
-==> Downloading from https://codeload.github.com/mururu/exenv/tar.gz/v0.1.0
-🍺  /home/monday/.linuxbrew/Cellar/exenv/0.1.0: 31 files, 52.3KB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading https://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-10.80.tar.gz
+==> perl Makefile.PL
+==> make all
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall exiftool`
+🍺  /home/monday/.linuxbrew/Cellar/exiftool/10.80: 547 files, 20.5MB, built in 28 seconds
+==> Determining exiftool bottle rebuild...
+==> Bottling exiftool-10.80.i686_linux.bottle.1.tar.gz...
+==> Detecting if exiftool-10.80.i686_linux.bottle.1.tar.gz is relocatable...
+./exiftool-10.80.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0645c5843d48522bd7aed85b77d8cb45c51c9f122529f7de246a681d5a21ab96" => :i686_linux
+  end
