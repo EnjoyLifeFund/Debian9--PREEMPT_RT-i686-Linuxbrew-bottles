@@ -1,14 +1,14 @@
-==> Downloading https://www.red-bean.com/cvsutils/releases/cvsutils-0.2.6.tar.gz
-==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/cvsutils/0.2.6
-==> make install
+==> Downloading https://github.com/CxxTest/cxxtest/releases/download/4.4/cxxtest-4.4.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/3089022/5ba6bfd0-eba1-11e3-8e90-c709e9a0d331?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T014534Z&X-Amz-Expires=300&X-Amz-Signature=e1fff6c46940669b18d7f4fddc7711e3a70ee15abbdc20c44b3b2de812b0dd03&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dcxxtest-4.4.tar.gz&response-content-type=application%2Foctet-stream
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/monday/.linuxbrew/Cellar/cxxtest/4.4 --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cvsutils`
-🍺  /home/monday/.linuxbrew/Cellar/cvsutils/0.2.6: 15 files, 93.0KB, built in 5 seconds
-==> Determining cvsutils bottle rebuild...
-==> Bottling cvsutils-0.2.6.i686_linux.bottle.1.tar.gz...
-./cvsutils-0.2.6.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cxxtest`
+🍺  /home/monday/.linuxbrew/Cellar/cxxtest/4.4: 183 files, 795.9KB, built in 6 seconds
+==> Determining cxxtest bottle rebuild...
+==> Bottling cxxtest-4.4.i686_linux.bottle.1.tar.gz...
+./cxxtest-4.4.i686_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "31bd40e5bce4579ac660132ca908325bf39b889dc46835b0cb1b44bc4987ad96" => :i686_linux
+    sha256 "ac1b737742b52ef3b9f72d37b545795254035c4293ad94cb4204df440916036f" => :i686_linux
   end
