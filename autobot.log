@@ -1,22 +1,14 @@
-==> Downloading http://cvs2svn.tigris.org/files/documents/1462/49237/cvs2svn-2.4.0.tar.gz
-==> python setup.py install --prefix=/home/monday/.linuxbrew/Cellar/cvs2svn/2.4.0_1
-==> make man
+==> Downloading https://www.red-bean.com/cvsutils/releases/cvsutils-0.2.6.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/cvsutils/0.2.6
+==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cvs2svn`
-==> Caveats
-NOTE: man pages have been installed, but for better documentation see:
-  /home/monday/.linuxbrew/share/doc/cvs2svn/cvs2svn.html
-or http://cvs2svn.tigris.org/cvs2svn.html.
-
-Contrib scripts and example options files are installed in:
-  /home/monday/.linuxbrew/opt/cvs2svn
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/cvs2svn/2.4.0_1: 209 files, 2MB, built in 11 seconds
-==> Determining cvs2svn bottle rebuild...
-==> Bottling cvs2svn-2.4.0_1.i686_linux.bottle.1.tar.gz...
-./cvs2svn-2.4.0_1.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cvsutils`
+🍺  /home/monday/.linuxbrew/Cellar/cvsutils/0.2.6: 15 files, 93.0KB, built in 5 seconds
+==> Determining cvsutils bottle rebuild...
+==> Bottling cvsutils-0.2.6.i686_linux.bottle.1.tar.gz...
+./cvsutils-0.2.6.i686_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "7eb160e4440f278adb74eaa323ec1da0778ebfe5fe7369cb8086b61d8983f318" => :i686_linux
+    sha256 "31bd40e5bce4579ac660132ca908325bf39b889dc46835b0cb1b44bc4987ad96" => :i686_linux
   end
