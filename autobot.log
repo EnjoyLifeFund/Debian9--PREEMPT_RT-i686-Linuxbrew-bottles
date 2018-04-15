@@ -1,3 +1,13 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/csshx/csshX-0.74.tgz
-🍺  /home/monday/.linuxbrew/Cellar/csshx/0.74: 4 files, 96.9KB, built in 1 second
-This formula doesn't require compiling.
+==> Downloading https://github.com/fireteam/curlish/archive/1.22.tar.gz
+==> Downloading from https://codeload.github.com/fireteam/curlish/tar.gz/1.22
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall curlish`
+🍺  /home/monday/.linuxbrew/Cellar/curlish/1.22: 6 files, 51.4KB, built in 4 seconds
+==> Determining curlish bottle rebuild...
+==> Bottling curlish-1.22.i686_linux.bottle.1.tar.gz...
+./curlish-1.22.i686_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0a4f74ee82980ecf4d61acf313ec127063a7aab4e03064c0d6f85f34ab2ed446" => :i686_linux
+  end
