@@ -1,5 +1,4 @@
-==> Downloading https://github.com/mururu/elixir-build/archive/v20141001.tar.gz
-==> Downloading from https://codeload.github.com/mururu/elixir-build/tar.gz/v20141001
-==> ./install.sh
-🍺  /home/monday/.linuxbrew/Cellar/elixir-build/20141001: 10 files, 43.8KB, built in 3 seconds
+==> Downloading https://bintray.com/artifact/download/embulk/maven/embulk-0.9.6.jar
+==> Downloading from https://dl.bintray.com/embulk/maven/embulk-0.9.6.jar
+🍺  /home/monday/.linuxbrew/Cellar/embulk/0.9.6: 4 files, 43.5MB, built in 20 seconds
 This formula doesn't require compiling.
