@@ -1,3 +1,19 @@
-==> Downloading https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.5.zip
-🍺  /home/monday/.linuxbrew/Cellar/fastqc/0.11.5: 216 files, 10.7MB, built in 47 seconds
-This formula doesn't require compiling.
+==> Downloading https://github.com/Steveice10/FBI/archive/2.5.0.tar.gz
+==> Downloading from https://codeload.github.com/Steveice10/FBI/tar.gz/2.5.0
+==> Downloading https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/fbi-servefiles--homebrew-virtualenv-20180415-25204-1iunqxc/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/fbi-servefiles--homebrew-virtualenv-20180415-25204-1iunqxc/target/bin/virtualenv -p python /home/monday/.linuxbrew/Cellar/fbi-servefiles/2.5.0/libexec
+==> /home/monday/.linuxbrew/Cellar/fbi-servefiles/2.5.0/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/fbi-servefiles-20180415-25204-1gh7cjy/FBI-2.5.0/servefiles
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall fbi-servefiles`
+🍺  /home/monday/.linuxbrew/Cellar/fbi-servefiles/2.5.0: 880 files, 11MB, built in 51 seconds
+==> Determining fbi-servefiles bottle rebuild...
+==> Bottling fbi-servefiles-2.5.0.i686_linux.bottle.1.tar.gz...
+==> Detecting if fbi-servefiles-2.5.0.i686_linux.bottle.1.tar.gz is relocatable...
+./fbi-servefiles-2.5.0.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "766e4f63b0970ee84fdc3a78c267f7ca2ed67e751306a62a117e9aa9dfc88b7b" => :i686_linux
+  end
