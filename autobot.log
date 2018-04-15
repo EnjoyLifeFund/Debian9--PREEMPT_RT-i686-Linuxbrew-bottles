@@ -1,4 +1,28 @@
-==> Cloning https://github.com/offensive-security/exploit-database.git
-==> Checking out tag 2018-04-05
-🍺  /home/monday/.linuxbrew/Cellar/exploitdb/2018-04-05: 40,001 files, 192.6MB, built in 5 minutes 22 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for exult: sdl2
+==> Installing exult dependency: sdl2
+==> Downloading https://libsdl.org/release/SDL2-2.0.8.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/sdl2-2.0.8.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sdl2/2.0.8 --disable-haptic --disable-joystick
+Last 15 lines from /home/monday/.cache/Homebrew/Logs/sdl2/01.configure:
+2018-04-15 00:21:53 -0700
+
+./configure
+--prefix=/home/monday/.linuxbrew/Cellar/sdl2/2.0.8
+--disable-haptic
+--disable-joystick
+
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc-7
+checking whether the C compiler works... no
+configure: error: in `/tmp/sdl2-20180415-31987-8w244b/SDL2-2.0.8':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+
+READ THIS: https://github.com/Linuxbrew/brew/wiki/troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
+These open issues may also help:
+sdl2: enable X for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/7188
+Linuxbrew's sdl2 bottle doesn't have X support https://github.com/Linuxbrew/homebrew-core/issues/7187
