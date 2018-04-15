@@ -1,4 +1,4 @@
-==> Downloading https://github.com/sjl/friendly-find/archive/v1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/sjl/friendly-find/tar.gz/v1.0.1
-🍺  /home/monday/.linuxbrew/Cellar/ffind/1.0.1: 5 files, 80.6KB, built in 3 seconds
+==> Downloading https://github.com/twitter/finatra/archive/1.5.3.tar.gz
+==> Downloading from https://codeload.github.com/twitter/finatra/tar.gz/1.5.3
+🍺  /home/monday/.linuxbrew/Cellar/finatra/1.5.3: 96 files, 854.9KB, built in 6 seconds
 This formula doesn't require compiling.
