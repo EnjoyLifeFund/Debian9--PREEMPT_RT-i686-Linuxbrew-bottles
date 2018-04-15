@@ -1,4 +1,8 @@
-==> Downloading https://github.com/ZZROTDesign/docker-clean/archive/v2.0.4.tar.gz
-==> Downloading from https://codeload.github.com/ZZROTDesign/docker-clean/tar.gz/v2.0.4
-🍺  /home/monday/.linuxbrew/Cellar/docker-clean/2.0.4: 5 files, 43.6KB, built in 3 seconds
+==> Cloning https://github.com/docker/docker-ce.git
+==> Checking out tag v18.04.0-ce
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/docker-completion/18.04.0: 7 files, 307.9KB, built in 36 seconds
 This formula doesn't require compiling.
