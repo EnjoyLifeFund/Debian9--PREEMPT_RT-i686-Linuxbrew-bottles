@@ -1,13 +1,4 @@
-==> Cloning https://github.com/kbakulin/fabric-completion.git
-==> Checking out revision 5b5910492046e6335af0e88550176d2583d9a510
-==> Caveats
-All available tasks are cached in special file to speed up the response.
-Therefore, Add .fab_tasks~ to your ".gitignore".
-
-For more details and configuration refer to the home page.
-
-Bash completion has been installed to:
-  /home/monday/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/fabric-completion/1: 4 files, 22.5KB, built in 3 seconds
+==> Downloading https://bitbucket.org/fantom/fan-1.0/downloads/fantom-1.0.70.zip
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/581330b1-a28e-40d7-b2d3-a1290d627679/downloads/0883485b-edb5-425e-88c9-cf374caf7787/fantom-1.0.70.zip?Signature=vmkafsH7VtEhNeHqKq1g%2BDyhxpI%3D&Expires=1523779474&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=8iGhF_7rReRR1bRiEwUI75crgVpmX.um&response-content-disposition=attachment%3B%20filename%3D%22fantom-1.0.70.zip%22
+🍺  /home/monday/.linuxbrew/Cellar/fantom/1.0.70: 1,916 files, 22.8MB, built in 13 seconds
 This formula doesn't require compiling.
