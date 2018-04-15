@@ -1,4 +1,18 @@
-==> Downloading https://downloads.sourceforge.net/project/davmail/davmail/4.8.5/davmail-4.8.5-2589.zip
-==> Downloading from https://jaist.dl.sourceforge.net/project/davmail/davmail/4.8.5/davmail-4.8.5-2589.zip
-🍺  /home/monday/.linuxbrew/Cellar/davmail/4.8.5: 23 files, 5.7MB, built in 5 seconds
+==> Downloading https://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.3/ddclient-3.8.3.tar.bz2
+==> Downloading from https://jaist.dl.sourceforge.net/project/ddclient/ddclient/ddclient-3.8.3/ddclient-3.8.3.tar.bz2
+==> Caveats
+For ddclient to work, you will need to create a configuration file
+in /home/monday/.linuxbrew/etc/ddclient, a sample configuration can be found in
+/home/monday/.linuxbrew/opt/ddclient/share/doc/ddclient.
+
+Note: don't enable daemon mode in the configuration file; see
+additional information below.
+
+The next reboot of the system will automatically start ddclient.
+
+You can adjust the execution interval by changing the value of
+StartInterval (in seconds) in /Library/LaunchDaemons/homebrew.mxcl.ddclient.plist,
+and then
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/ddclient/3.8.3: 11 files, 223.2KB, built in 6 seconds
 This formula doesn't require compiling.
