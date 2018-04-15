@@ -1,3 +1,4 @@
-==> Downloading https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/5.0.7/flyway-commandline-5.0.7.tar.gz
-🍺  /home/monday/.linuxbrew/Cellar/flyway/5.0.7: 22 files, 16MB, built in 10 seconds
+==> Downloading https://downloads.sourceforge.net/project/fmpp/fmpp/0.9.15/fmpp_0.9.15.tar.gz
+==> Downloading from https://excellmedia.dl.sourceforge.net/project/fmpp/fmpp/0.9.15/fmpp_0.9.15.tar.gz
+🍺  /home/monday/.linuxbrew/Cellar/fmpp/0.9.15: 12 files, 2.0MB, built in 8 seconds
 This formula doesn't require compiling.
