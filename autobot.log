@@ -1,4 +1,28 @@
-==> Downloading https://github.com/Frege/frege-repl/releases/download/1.4-SNAPSHOT/frege-repl-1.4-SNAPSHOT.zip
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/6632628/baa63994-525f-11e6-9a17-bac1bea53775?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T092849Z&X-Amz-Expires=300&X-Amz-Signature=95683846bb24f14ab23f50e4d91ee2fbda97af3a51455444a8b1c4f30f86d200&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfrege-repl-1.4-SNAPSHOT.zip&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/frege-repl/1.4-SNAPSHOT_1: 11 files, 34.6MB, built in 16 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for fs-uae: sdl2, libmpeg2, gettext, libffi, pcre, util-linux, glib, cmake, python, help2man, bison, flex, linuxbrew/xorg/libpciaccess, cunit, fontconfig, pixman, linuxbrew/xorg/xcb-proto, linuxbrew/xorg/libpthread-stubs, linuxbrew/xorg/libxdmcp, gawk, check, linuxbrew/xorg/libxcb, linuxbrew/xorg/libx11, linuxbrew/xorg/libxext, linuxbrew/xorg/libfs, linuxbrew/xorg/libice, linuxbrew/xorg/libsm, linuxbrew/xorg/libxscrnsaver, linuxbrew/xorg/libxt, linuxbrew/xorg/libxmu, linuxbrew/xorg/libxpm, linuxbrew/xorg/libxaw, linuxbrew/xorg/libxaw3d, linuxbrew/xorg/libxfixes, linuxbrew/xorg/libxcomposite, linuxbrew/xorg/libxrender, linuxbrew/xorg/libxcursor, linuxbrew/xorg/libxdamage, linuxbrew/xorg/font-util, linuxbrew/xorg/libfontenc, linuxbrew/xorg/libxfont, linuxbrew/xorg/libxft, linuxbrew/xorg/libxi, linuxbrew/xorg/libxinerama, linuxbrew/xorg/libxrandr, linuxbrew/xorg/libxres, linuxbrew/xorg/libxtst, linuxbrew/xorg/libxv, linuxbrew/xorg/libxvmc, linuxbrew/xorg/libxxf86dga, linuxbrew/xorg/libxxf86vm, linuxbrew/xorg/libdmx, linuxbrew/xorg/libxkbfile, linuxbrew/xorg/libxshmfence, linuxbrew/xorg/xdpyinfo, linuxbrew/xorg/xorg, cairo, linuxbrew/xorg/libdrm, coreutils, libxml2, docbook, docbook-xsl, libxslt, libcap, libgpg-error, systemd, linuxbrew/xorg/libsha1, libmpc, isl@0.18, gcc, binutils, libedit, llvm, libelf, linuxbrew/xorg/libomxil-bellagio, linuxbrew/xorg/wayland, linuxbrew/xorg/wayland-protocols, valgrind, linuxbrew/xorg/libva, linuxbrew/xorg/libvdpau, linuxbrew/xorg/mesa, linuxbrew/xorg/glu, freeglut, glew, openal-soft
+==> Installing fs-uae dependency: sdl2
+==> Downloading https://libsdl.org/release/SDL2-2.0.8.tar.gz
+Already downloaded: /home/monday/.cache/Homebrew/sdl2-2.0.8.tar.gz
+==> ./configure --prefix=/home/monday/.linuxbrew/Cellar/sdl2/2.0.8 --disable-haptic --disable-joystick
+Last 15 lines from /home/monday/.cache/Homebrew/Logs/sdl2/01.configure:
+2018-04-15 02:38:05 -0700
+
+./configure
+--prefix=/home/monday/.linuxbrew/Cellar/sdl2/2.0.8
+--disable-haptic
+--disable-joystick
+
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc-7
+checking whether the C compiler works... no
+configure: error: in `/tmp/sdl2-20180415-17927-ff9wlt/SDL2-2.0.8':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+
+READ THIS: https://github.com/Linuxbrew/brew/wiki/troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
+These open issues may also help:
+sdl2: enable X for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/7188
+Linuxbrew's sdl2 bottle doesn't have X support https://github.com/Linuxbrew/homebrew-core/issues/7187
