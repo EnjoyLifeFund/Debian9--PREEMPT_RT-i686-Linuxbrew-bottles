@@ -1,4 +1,8 @@
-==> Downloading https://github.com/stathissideris/ditaa/releases/download/v0.11.0/ditaa-0.11.0-standalone.jar
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/1599810/ffb3422a-f8cb-11e7-8963-50fea3f95c3b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T031112Z&X-Amz-Expires=300&X-Amz-Signature=0213c75d244a8bf96bc80d3cb2a84eb7321b1b5905a812fd7fa7658182d021fd&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dditaa-0.11.0-standalone.jar&response-content-type=application%2Foctet-stream
-🍺  /home/monday/.linuxbrew/Cellar/ditaa/0.11.0: 4 files, 12MB, built in 18 seconds
+==> Downloading https://github.com/django/django/archive/2.0.4.tar.gz
+==> Downloading from https://codeload.github.com/django/django/tar.gz/2.0.4
+==> Caveats
+Bash completion has been installed to:
+  /home/monday/.linuxbrew/etc/bash_completion.d
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/django-completion/2.0.4: 6 files, 55KB, built in 18 seconds
 This formula doesn't require compiling.
