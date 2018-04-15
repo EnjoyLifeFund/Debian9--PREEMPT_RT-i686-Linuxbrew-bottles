@@ -1,8 +1,4 @@
-==> Downloading https://github.com/django/django/archive/2.0.4.tar.gz
-==> Downloading from https://codeload.github.com/django/django/tar.gz/2.0.4
-==> Caveats
-Bash completion has been installed to:
-  /home/monday/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/django-completion/2.0.4: 6 files, 55KB, built in 18 seconds
+==> Downloading https://github.com/ZZROTDesign/docker-clean/archive/v2.0.4.tar.gz
+==> Downloading from https://codeload.github.com/ZZROTDesign/docker-clean/tar.gz/v2.0.4
+🍺  /home/monday/.linuxbrew/Cellar/docker-clean/2.0.4: 5 files, 43.6KB, built in 3 seconds
 This formula doesn't require compiling.
