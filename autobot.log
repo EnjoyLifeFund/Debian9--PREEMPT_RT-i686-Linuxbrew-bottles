@@ -1,17 +1,4 @@
-==> Downloading https://github.com/iKevinY/EulerPy/archive/v1.3.0.tar.gz
-==> Downloading from https://codeload.github.com/iKevinY/EulerPy/tar.gz/v1.3.0
-==> Downloading https://files.pythonhosted.org/packages/source/c/click/click-4.0.tar.gz
-==> Downloading from https://files.pythonhosted.org/packages/7b/61/80731d6bbf0dd05fe2fe9bac02cd7c5e3306f5ee19a9e6b9102b5784cf8c/click-4.0.tar.gz
-==> python setup.py install --prefix=/home/monday/.linuxbrew/Cellar/euler-py/1.3.0/libexec --single-version-externally-managed --record=installed.txt
-==> python setup.py install --prefix=/home/monday/.linuxbrew/Cellar/euler-py/1.3.0 --single-version-externally-managed --record=installed.txt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall euler-py`
-🍺  /home/monday/.linuxbrew/Cellar/euler-py/1.3.0: 120 files, 1.5MB, built in 9 seconds
-==> Determining euler-py bottle rebuild...
-==> Bottling euler-py-1.3.0.i686_linux.bottle.1.tar.gz...
-./euler-py-1.3.0.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "3c7a066099e143fb9cf7d079c2fa4477aa88b42a48bdf09010d29f1cd1644a50" => :i686_linux
-  end
+==> Downloading https://github.com/na-ka-na/ExcelCompare/releases/download/0.6.1/ExcelCompare-0.6.1.zip
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/4841359/4b94c738-e5ac-11e6-8fbf-f5019ebf9b5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T070641Z&X-Amz-Expires=300&X-Amz-Signature=17dbbc43340d9056903dec29955b751e5198f1e33e504164fa83bf2c69f817fd&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DExcelCompare-0.6.1.zip&response-content-type=application%2Foctet-stream
+🍺  /home/monday/.linuxbrew/Cellar/excel-compare/0.6.1: 25 files, 18.9MB, built in 19 seconds
+This formula doesn't require compiling.
