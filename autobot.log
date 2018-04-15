@@ -1,10 +1,4 @@
-==> Determining freetype bottle rebuild...
-==> Bottling freetype-2.9.i686_linux.bottle.2.tar.gz...
-==> Detecting if freetype-2.9.i686_linux.bottle.2.tar.gz is relocatable...
-./freetype-2.9.i686_linux.bottle.2.tar.gz
-  bottle do
-    prefix "/home/monday/.linuxbrew"
-    cellar "/home/monday/.linuxbrew/Cellar"
-    rebuild 2
-    sha256 "f67592175777f242c1c02912ec6f8d606d1ff960b1526d92af4598644c6cdabf" => :i686_linux
-  end
+==> Downloading https://github.com/Frege/frege/releases/download/3.24public/frege3.24.405.jar
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/5987163/5ce28e5e-3c30-11e8-8f74-d1754cddd0c0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T092752Z&X-Amz-Expires=300&X-Amz-Signature=ad1771db00f02178c5bfc431035985bde9a0552a365bfd67f427916e2596f2ac&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfrege3.24.405.jar&response-content-type=application%2Foctet-stream
+🍺  /home/monday/.linuxbrew/Cellar/frege/3.24.405: 4 files, 8.3MB, built in 40 seconds
+This formula doesn't require compiling.
