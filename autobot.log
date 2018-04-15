@@ -1,8 +1,4 @@
-==> Downloading https://github.com/jamesob/desk/archive/v0.6.0.tar.gz
-==> Downloading from https://codeload.github.com/jamesob/desk/tar.gz/v0.6.0
-==> Caveats
-Bash completion has been installed to:
-  /home/monday/.linuxbrew/etc/bash_completion.d
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/desk/0.6.0: 8 files, 63.3KB, built in 5 seconds
+==> Downloading https://downloads.sourceforge.net/project/dex2jar/dex2jar-2.0.zip
+==> Downloading from https://jaist.dl.sourceforge.net/project/dex2jar/dex2jar-2.0.zip
+🍺  /home/monday/.linuxbrew/Cellar/dex2jar/2.0: 34 files, 2.5MB, built in 4 seconds
 This formula doesn't require compiling.
