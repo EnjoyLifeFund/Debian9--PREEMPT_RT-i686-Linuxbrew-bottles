@@ -1,13 +1,19 @@
-==> Downloading https://github.com/zsh-users/zsh-history-substring-search/archive/v1.0.1.tar.gz
-==> Downloading from https://codeload.github.com/zsh-users/zsh-history-substring-search/tar.gz/v1.0.1
-==> Caveats
-To activate the history search, add the following at the end of your .zshrc:
-
-  source /home/monday/.linuxbrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-
-You will also need to force reload of your .zshrc:
-
-  source ~/.zshrc
-==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/zsh-history-substring-search/1.0.1: 4 files, 50KB, built in 3 seconds
-This formula doesn't require compiling.
+==> Downloading https://downloads.sourceforge.net/libpng/libpng-1.6.34.tar.xz
+Already downloaded: /home/monday/.cache/Homebrew/libpng-1.6.34.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/monday/.linuxbrew/Cellar/libpng/1.6.34
+==> make
+==> make test
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libpng`
+🍺  /home/monday/.linuxbrew/Cellar/libpng/1.6.34: 27 files, 2.6MB, built in 1 minute 42 seconds
+==> Determining libpng bottle rebuild...
+==> Bottling libpng-1.6.34.i686_linux.bottle.1.tar.gz...
+==> Detecting if libpng-1.6.34.i686_linux.bottle.1.tar.gz is relocatable...
+./libpng-1.6.34.i686_linux.bottle.1.tar.gz
+  bottle do
+    prefix "/home/monday/.linuxbrew"
+    cellar "/home/monday/.linuxbrew/Cellar"
+    rebuild 1
+    sha256 "40d2fb23ea36fc0b23eb396a62b502c7c1c64405dfa496a62d7b61cec9dc676e" => :i686_linux
+  end
