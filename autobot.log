@@ -1,4 +1,4 @@
-==> Downloading https://github.com/JElchison/format-udf/archive/1.6.1.tar.gz
-==> Downloading from https://codeload.github.com/JElchison/format-udf/tar.gz/1.6.1
-🍺  /home/monday/.linuxbrew/Cellar/format-udf/1.6.1: 5 files, 79.6KB, built in 3 seconds
+==> Downloading https://github.com/facebook/PathPicker/releases/download/0.7.2/fpp.0.7.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/34887588/887a2ee0-d107-11e6-8032-cca141cea8a7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T091130Z&X-Amz-Expires=300&X-Amz-Signature=58863af303d30699c1097c4db761652d05107bc6e6c83ed277e6919abc92b6f3&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dfpp.0.7.2.tar.gz&response-content-type=application%2Foctet-stream
+🍺  /home/monday/.linuxbrew/Cellar/fpp/0.7.2: 38 files, 109.7KB, built in 3 seconds
 This formula doesn't require compiling.
