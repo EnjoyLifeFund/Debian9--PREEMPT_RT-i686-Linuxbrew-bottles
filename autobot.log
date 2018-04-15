@@ -1,4 +1,4 @@
-==> Downloading https://bitbucket.org/fantom/fan-1.0/downloads/fantom-1.0.70.zip
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/581330b1-a28e-40d7-b2d3-a1290d627679/downloads/0883485b-edb5-425e-88c9-cf374caf7787/fantom-1.0.70.zip?Signature=vmkafsH7VtEhNeHqKq1g%2BDyhxpI%3D&Expires=1523779474&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=8iGhF_7rReRR1bRiEwUI75crgVpmX.um&response-content-disposition=attachment%3B%20filename%3D%22fantom-1.0.70.zip%22
-🍺  /home/monday/.linuxbrew/Cellar/fantom/1.0.70: 1,916 files, 22.8MB, built in 13 seconds
+==> Downloading https://github.com/clvv/fasd/archive/1.0.1.tar.gz
+==> Downloading from https://codeload.github.com/clvv/fasd/tar.gz/1.0.1
+🍺  /home/monday/.linuxbrew/Cellar/fasd/1.0.1: 6 files, 67.6KB, built in 3 seconds
 This formula doesn't require compiling.
