@@ -1,4 +1,4 @@
-==> Downloading https://github.com/peteboere/css-crush/archive/v2.4.0.tar.gz
-==> Downloading from https://codeload.github.com/peteboere/css-crush/tar.gz/v2.4.0
-🍺  /home/monday/.linuxbrew/Cellar/css-crush/2.4.0: 113 files, 423.5KB, built in 4 seconds
+==> Downloading https://github.com/downloads/nzakas/cssembed/cssembed-0.4.5.jar
+==> Downloading from https://github.s3.amazonaws.com/downloads/nzakas/cssembed/cssembed-0.4.5.jar?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20180415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180415T012951Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=71f4ae0a374817476868a734b9d6ebbe323fd4d2641c97c9fd8c1f41bb367a53
+🍺  /home/monday/.linuxbrew/Cellar/cssembed/0.4.5: 4 files, 55.7KB, built in 4 seconds
 This formula doesn't require compiling.
