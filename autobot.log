@@ -1,14 +1,4 @@
-==> Downloading https://github.com/tnalpgge/rank-amateur-cowsay/archive/cowsay-3.04.tar.gz
-==> Downloading from https://codeload.github.com/tnalpgge/rank-amateur-cowsay/tar.gz/cowsay-3.04
-==> /bin/sh install.sh /home/monday/.linuxbrew/Cellar/cowsay/3.04
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cowsay`
-🍺  /home/monday/.linuxbrew/Cellar/cowsay/3.04: 65 files, 108.3KB, built in 3 seconds
-==> Determining cowsay bottle rebuild...
-==> Bottling cowsay-3.04.i686_linux.bottle.1.tar.gz...
-./cowsay-3.04.i686_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b0fede262daa1aa7fbbbec09897197d6be6549f5220d7a2e383e133ab85b35c1" => :i686_linux
-  end
+==> Downloading https://github.com/miyagawa/cpanminus/archive/1.7043.tar.gz
+==> Downloading from https://codeload.github.com/miyagawa/cpanminus/tar.gz/1.7043
+🍺  /home/monday/.linuxbrew/Cellar/cpanminus/1.7043: 6 files, 393.1KB, built in 5 seconds
+This formula doesn't require compiling.
