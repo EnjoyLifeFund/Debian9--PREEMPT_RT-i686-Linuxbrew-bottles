@@ -1,13 +1,22 @@
-==> Downloading https://github.com/fireteam/curlish/archive/1.22.tar.gz
-==> Downloading from https://codeload.github.com/fireteam/curlish/tar.gz/1.22
+==> Downloading http://cvs2svn.tigris.org/files/documents/1462/49237/cvs2svn-2.4.0.tar.gz
+==> python setup.py install --prefix=/home/monday/.linuxbrew/Cellar/cvs2svn/2.4.0_1
+==> make man
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall curlish`
-🍺  /home/monday/.linuxbrew/Cellar/curlish/1.22: 6 files, 51.4KB, built in 4 seconds
-==> Determining curlish bottle rebuild...
-==> Bottling curlish-1.22.i686_linux.bottle.1.tar.gz...
-./curlish-1.22.i686_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall cvs2svn`
+==> Caveats
+NOTE: man pages have been installed, but for better documentation see:
+  /home/monday/.linuxbrew/share/doc/cvs2svn/cvs2svn.html
+or http://cvs2svn.tigris.org/cvs2svn.html.
+
+Contrib scripts and example options files are installed in:
+  /home/monday/.linuxbrew/opt/cvs2svn
+==> Summary
+🍺  /home/monday/.linuxbrew/Cellar/cvs2svn/2.4.0_1: 209 files, 2MB, built in 11 seconds
+==> Determining cvs2svn bottle rebuild...
+==> Bottling cvs2svn-2.4.0_1.i686_linux.bottle.1.tar.gz...
+./cvs2svn-2.4.0_1.i686_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "0a4f74ee82980ecf4d61acf313ec127063a7aab4e03064c0d6f85f34ab2ed446" => :i686_linux
+    sha256 "7eb160e4440f278adb74eaa323ec1da0778ebfe5fe7369cb8086b61d8983f318" => :i686_linux
   end
