@@ -1,13 +1,18 @@
-==> Downloading https://github.com/zsh-users/zsh-autosuggestions/archive/v0.4.2.tar.gz
-==> Downloading from https://codeload.github.com/zsh-users/zsh-autosuggestions/tar.gz/v0.4.2
+==> Downloading https://github.com/zsh-users/zsh-completions/archive/0.27.0.tar.gz
+==> Downloading from https://codeload.github.com/zsh-users/zsh-completions/tar.gz/0.27.0
 ==> Caveats
-To activate the autosuggestions, add the following at the end of your .zshrc:
+To activate these completions, add the following to your .zshrc:
 
-  source /home/monday/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+  fpath=(/home/monday/.linuxbrew/share/zsh-completions $fpath)
 
-You will also need to force reload of your .zshrc:
+You may also need to force rebuild `zcompdump`:
 
-  source ~/.zshrc
+  rm -f ~/.zcompdump; compinit
+
+Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
+to load these completions, you may need to run this:
+
+  chmod go-w '/home/monday/.linuxbrew/share'
 ==> Summary
-🍺  /home/monday/.linuxbrew/Cellar/zsh-autosuggestions/0.4.2: 6 files, 49.3KB, built in 3 seconds
+🍺  /home/monday/.linuxbrew/Cellar/zsh-completions/0.27.0: 139 files, 936.7KB, built in 4 seconds
 This formula doesn't require compiling.
